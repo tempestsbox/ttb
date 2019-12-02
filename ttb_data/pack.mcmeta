@@ -1,0 +1,25 @@
+{
+    "pack": {
+        "pack_format": 5,
+        "description": [
+            {
+                "translate": "%1$s%4346964$s",
+                "with": [
+                    {
+                        "text": "You do not have the resource pack enabled!",
+                        "color": "red"
+                    },
+                    {
+                        "translate": "pack.ttb.name",
+                        "color": "aqua"
+                    }
+                ]
+            },
+            "\n",
+            {
+                "text": "M1.15+",
+                "color": "dark_gray"
+            }
+        ]
+    }
+}
