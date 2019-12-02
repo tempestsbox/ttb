@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:clock",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{item:\"amethyst\"},display:{Name:'{\"translate\":\"item.ttb.amethyst\",\"italic\":false}'},CustomModelData:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

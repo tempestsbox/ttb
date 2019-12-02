@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:clock",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{item:\"vulcaanium\"},display:{Name:'{\"translate\":\"item.ttb.vulcaanium\",\"italic\":false}'},CustomModelData:2}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

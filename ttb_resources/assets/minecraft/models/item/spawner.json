@@ -1,0 +1,17 @@
+{
+    "parent": "block/spawner",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "ttb:block/amethyst_ore"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "ttb:block/vulcaanium_ore"
+        }
+    ]
+}

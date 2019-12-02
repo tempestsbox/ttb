@@ -1,0 +1,20 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/armor_stand"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "ttb:item/amethyst_ore"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "ttb:item/vulcaanium_ore"
+        }
+    ]
+}

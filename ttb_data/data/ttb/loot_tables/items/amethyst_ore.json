@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:armor_stand,Tags:[\"ttb_create_stand\",\"ttb_create_amethyst_ore\"],Invisible:1,Small:1,Marker:1,Invulnerable:1,CustomName:'\"ttb_create_amethyst_ore\"'},display:{Name:'{\"translate\":\"block.ttb.amethyst_ore\",\"italic\":false}'},ttb:{item:\"amethyst_ore\"},CustomModelData:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

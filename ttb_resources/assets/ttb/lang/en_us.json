@@ -1,5 +1,13 @@
 {
     "%1$s%4346964$s": "%2$s",
 
-    "pack.ttb.name": "The Tempest's Box"
+    "pack.ttb.name": "The Tempest's Box",
+
+    "text.ttb.load": "Loaded",
+
+    "block.ttb.amethyst_ore": "Amethyst Ore",
+    "block.ttb.vulcaanium_ore": "Vulcaanium Ore",
+
+    "item.ttb.amethyst": "Amethyst",
+    "item.ttb.vulcaanium": "Vulcaanium"
 }
