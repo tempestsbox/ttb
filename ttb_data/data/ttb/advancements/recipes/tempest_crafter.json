@@ -1,0 +1,19 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "craft_tempest_crafter": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "ttb:tempest_crafter"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "craft_tempest_crafter"
+        ]
+    ],
+    "rewards": {
+        "function": "ttb:block/tempest_crafter/craft"
+    }
+}

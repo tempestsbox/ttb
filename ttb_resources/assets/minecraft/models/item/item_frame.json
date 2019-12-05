@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "item/armor_stand"
+        "layer0": "item/item_frame"
     },
     "overrides": [
         {
@@ -15,6 +15,12 @@
                 "custom_model_data": 2
             },
             "model": "ttb:item/vulcaanium_ore"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "ttb:item/tempest_crafter"
         }
     ]
 }

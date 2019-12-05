@@ -1,0 +1,9 @@
+{
+    "parent": "ttb:block/cube",
+    "textures": {
+        "side": "ttb:block/tempest_crafter_side",
+        "top": "ttb:block/tempest_crafter_top",
+        "front": "ttb:block/tempest_crafter_side",
+        "bottom": "ttb:block/tempest_crafter_bottom"
+    }
+}
