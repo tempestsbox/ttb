@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EntityTag:{Tags:[\"ttb_create_entity\",\"ttb_create_amethyst_ore\"],Invulnerable:1,CustomName:'\"ttb_create_amethyst_ore\"'},display:{Name:'{\"translate\":\"block.ttb.amethyst_ore\",\"italic\":false}'},ttb:{item:\"amethyst_ore\"},CustomModelData:1}"
+                            "tag": "{EntityTag:{Tags:[\"ttb_create_entity\",\"ttb_create_amethyst_ore\"],Invulnerable:1,CustomName:'\"ttb_create_amethyst_ore\"'},display:{Name:'{\"translate\":\"block.ttb.amethyst_ore\",\"italic\":false}'},ttb:{item:\"amethyst_ore\"},CustomModelData:6830001}"
                         }
                     ]
                 }

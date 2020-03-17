@@ -10,7 +10,9 @@ execute unless entity @a[limit=1] run say TTB: Loaded
 # function ttb:build/check
 
 #initialise data
-scoreboard objectives add ttb_plc_iframe minecraft.used:minecraft.item_frame
+scoreboard objectives add ttb_place_iframe minecraft.used:minecraft.item_frame
+scoreboard objectives add ttb_use_crtstck minecraft.used:minecraft.carrot_on_a_stick
+
 scoreboard objectives add ttb_slot_count dummy
 scoreboard objectives add ttb_slot_size dummy
 scoreboard objectives add ttb_van_crft_cnt dummy

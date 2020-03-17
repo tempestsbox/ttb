@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:\"vulcaanium\"},display:{Name:'{\"translate\":\"item.ttb.vulcaanium\",\"italic\":false}'},CustomModelData:2}"
+                            "tag": "{ttb:{item:\"vulcaanium\"},display:{Name:'{\"translate\":\"item.ttb.vulcaanium\",\"italic\":false}'},CustomModelData:6830002}"
                         }
                     ]
                 }

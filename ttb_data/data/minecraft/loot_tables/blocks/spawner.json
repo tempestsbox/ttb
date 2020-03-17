@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{spawner:{}},CustomModelData:1}"
+                            "tag": "{ttb:{spawner:{}},CustomModelData:6830001}"
                         },
                         {
                             "function": "minecraft:copy_nbt",
