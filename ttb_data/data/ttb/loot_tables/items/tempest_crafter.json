@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EntityTag:{Tags:[\"ttb_create_entity\",\"ttb_create_tempest_crafter\"],Invulnerable:1,Invisible:1b,Fixed:1b,CustomName:'\"ttb_create_tempest_crafter\"'},display:{Name:'{\"translate\":\"block.ttb.tempest_crafter\",\"italic\":false}'},ttb:{item:\"tempest_crafter\"},CustomModelData:6830003}"
+                            "tag": "{EntityTag:{Tags:[\"ttb_create_entity\",\"ttb_create_tempest_crafter\"],Invulnerable:1,Silent:1,Invisible:1b,Fixed:1b,CustomName:'\"ttb_create_tempest_crafter\"'},display:{Name:'{\"translate\":\"block.ttb.tempest_crafter\",\"italic\":false}'},ttb:{item:\"tempest_crafter\"},CustomModelData:6830003}"
                         }
                     ]
                 }

@@ -16,3 +16,6 @@ scoreboard objectives add ttb_use_crtstck minecraft.used:minecraft.carrot_on_a_s
 scoreboard objectives add ttb_slot_count dummy
 scoreboard objectives add ttb_slot_size dummy
 scoreboard objectives add ttb_van_crft_cnt dummy
+
+#trigger clocks
+function ttb:clock16
