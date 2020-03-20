@@ -6,21 +6,27 @@
     "overrides": [
         {
             "predicate": {
-                "custom_model_data": 1
+                "custom_model_data": 6830001
             },
             "model": "ttb:item/amethyst_ore"
         },
         {
             "predicate": {
-                "custom_model_data": 2
+                "custom_model_data": 6830002
             },
             "model": "ttb:item/vulcaanium_ore"
         },
         {
             "predicate": {
-                "custom_model_data": 3
+                "custom_model_data": 6830003
             },
             "model": "ttb:item/tempest_crafter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830004
+            },
+            "model": "ttb:block/tempite_stone"
         }
     ]
 }

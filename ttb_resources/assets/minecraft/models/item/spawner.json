@@ -3,13 +3,13 @@
     "overrides": [
         {
             "predicate": {
-                "custom_model_data": 1
+                "custom_model_data": 6830001
             },
             "model": "ttb:block/amethyst_ore"
         },
         {
             "predicate": {
-                "custom_model_data": 2
+                "custom_model_data": 6830002
             },
             "model": "ttb:block/vulcaanium_ore"
         }

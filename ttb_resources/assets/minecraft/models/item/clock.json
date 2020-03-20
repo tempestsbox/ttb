@@ -72,13 +72,13 @@
 
         {
             "predicate": {
-                "custom_model_data": 1
+                "custom_model_data": 6830001
             },
             "model": "ttb:item/amethyst"
         },
         {
             "predicate": {
-                "custom_model_data": 2
+                "custom_model_data": 6830002
             },
             "model": "ttb:item/vulcaanium"
         }

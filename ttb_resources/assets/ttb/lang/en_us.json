@@ -8,7 +8,10 @@
     "block.ttb.amethyst_ore": "Amethyst Ore",
     "block.ttb.vulcaanium_ore": "Vulcaanium Ore",
     "block.ttb.tempest_crafter": "Tempest Crafter",
+    "block.ttb.tempite_stone": "Tempite Stone",
 
     "item.ttb.amethyst": "Amethyst",
-    "item.ttb.vulcaanium": "Vulcaanium"
+    "item.ttb.vulcaanium": "Vulcaanium",
+    "item.ttb.staff": "Staff",
+    "item.ttb.staff.repulsion": "Repulsion"
 }
