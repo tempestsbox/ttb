@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{staff:\"blight\"},display:{Name:'[{\"translate\":\"item.ttb.staff.blight\",\"italic\":false},\" \",{\"translate\":\"item.ttb.staff\",\"italic\":false}]'},CustomModelData:6830014}"
+                            "tag": "{ttb:{staff:\"blight\"},display:{Name:'[{\"translate\":\"item.ttb.staff.blight\",\"italic\":false},\" \",{\"translate\":\"item.ttb.staff\",\"italic\":false}]'},CustomModelData:6830013}"
                         }
                     ]
                 }

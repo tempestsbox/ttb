@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{staff:\"mage\"},display:{Name:'[{\"translate\":\"item.ttb.staff.mage\",\"italic\":false},\" \",{\"translate\":\"item.ttb.staff\",\"italic\":false}]'},CustomModelData:6830013}"
+                            "tag": "{ttb:{staff:\"mage\"},Enchantments:[{id:fire_aspect,lvl:1}],display:{Name:'[{\"translate\":\"item.ttb.staff.mage\",\"italic\":false},\" \",{\"translate\":\"item.ttb.staff\",\"italic\":false}]'},CustomModelData:6830012}"
                         }
                     ]
                 }

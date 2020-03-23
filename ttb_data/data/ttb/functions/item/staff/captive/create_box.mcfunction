@@ -1,11 +1,10 @@
-#called by item/staff/captive/use
+#called by item/staff/captive/raycast
 
-fill ~2 ~-1 ~-2 ~2 ~2 ~2 cobblestone keep
-fill ~-2 ~-1 ~-2 ~-2 ~2 ~2 cobblestone keep
-fill ~-2 ~-1 ~2 ~2 ~2 ~2 cobblestone keep
-fill ~-2 ~-1 ~-2 ~2 ~2 ~-2 cobblestone keep
-fill ~-2 ~2 ~-2 ~2 ~2 ~2 cobblestone keep
-fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 cobblestone keep
-execute if entity @s[type=wither] run fill ~-2 ~2 ~-2 ~2 ~2 ~2 air destroy
+#functionality
+execute align xyz run tp @s ~.5 ~ ~.5
 
-particle block cobblestone ~ ~ ~ 2 2 2 .01 650 normal @a
+execute positioned ~ ~1 ~ unless entity @s[dx=0] positioned ~ ~1 ~ unless entity @s[dx=0] at @s run function ttb:item/staff/captive/box/tiny
+execute positioned ~ ~1 ~ if entity @s[dx=0] at @s run function ttb:item/staff/captive/box/small
+execute positioned ~ ~2 ~ if entity @s[dx=0] at @s run function ttb:item/staff/captive/box/large
+
+fill ~2 ~4 ~2 ~-2 ~-1 ~-2 cobblestone replace oak_slab[type=double,waterlogged=true]

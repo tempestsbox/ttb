@@ -19,6 +19,8 @@ scoreboard objectives add ttb_slot_count dummy
 scoreboard objectives add ttb_slot_size dummy
 scoreboard objectives add ttb_van_crft_cnt dummy
 
+scoreboard objectives add ttb_raycast_iter dummy
+
 scoreboard objectives add ttb_mana_repulsi dummy
 scoreboard players set $use ttb_mana_repulsi 7
 scoreboard players set $recharge_bright_relic ttb_mana_repulsi 5

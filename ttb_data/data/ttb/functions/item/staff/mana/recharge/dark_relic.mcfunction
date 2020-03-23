@@ -24,5 +24,5 @@ scoreboard players add @s[nbt={SelectedItem:{tag:{ttb:{staff:"spirit"}}}}] ttb_m
 function ttb:item/staff/verify_mana
 function ttb:item/staff/mana/report
 
-replaceitem entity @s weapon.offhand air
+clear @s clock{ttb:{item:"dark_relic"}} 1
 loot give @s[gamemode=!survival,gamemode=!adventure] loot ttb:items/dark_relic

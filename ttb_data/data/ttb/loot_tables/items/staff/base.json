@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:\"staff\"}}"
+                            "tag": "{ttb:{item:\"staff\"},Unbreakable:1}"
                         }
                     ]
                 }

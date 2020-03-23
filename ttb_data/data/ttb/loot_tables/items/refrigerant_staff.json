@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{staff:\"refrigerant\"},display:{Name:'[{\"translate\":\"item.ttb.staff.refrigerant\",\"italic\":false},\" \",{\"translate\":\"item.ttb.staff\",\"italic\":false}]'},CustomModelData:6830005}"
+                            "tag": "{ttb:{staff:\"refrigerant\"},display:{Name:'[{\"translate\":\"item.ttb.staff.refrigerant\",\"italic\":false},\" \",{\"translate\":\"item.ttb.staff\",\"italic\":false}]'},CustomModelData:6830004}"
                         }
                     ]
                 }

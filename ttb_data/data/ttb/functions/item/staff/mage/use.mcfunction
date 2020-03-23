@@ -5,10 +5,9 @@ playsound entity.guardian.death voice @a[distance=..16] ~ ~ ~ 2 0.5 1
 playsound entity.guardian.death voice @a[distance=..16] ~ ~ ~ 2 0.7 1
 playsound entity.guardian.hurt voice @a[distance=..16] ~ ~ ~ 2 0.5 1
 particle flame ~ ~ ~ 2 0 2 0.01 500 normal @a
-execute at @e[type=!player,type=!#ttb:sprite,distance=..6] run particle flame ~ ~3 ~ 0 1 0 0.01 100 normal @a
 
 #functionality
-effect give @e[type=!player,type=!#ttb:sprite,distance=..6] levitation 4 1
+execute as @e[type=!player,type=!#ttb:sprite,distance=..6] at @s run function ttb:item/staff/mage/entity_effects
 
 # scoreboard players add @e[tag=canWisp,distance=..10] wispLife 1
 # execute as @e[tag=canWisp,distance=..10] run particle flame ~ ~ ~ 1 1 1 1 300 force
