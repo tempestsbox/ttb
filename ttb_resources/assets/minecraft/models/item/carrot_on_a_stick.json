@@ -1,0 +1,104 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 6830001
+            },
+            "model": "ttb:item/repulsion_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830002
+            },
+            "model": "ttb:item/relativity_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830003
+            },
+            "model": "ttb:item/extraction_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830004
+            },
+            "model": "ttb:item/refrigerant_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830005
+            },
+            "model": "ttb:item/infallible_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830006
+            },
+            "model": "ttb:item/shatter_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830007
+            },
+            "model": "ttb:item/temporal_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830008
+            },
+            "model": "ttb:item/captive_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830009
+            },
+            "model": "ttb:item/ether_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830010
+            },
+            "model": "ttb:item/harvest_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830011
+            },
+            "model": "ttb:item/saturation_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830012
+            },
+            "model": "ttb:item/mage_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830013
+            },
+            "model": "ttb:item/blight_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830014
+            },
+            "model": "ttb:item/skitter_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830015
+            },
+            "model": "ttb:item/netherknight_staff"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830016
+            },
+            "model": "ttb:item/spirit_staff"
+        }
+    ]
+}

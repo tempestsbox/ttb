@@ -4,6 +4,8 @@
     "pack.ttb.name": "The Tempest's Box",
 
     "text.ttb.load": "Loaded",
+    "text.ttb.mana": "Mana",
+    "text.ttb.mana.none": "Not enough mana",
 
     "block.ttb.amethyst_ore": "Amethyst Ore",
     "block.ttb.vulcaanium_ore": "Vulcaanium Ore",
@@ -12,6 +14,26 @@
 
     "item.ttb.amethyst": "Amethyst",
     "item.ttb.vulcaanium": "Vulcaanium",
+    "item.ttb.bright_relic": "Bright Relic",
+    "item.ttb.dark_relic": "Dark Relic",
     "item.ttb.staff": "Staff",
-    "item.ttb.staff.repulsion": "Repulsion"
+    "item.ttb.staff.repulsion": "Repulsion",
+    "item.ttb.staff.relativity": "Relativity",
+    "item.ttb.staff.extraction": "Extraction",
+    "item.ttb.staff.refrigerant": "Refrigerant",
+    "item.ttb.staff.infallible": "Infallible",
+    "item.ttb.staff.shatter": "Shatter",
+    "item.ttb.staff.temporal": "Temporal",
+    "item.ttb.staff.temporal.sped_up_time": "sped up time",
+    "item.ttb.staff.captive": "Captive",
+    "item.ttb.staff.ether": "Ether",
+    "item.ttb.staff.harvest": "Harvest",
+    "item.ttb.staff.harvest.regress.took_lifeforce": "Not enough experience to regress properly - your lifeforce compensated the cost",
+    "item.ttb.staff.harvest.regressed_spawn_egg.lore": "Regressed back from adulthood",
+    "item.ttb.staff.saturation": "Saturation",
+    "item.ttb.staff.mage": "Mage's",
+    "item.ttb.staff.blight": "Blight's",
+    "item.ttb.staff.skitter": "Skitter",
+    "item.ttb.staff.netherknight": "Netherknight",
+    "item.ttb.staff.spirit": "Spirit"
 }

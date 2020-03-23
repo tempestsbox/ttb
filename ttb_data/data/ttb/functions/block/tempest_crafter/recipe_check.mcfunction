@@ -2,9 +2,9 @@
 #@s - tempest crafter with valid recipe
 #called by crafting/recipe_validity_check
 
-#example
-# execute if score @s ttb_slot_count matches RECIPE_SLOT_COUNT if score @s ttb_slot_size matches ..MAX_STACK if block ~ ~ ~ dropper{Items:[TO_CRAFT_ITEMS]} run data merge block ~ ~ ~ {Items:[{Slot:8b,ITEM,tag:{ttb:{crafting:{multiplier:MULTIPLIER}}}}]}
+#staff random recipe
+execute if score @s ttb_slot_count matches 7 if score @s ttb_slot_size matches ..1 if block ~ ~ ~ dropper{Items:[{id:"minecraft:diamond",Slot:0b},{id:"minecraft:ender_eye",Slot:1b},{id:"minecraft:diamond",Slot:2b},{id:"minecraft:diamond",Slot:3b},{id:"minecraft:blaze_rod",Slot:4b},{id:"minecraft:diamond",Slot:5b},{id:"minecraft:blaze_rod",Slot:7b}]} run function ttb:item/staff/craft_random
 
-#epic test recipes
-execute if score @s ttb_slot_count matches 1 if score @s ttb_slot_size matches ..64 if block ~ ~ ~ dropper{Items:[{id:"minecraft:stick",Slot:0b}]} run data merge block ~ ~ ~ {Items:[{Slot:8b,id:stone,Count:1,tag:{ttb:{crafting:{multiplier:1}}}}]}
-execute if score @s ttb_slot_count matches 2 if score @s ttb_slot_size matches ..32 if block ~ ~ ~ dropper{Items:[{id:"minecraft:stick",Slot:0b},{id:"minecraft:stick",Slot:1b}]} run data merge block ~ ~ ~ {Items:[{Slot:8b,id:stone,Count:1,tag:{ttb:{crafting:{multiplier:2}}}}]}
+#relics
+execute if score @s ttb_slot_count matches 3 if score @s ttb_slot_size matches ..64 if block ~ ~ ~ dropper{Items:[{id:"minecraft:diamond",Slot:3b},{id:"minecraft:sea_lantern",Slot:4b},{id:"minecraft:diamond",Slot:5b}]} run function ttb:item/bright_relic/craft
+execute if score @s ttb_slot_count matches 3 if score @s ttb_slot_size matches ..64 if block ~ ~ ~ dropper{Items:[{id:"minecraft:diamond",Slot:3b},{id:"minecraft:ender_eye",Slot:4b},{id:"minecraft:diamond",Slot:5b}]} run function ttb:item/dark_relic/craft

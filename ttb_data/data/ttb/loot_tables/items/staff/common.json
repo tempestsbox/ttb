@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/repulsion_staff"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/relativity_staff"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/extraction_staff"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/refrigerant_staff"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/infallible_staff"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/shatter_staff"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/temporal_staff"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/captive_staff"
+                }
+            ]
+        }
+    ]
+}

@@ -5,11 +5,11 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "ttb:items/base/staff",
+                    "name": "ttb:items/staff/base",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{staff:\"replusion\"},display:{Name:'[{\"translate\":\"item.ttb.staff.repulsion\",\"italic\":false},\" \",{\"translate\":\"item.ttb.staff\",\"italic\":false}]'},CustomModelData:6830001}"
+                            "tag": "{ttb:{staff:\"repulsion\"},display:{Name:'[{\"translate\":\"item.ttb.staff.repulsion\",\"italic\":false},\" \",{\"translate\":\"item.ttb.staff\",\"italic\":false}]'},CustomModelData:6830001}"
                         }
                     ]
                 }

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{item:\"regressed_spawn_egg\"},CustomModelData:6830001,display:{Lore:['{\"translate\":\"item.ttb.staff.harvest.regressed_spawn_egg.lore\"}']},EntityTag:{Tags:[\"lch_no_check\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

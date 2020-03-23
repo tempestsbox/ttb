@@ -81,6 +81,18 @@
                 "custom_model_data": 6830002
             },
             "model": "ttb:item/vulcaanium"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830003
+            },
+            "model": "ttb:item/bright_relic"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830004
+            },
+            "model": "ttb:item/dark_relic"
         }
     ]
 }

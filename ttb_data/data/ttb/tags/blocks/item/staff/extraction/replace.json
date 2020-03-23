@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:leaves",
+        "minecraft:stone",
+        "minecraft:cobblestone",
+        "minecraft:dirt",
+        "minecraft:gravel",
+        "minecraft:sand",
+        "minecraft:grass_block",
+        "minecraft:soul_sand",
+        "minecraft:netherrack"
+    ]
+}
