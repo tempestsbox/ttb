@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{staff:\"mage\"},Enchantments:[{id:fire_aspect,lvl:1}],display:{Name:'[{\"translate\":\"item.ttb.staff.mage\",\"italic\":false},\" \",{\"translate\":\"item.ttb.staff\",\"italic\":false}]'},CustomModelData:6830012}"
+                            "tag": "{ttb:{staff:\"mage\"},Enchantments:[{id:fire_aspect,lvl:1}],AttributeModifiers:[{Name:generic.attackDamage,AttributeName:generic.attackDamage,Amount:5,Operation:0,UUID:[I; 1355278278, 604455171, -2023758672, -190929383],Slot:mainhand}],display:{Name:'[{\"translate\":\"item.ttb.staff.mage\",\"italic\":false},\" \",{\"translate\":\"item.ttb.staff\",\"italic\":false}]'},CustomModelData:6830012}"
                         }
                     ]
                 }

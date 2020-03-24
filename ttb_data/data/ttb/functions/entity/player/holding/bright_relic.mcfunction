@@ -1,4 +1,4 @@
-#called by entity/player/clock16
+#called by entity/player/clock16t
 
 function ttb:item/staff/mana/report
 

@@ -4,6 +4,9 @@
     "pack.ttb.name": "The Tempest's Box",
 
     "text.ttb.load": "Loaded",
+    "text.ttb.debug.prefix": "TTB Debug",
+    "text.ttb.debug.removal": "Removing entity:",
+    "text.ttb.entity.from": " from ",
     "text.ttb.mana": "Mana",
     "text.ttb.mana.none": "Not enough mana",
 
@@ -35,5 +38,9 @@
     "item.ttb.staff.blight": "Blight's",
     "item.ttb.staff.skitter": "Skitter",
     "item.ttb.staff.netherknight": "Netherknight",
-    "item.ttb.staff.spirit": "Spirit"
+    "item.ttb.staff.spirit": "Spirit",
+
+    "entity.ttb.mage": "Mage",
+    "entity.ttb.magic_ball": "Magic Ball",
+    "entity.ttb.flame": "Flame"
 }

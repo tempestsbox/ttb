@@ -20,6 +20,7 @@ scoreboard objectives add ttb_slot_size dummy
 scoreboard objectives add ttb_van_crft_cnt dummy
 
 scoreboard objectives add ttb_raycast_iter dummy
+scoreboard objectives add ttb_gamerules dummy
 
 scoreboard objectives add ttb_mana_repulsi dummy
 scoreboard players set $use ttb_mana_repulsi 7
@@ -73,4 +74,5 @@ scoreboard players set $recharge_bright_relic ttb_mana_spirit 2
 scoreboard objectives add ttb_ether_specmo dummy
 
 #trigger clocks
-function ttb:clock16
+function ttb:clock16t
+function ttb:clock2s

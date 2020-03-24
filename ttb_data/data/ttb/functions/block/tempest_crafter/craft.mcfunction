@@ -1,4 +1,4 @@
-#called by entity/item/clock16
+#called by entity/item/clock16t
 
 function ttb:crafting/default_effects
 
