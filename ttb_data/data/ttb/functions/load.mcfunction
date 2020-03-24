@@ -19,6 +19,9 @@ scoreboard objectives add ttb_slot_count dummy
 scoreboard objectives add ttb_slot_size dummy
 scoreboard objectives add ttb_van_crft_cnt dummy
 
+scoreboard objectives add ttb_snd_hlth dummy
+scoreboard objectives add ttb_snd_hlth_prv dummy
+
 scoreboard objectives add ttb_raycast_iter dummy
 scoreboard objectives add ttb_gamerules dummy
 

@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:entities/function/spawning/dummy_item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{entity:\"mage\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:empty"
+                }
+            ]
+        }
+    ]
+}
