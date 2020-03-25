@@ -164,22 +164,22 @@
     },
     "groups": [
         {
-            "name": "group",
+            "name": "mage",
             "children": [
                 {
                     "name": "group",
                     "children": [0, 1, 2]
                 },
                 {
-                    "name": "right arm",
+                    "name": "right_arm",
                     "children": [3]
                 },
                 {
-                    "name": "left arm",
+                    "name": "left_arm",
                     "children": [4]
                 },
                 {
-                    "name": "Torso",
+                    "name": "torso",
                     "children": [5]
                 },
                 {

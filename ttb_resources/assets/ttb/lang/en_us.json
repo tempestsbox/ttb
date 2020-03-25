@@ -41,6 +41,7 @@
     "item.ttb.staff.spirit": "Spirit",
 
     "entity.ttb.mage": "Mage",
-    "entity.ttb.magic_ball": "Magic Ball",
-    "entity.ttb.flame": "Flame"
+    "entity.ttb.mage.magic_ball": "Magic Ball",
+    "entity.ttb.mage.flame": "Flame",
+    "entity.ttb.ore_dweller": "Ore Dweller"
 }

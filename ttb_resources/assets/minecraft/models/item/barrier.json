@@ -15,6 +15,36 @@
                 "custom_model_data": 6830002
             },
             "model": "ttb:entity/mage"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830003
+            },
+            "model": "ttb:entity/mage_hurt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830004
+            },
+            "model": "ttb:entity/ore_dweller"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830005
+            },
+            "model": "ttb:entity/ore_dweller_hurt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830006
+            },
+            "model": "ttb:entity/ore_dweller_moving"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830007
+            },
+            "model": "ttb:entity/ore_dweller_moving_hurt"
         }
     ]
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "ttb:entity/ore_dweller",
+    "textures": {
+        "texture": "ttb:entity/ore_dweller_hurt"
+    }
+}

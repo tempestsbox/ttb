@@ -1,0 +1,6 @@
+{
+    "parent": "ttb:entity/mage",
+    "textures": {
+        "texture": "ttb:entity/mage_hurt"
+    }
+}
