@@ -9,13 +9,13 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{entity:\"mage\"}}"
+                            "tag": "{ttb:{entity:\"ore_dweller\"}}"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "ttb:entities/function/spawning/biome/cave",
+                    "name": "minecraft:empty",
                     "weight": 2
                 }
             ]

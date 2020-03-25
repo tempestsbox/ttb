@@ -19,6 +19,7 @@ scoreboard objectives add ttb_slot_count dummy
 scoreboard objectives add ttb_slot_size dummy
 scoreboard objectives add ttb_van_crft_cnt dummy
 
+scoreboard objectives add ttb_model_cmd dummy
 scoreboard objectives add ttb_snd_hlth dummy
 scoreboard objectives add ttb_snd_hlth_prv dummy
 

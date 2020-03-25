@@ -5,8 +5,9 @@ execute if entity @s[type=item] run function ttb:entity/item/tick
 execute if entity @s[type=armor_stand] run function ttb:entity/armor_stand/tick
 execute if entity @s[type=!#ttb:entity/function/spawning/no_check,tag=!ttb_entity,tag=!ttb_no_check] run function ttb:entity/function/spawning/check
 
-#sounds
+#entity immersion
 execute if entity @s[tag=ttb_sound] unless entity @s[tag=ttb_remove] run function ttb:entity/function/sound_events/check
+execute if entity @s[tag=ttb_dynamic_model] unless entity @s[tag=ttb_remove] run function ttb:entity/function/model/check
 
 #removal
 ## generic checks
