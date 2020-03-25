@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stick",
+                    "name": "minecraft:barrier",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",

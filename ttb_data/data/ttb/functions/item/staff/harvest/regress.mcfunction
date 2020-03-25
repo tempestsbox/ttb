@@ -53,8 +53,8 @@ execute if entity @s[type=zombie_horse] run data modify entity @e[type=item,tag=
 execute if entity @s[type=zombified_piglin] run data modify entity @e[type=item,tag=ttb_regressed_spawn_egg,sort=nearest,limit=1] Item.id set value zombified_piglin_spawn_egg
 execute if entity @s[type=zombie_villager] run data modify entity @e[type=item,tag=ttb_regressed_spawn_egg,sort=nearest,limit=1] Item.id set value zombie_villager_spawn_egg
 
-data remove entity @e[type=item,tag=ttb_regressed_spawn_egg,sort=nearest,limit=1,nbt=!{Item:{id:"minecraft:stick"}}] Item.tag.CustomModelData
-kill @e[type=item,tag=ttb_regressed_spawn_egg,sort=nearest,limit=1,nbt={Item:{id:"minecraft:stick"}}]
+data remove entity @e[type=item,tag=ttb_regressed_spawn_egg,sort=nearest,limit=1,nbt=!{Item:{id:"minecraft:barrier"}}] Item.tag.CustomModelData
+kill @e[type=item,tag=ttb_regressed_spawn_egg,sort=nearest,limit=1,nbt={Item:{id:"minecraft:barrier"}}]
 
 #remove previous entity
 data merge entity @s {Health:0,DeathTime:19,Time:0,Duration:0,Size:0,Age:6000,DeathLootTable:"minecraft:empty"}

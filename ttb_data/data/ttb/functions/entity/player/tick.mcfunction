@@ -9,3 +9,6 @@ scoreboard players reset @s ttb_use_crtstck
 #staffs
 ## ether
 execute if entity @s[scores={ttb_ether_specmo=1..}] run function ttb:item/staff/ether/spectator_effects
+
+#removal
+tag @s remove ttb_remove
