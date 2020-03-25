@@ -8,6 +8,12 @@
             "predicate": {
                 "custom_model_data": 6830001
             },
+            "model": "ttb:empty"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830002
+            },
             "model": "ttb:entity/mage"
         }
     ]
