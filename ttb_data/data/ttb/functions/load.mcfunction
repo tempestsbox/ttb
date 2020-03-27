@@ -20,11 +20,11 @@ scoreboard objectives add ttb_slot_size dummy
 scoreboard objectives add ttb_van_crft_cnt dummy
 
 scoreboard objectives add ttb_model_cmd dummy
-scoreboard objectives add ttb_snd_hlth dummy
-scoreboard objectives add ttb_snd_hlth_prv dummy
 
 scoreboard objectives add ttb_raycast_iter dummy
+
 scoreboard objectives add ttb_gamerules dummy
+execute unless score entityRemovalDebugMessage ttb_gamerules matches 0..1 run scoreboard players set entityRemovalDebugMessage ttb_gamerules 0
 
 scoreboard objectives add ttb_mana_repulsi dummy
 scoreboard players set $use ttb_mana_repulsi 7
