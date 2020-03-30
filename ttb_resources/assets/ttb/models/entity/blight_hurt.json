@@ -1,0 +1,6 @@
+{
+    "parent": "ttb:entity/blight",
+    "textures": {
+        "texture": "ttb:entity/blight_hurt"
+    }
+}

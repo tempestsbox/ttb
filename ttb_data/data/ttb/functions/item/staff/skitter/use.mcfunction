@@ -13,5 +13,4 @@ effect give @s speed 10 10
 effect give @s jump_boost 10 7
 
 #depletion
-scoreboard players operation @s[gamemode=!creative,gamemode=!spectator] ttb_mana_skitter -= $use ttb_mana_skitter
-function ttb:item/staff/mana/report
+function ttb:item/staff/durability/update

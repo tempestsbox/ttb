@@ -13,5 +13,4 @@ effect give @e[type=!player,distance=..3] instant_damage 1 2
 effect give @e[type=!player,distance=..3] instant_health 1 2
 
 #depletion
-scoreboard players operation @s[gamemode=!creative,gamemode=!spectator] ttb_mana_repulsi -= $use ttb_mana_repulsi
-function ttb:item/staff/mana/report
+function ttb:item/staff/durability/update

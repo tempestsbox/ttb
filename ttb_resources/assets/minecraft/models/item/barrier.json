@@ -45,6 +45,30 @@
                 "custom_model_data": 6830007
             },
             "model": "ttb:entity/ore_dweller_moving_hurt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830008
+            },
+            "model": "ttb:entity/blight"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830009
+            },
+            "model": "ttb:entity/blight_hurt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830010
+            },
+            "model": "ttb:entity/blight_moving"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830011
+            },
+            "model": "ttb:entity/blight_moving_hurt"
         }
     ]
 }

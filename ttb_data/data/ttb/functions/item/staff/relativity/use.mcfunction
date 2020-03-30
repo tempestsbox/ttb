@@ -13,5 +13,4 @@ tp @s @e[type=zombie,sort=random,distance=..32,limit=1]
 execute at @s run function ttb:item/staff/relativity/post_teleport
 
 #depletion
-scoreboard players operation @s[gamemode=!creative,gamemode=!spectator] ttb_mana_relativ -= $use ttb_mana_relativ
-function ttb:item/staff/mana/report
+function ttb:item/staff/durability/update

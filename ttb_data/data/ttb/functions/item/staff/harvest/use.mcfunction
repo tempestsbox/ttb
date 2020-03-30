@@ -14,5 +14,4 @@ xp add @s[gamemode=!creative,gamemode=!spectator] -5 levels
 execute as @e[type=#ttb:item/staff/harvest/regress,distance=..6] at @s run function ttb:item/staff/harvest/regress
 
 #depletion
-scoreboard players operation @s[gamemode=!creative,gamemode=!spectator] ttb_mana_harvest -= $use ttb_mana_harvest
-function ttb:item/staff/mana/report
+function ttb:item/staff/durability/update

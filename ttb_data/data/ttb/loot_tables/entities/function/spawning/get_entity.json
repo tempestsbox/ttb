@@ -8,6 +8,30 @@
                     "children": [
                         {
                             "type": "minecraft:loot_table",
+                            "name": "ttb:entities/function/spawning/biome/the_end",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "dimension": "minecraft:the_end"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:loot_table",
+                            "name": "ttb:entities/function/spawning/biome/the_nether",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "dimension": "minecraft:the_nether"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:loot_table",
                             "name": "ttb:entities/function/spawning/biome/cave",
                             "conditions": [
                                 {
@@ -111,64 +135,6 @@
                                             "condition": "minecraft:location_check",
                                             "predicate": {
                                                 "biome": "minecraft:giant_spruce_taiga_hills"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "minecraft:loot_table",
-                            "name": "ttb:entities/function/spawning/biome/the_end",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:alternative",
-                                    "terms": [
-                                        {
-                                            "condition": "minecraft:location_check",
-                                            "predicate": {
-                                                "biome": "minecraft:the_end"
-                                            }
-                                        },
-                                        {
-                                            "condition": "minecraft:location_check",
-                                            "predicate": {
-                                                "biome": "minecraft:small_end_islands"
-                                            }
-                                        },
-                                        {
-                                            "condition": "minecraft:location_check",
-                                            "predicate": {
-                                                "biome": "minecraft:end_midlands"
-                                            }
-                                        },
-                                        {
-                                            "condition": "minecraft:location_check",
-                                            "predicate": {
-                                                "biome": "minecraft:end_highlands"
-                                            }
-                                        },
-                                        {
-                                            "condition": "minecraft:location_check",
-                                            "predicate": {
-                                                "biome": "minecraft:end_barrens"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "minecraft:loot_table",
-                            "name": "ttb:entities/function/spawning/biome/the_nether",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:alternative",
-                                    "terms": [
-                                        {
-                                            "condition": "minecraft:location_check",
-                                            "predicate": {
-                                                "biome": "minecraft:nether_wastes"
                                             }
                                         }
                                     ]

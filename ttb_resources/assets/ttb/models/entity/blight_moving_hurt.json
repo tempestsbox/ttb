@@ -1,0 +1,6 @@
+{
+    "parent": "ttb:entity/blight_moving",
+    "textures": {
+        "texture": "ttb:entity/blight_moving_hurt"
+    }
+}

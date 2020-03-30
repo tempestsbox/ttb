@@ -22,59 +22,15 @@ scoreboard objectives add ttb_van_crft_cnt dummy
 scoreboard objectives add ttb_model_cmd dummy
 
 scoreboard objectives add ttb_raycast_iter dummy
+scoreboard objectives add ttb_blight_frze dummy
 
 scoreboard objectives add ttb_gamerules dummy
+scoreboard players set #100 ttb_gamerules 100
 execute unless score entityRemovalDebugMessage ttb_gamerules matches 0..1 run scoreboard players set entityRemovalDebugMessage ttb_gamerules 0
 
-scoreboard objectives add ttb_mana_repulsi dummy
-scoreboard players set $use ttb_mana_repulsi 7
-scoreboard players set $recharge_bright_relic ttb_mana_repulsi 5
-scoreboard objectives add ttb_mana_relativ dummy
-scoreboard players set $use ttb_mana_relativ 5
-scoreboard players set $recharge_bright_relic ttb_mana_relativ 5
-scoreboard objectives add ttb_mana_extract dummy
-scoreboard players set $use ttb_mana_extract 3
-scoreboard players set $recharge_bright_relic ttb_mana_extract 7
-scoreboard objectives add ttb_mana_refrige dummy
-scoreboard players set $use ttb_mana_refrige 4
-scoreboard players set $recharge_bright_relic ttb_mana_refrige 7
-scoreboard objectives add ttb_mana_infalli dummy
-scoreboard players set $use ttb_mana_infalli 9
-scoreboard players set $recharge_bright_relic ttb_mana_infalli 5
-scoreboard objectives add ttb_mana_shatter dummy
-scoreboard players set $use ttb_mana_shatter 12
-scoreboard players set $recharge_bright_relic ttb_mana_shatter 3
-scoreboard objectives add ttb_mana_tempora dummy
-scoreboard players set $use ttb_mana_tempora 29
-scoreboard players set $recharge_bright_relic ttb_mana_tempora 3
-scoreboard objectives add ttb_mana_captiv dummy
-scoreboard players set $use ttb_mana_captiv 18
-scoreboard players set $recharge_bright_relic ttb_mana_captiv 5
-scoreboard objectives add ttb_mana_ether dummy
-scoreboard players set $use ttb_mana_ether 27
-scoreboard players set $recharge_bright_relic ttb_mana_ether 1
-scoreboard objectives add ttb_mana_harvest dummy
-scoreboard players set $use ttb_mana_harvest 92
-scoreboard players set $recharge_bright_relic ttb_mana_harvest 1
-scoreboard objectives add ttb_mana_saturat dummy
-scoreboard players set $use ttb_mana_saturat 12
-scoreboard players set $recharge_bright_relic ttb_mana_saturat 1
-scoreboard objectives add ttb_mana_mage dummy
-scoreboard players set $use ttb_mana_mage 6
-scoreboard players set $recharge_bright_relic ttb_mana_mage 6
-scoreboard objectives add ttb_mana_blight dummy
-scoreboard players set $use ttb_mana_blight 6
-scoreboard players set $recharge_bright_relic ttb_mana_blight 6
-scoreboard objectives add ttb_mana_skitter dummy
-scoreboard players set $use ttb_mana_skitter 6
-scoreboard players set $recharge_bright_relic ttb_mana_skitter 6
-scoreboard objectives add ttb_mana_netherk dummy
-scoreboard players set $use ttb_mana_netherk 6
-scoreboard players set $recharge_bright_relic ttb_mana_netherk 6
-scoreboard objectives add ttb_mana_spirit dummy
-scoreboard players set $use ttb_mana_spirit 1
-scoreboard players set $recharge_bright_relic ttb_mana_spirit 2
-
+scoreboard objectives add ttb_staff_dur dummy
+scoreboard players set $carrot_on_a_stick_dur ttb_staff_dur 25
+scoreboard objectives add ttb_staff_durmax dummy
 scoreboard objectives add ttb_ether_specmo dummy
 
 #trigger clocks

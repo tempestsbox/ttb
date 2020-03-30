@@ -16,7 +16,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "name": "ttb:entities/function/spawning/biome/cave",
-                    "weight": 2
+                    "weight": 4
                 }
             ]
         }

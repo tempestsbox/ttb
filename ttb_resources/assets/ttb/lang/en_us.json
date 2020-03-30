@@ -7,6 +7,7 @@
     "text.ttb.debug.prefix": "TTB Debug",
     "text.ttb.debug.removal": "Removing entity:",
     "text.ttb.entity.from": " from ",
+    "text.ttb.entity.whilst_fighting": " whilst fighting ",
     "text.ttb.mana": "Mana",
     "text.ttb.mana.none": "Not enough mana",
 
@@ -40,6 +41,8 @@
     "item.ttb.staff.netherknight": "Netherknight",
     "item.ttb.staff.spirit": "Spirit",
 
+    "entity.ttb.blight": "Blight",
+    "entity.ttb.endermenace": "Endermenace",
     "entity.ttb.mage": "Mage",
     "entity.ttb.mage.magic_ball": "Magic Ball",
     "entity.ttb.mage.flame": "Flame",

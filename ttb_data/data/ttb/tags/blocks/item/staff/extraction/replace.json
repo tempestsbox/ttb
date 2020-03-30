@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "#minecraft:leaves",
+        "#minecraft:nylium",
         "minecraft:stone",
         "minecraft:cobblestone",
         "minecraft:dirt",
@@ -9,6 +10,8 @@
         "minecraft:sand",
         "minecraft:grass_block",
         "minecraft:soul_sand",
-        "minecraft:netherrack"
+        "minecraft:netherrack",
+        "minecraft:end_stone",
+        "minecraft:snow"
     ]
 }

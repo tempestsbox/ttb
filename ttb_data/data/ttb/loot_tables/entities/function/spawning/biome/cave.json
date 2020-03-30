@@ -16,7 +16,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "name": "minecraft:empty",
-                    "weight": 2
+                    "weight": 6
                 }
             ]
         }

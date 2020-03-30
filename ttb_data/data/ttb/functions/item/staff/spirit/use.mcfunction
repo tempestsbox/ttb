@@ -42,5 +42,4 @@ particle totem_of_undying ~ ~1 ~ 2 0 2 0.01 1000 normal @a
 # scoreboard players add @e[name=macContainer,distance=..4,sort=random,limit=1] power 15
 
 #depletion
-scoreboard players operation @s[gamemode=!creative,gamemode=!spectator] ttb_mana_spirit -= $use ttb_mana_spirit
-function ttb:item/staff/mana/report
+function ttb:item/staff/durability/update

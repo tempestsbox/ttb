@@ -13,5 +13,4 @@ effect give @s fire_resistance 10 2 true
 effect give @s strength 10 4 true
 
 #depletion
-scoreboard players operation @s[gamemode=!creative,gamemode=!spectator] ttb_mana_blight -= $use ttb_mana_blight
-function ttb:item/staff/mana/report
+function ttb:item/staff/durability/update

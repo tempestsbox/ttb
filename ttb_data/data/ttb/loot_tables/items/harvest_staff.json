@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{staff:\"harvest\"},display:{Name:'[{\"translate\":\"item.ttb.staff.harvest\",\"italic\":false},\" \",{\"translate\":\"item.ttb.staff\",\"italic\":false}]'},CustomModelData:6830010}"
+                            "tag": "{ttb:{staff:{id:\"harvest\",durability:1,max_durability:1}},display:{Name:'[{\"translate\":\"item.ttb.staff.harvest\",\"italic\":false},\" \",{\"translate\":\"item.ttb.staff\",\"italic\":false}]',Lore:['[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"},[{\"translate\":\"item.durability\",\"with\":[\"1\",\"1\"]}]]']},CustomModelData:6830010}"
                         }
                     ]
                 }

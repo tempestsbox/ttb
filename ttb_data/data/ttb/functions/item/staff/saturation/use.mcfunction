@@ -10,5 +10,4 @@ particle block red_nether_bricks ~ ~ ~ 2 0 2 0.01 1000 normal @a
 effect give @s saturation 30 0
 
 #depletion
-scoreboard players operation @s[gamemode=!creative,gamemode=!spectator] ttb_mana_saturat -= $use ttb_mana_saturat
-function ttb:item/staff/mana/report
+function ttb:item/staff/durability/update

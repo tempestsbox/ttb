@@ -1,9 +1,12 @@
 #called by entity/player/tick
 
-#audiovisuals
+#tick
 particle lava ~ ~ ~ 1 1 1 0.01 1 normal @a
 
-#tick
+#start
+gamemode spectator @s[scores={ttb_ether_specmo=199}]
+
+#continue
 scoreboard players remove @s ttb_ether_specmo 1
 
 #end

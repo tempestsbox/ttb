@@ -8,5 +8,4 @@ particle cloud ~ ~ ~ 1 1 1 .1 250 force
 execute as @e[type=!player,type=!#ttb:sprite,distance=..6,limit=1] at @s run function ttb:item/staff/shatter/entity_effects
 
 #depletion
-scoreboard players operation @s[gamemode=!creative,gamemode=!spectator] ttb_mana_shatter -= $use ttb_mana_shatter
-function ttb:item/staff/mana/report
+function ttb:item/staff/durability/update

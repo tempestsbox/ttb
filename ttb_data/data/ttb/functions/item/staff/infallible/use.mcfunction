@@ -12,5 +12,4 @@ effect give @s slowness 10 100 true
 effect give @s weakness 10 100 true
 
 #depletion
-scoreboard players operation @s[gamemode=!creative,gamemode=!spectator] ttb_mana_infalli -= $use ttb_mana_infalli
-function ttb:item/staff/mana/report
+function ttb:item/staff/durability/update

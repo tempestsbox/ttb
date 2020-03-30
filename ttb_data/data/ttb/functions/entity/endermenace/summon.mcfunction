@@ -1,0 +1,1 @@
+summon enderman ~ ~ ~ {CustomName:'{"translate":"entity.ttb.endermenace"}',CustomNameVisible:0b,Tags:["ttb_entity","ttb_endermenace","ttb_sound"],Attributes:[{Name:generic.maxHealth,Base:80d},{Name:generic.knockbackResistance,Base:0.9d}],Silent:1b,Health:80.0f,DeathLootTable:"ttb:entities/endermenace"}

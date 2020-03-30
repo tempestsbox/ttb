@@ -15,5 +15,4 @@ fill ~-6 ~-4 ~-6 ~6 ~4 ~6 magma_block replace lava
 fill ~-2 ~-1 ~-2 ~2 ~1 ~2 snow keep
 
 #depletion
-scoreboard players operation @s[gamemode=!creative,gamemode=!spectator] ttb_mana_refrige -= $use ttb_mana_refrige
-function ttb:item/staff/mana/report
+function ttb:item/staff/durability/update
