@@ -8,12 +8,12 @@
 - Debug: `debug/`
 
 ## File Format
-All function files should be headed by at least a 'called by' statement, for readability. For larger and more advanced files, this format should be followed:
-```mcfunction
-#function description
-#@s - selector
-#called by <function|function tag|advancement>
-```
+- All functions that create something (such as summoning a custom block's armour stand, setting it up, etc) should be called `create.mcfunction`
+- All functions that remove something (such as removing a custom block's armour stand, spawning its drops, etc) should be called `remove.mcfunction`
+- All commands to run on load should be ran in `ttb:load`, apart from special cases or where a function is used in multiple places otherwise
+- All sub-folders of `block/`, `entity/`, or similar, should be their full id (e.g. `/block/tempite_stone/` or `/block/acronite_cage/`)
+- Anything that runs every tick should be called `tick.mcfunction`
+- Anything that runs on a clock should be called `clock<timeframe><timetype>.mcfunction` (e.g. `clock2s` or `clock16t`)
 
 ## Naming and Tagging Formatting
 - NBT and entity tags should be prefixed with `ttb`
@@ -25,6 +25,8 @@ All function files should be headed by at least a 'called by' statement, for rea
     - `{"translate":"block.ttb.tempest_crafter"}`
     - `{"translate":"item.ttb.amethyst"}`
 - Any custom entity (e.g. custom crafters, mobs & area effect clouds) should have the `ttb_entity` tag
+- Tags themselves should be as verbose as possible
+    - Take the staff durability update function, for example, with the tag `ttb_staff_durability_modification`
 
 ## Custom Item Loot Table Format
 TTB adopts the format of using loot tables to register custom items. This means that they can be called upon from one source, registered at `ttb:items/<item>`.  
