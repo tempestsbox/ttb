@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Features
+    url: https://tempestsbox.github.io/features
+    about: A list of currently implemented features
+  - name: Features Roadmap
+    url: https://tempestsbox.github.io/features#roadmap
+    about: A list of features to come in the future - check here if you're making a feature request!
