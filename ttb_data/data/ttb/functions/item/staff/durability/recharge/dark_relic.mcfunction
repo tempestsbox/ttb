@@ -24,5 +24,4 @@ scoreboard players add @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"netherknight"}
 scoreboard players add @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"spirit"}}}}}] ttb_staff_dur 50
 function ttb:item/staff/durability/update
 
-clear @s clock{ttb:{item:"dark_relic"}} 1
-loot give @s[gamemode=!survival,gamemode=!adventure] loot ttb:items/dark_relic
+clear @s[gamemode=!creative,gamemode=!spectator] clock{ttb:{item:"dark_relic"}} 1
