@@ -14,4 +14,4 @@ xp add @s[gamemode=!creative,gamemode=!spectator] -5 levels
 execute as @e[type=#ttb:item/staff/harvest/regress,distance=..6] at @s run function ttb:item/staff/harvest/regress
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

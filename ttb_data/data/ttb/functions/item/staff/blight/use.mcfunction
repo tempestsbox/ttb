@@ -13,4 +13,4 @@ effect give @s fire_resistance 10 2 true
 effect give @s strength 10 4 true
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

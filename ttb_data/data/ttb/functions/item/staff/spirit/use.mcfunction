@@ -42,4 +42,4 @@ particle totem_of_undying ~ ~1 ~ 2 0 2 0.01 1000 normal @a
 # scoreboard players add @e[name=macContainer,distance=..4,sort=random,limit=1] power 15
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

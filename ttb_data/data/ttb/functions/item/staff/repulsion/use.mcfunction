@@ -13,4 +13,4 @@ effect give @e[type=!player,distance=..3] instant_damage 1 2
 effect give @e[type=!player,distance=..3] instant_health 1 2
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

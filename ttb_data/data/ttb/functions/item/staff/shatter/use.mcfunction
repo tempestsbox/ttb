@@ -8,4 +8,4 @@ particle cloud ~ ~ ~ 1 1 1 .1 250 force
 execute as @e[type=!player,type=!#ttb:sprite,distance=..6,limit=1] at @s run function ttb:item/staff/shatter/entity_effects
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

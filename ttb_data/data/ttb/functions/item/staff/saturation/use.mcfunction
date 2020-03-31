@@ -10,4 +10,4 @@ particle block red_nether_bricks ~ ~ ~ 2 0 2 0.01 1000 normal @a
 effect give @s saturation 30 0
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

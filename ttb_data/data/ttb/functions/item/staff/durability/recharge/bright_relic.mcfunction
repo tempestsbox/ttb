@@ -9,6 +9,6 @@ particle end_rod ~ ~ ~ .25 1 .25 .1 100 normal @a
 execute store result score @s ttb_staff_dur run data get entity @s SelectedItem.tag.ttb.staff.durability
 scoreboard players add @s ttb_staff_dur 1
 
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update
 
 scoreboard players operation @s ttb_relic_damage -= $threshold ttb_relic_damage

@@ -10,4 +10,4 @@ data modify entity @e[type=area_effect_cloud,tag=ttb_captive_staff_raycast,sort=
 execute as @e[type=area_effect_cloud,tag=ttb_captive_staff_raycast,sort=nearest,limit=1] at @s run function ttb:item/staff/captive/raycast
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

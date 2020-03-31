@@ -10,4 +10,4 @@ particle block gold_block ~ ~2 ~ 1 .5 1 1 250 normal @a
 fill ~-2 ~ ~-2 ~2 ~2 ~2 air replace #ttb:item/staff/extraction/replace
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

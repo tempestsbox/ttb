@@ -20,4 +20,4 @@ execute as @e[type=!player,type=!#ttb:sprite,distance=..6] at @s run function tt
 # kill @e[scores={wispLife=5..}]
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

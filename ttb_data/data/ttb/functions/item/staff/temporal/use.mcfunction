@@ -11,6 +11,6 @@ tellraw @a [{"selector":"@s","color":"yellow","italic":true}," ",{"translate":"i
 time add 6000
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update
 
 spreadplayers ~ ~ 0 36 true @e[type=!player,type=!#ttb:sprite,distance=..32]

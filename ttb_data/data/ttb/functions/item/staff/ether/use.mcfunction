@@ -9,4 +9,4 @@ scoreboard players set @s ttb_ether_specmo 200
 effect give @s invisibility 10
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

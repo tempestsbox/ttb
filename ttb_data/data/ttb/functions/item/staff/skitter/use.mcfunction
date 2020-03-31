@@ -13,4 +13,4 @@ effect give @s speed 10 10
 effect give @s jump_boost 10 7
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

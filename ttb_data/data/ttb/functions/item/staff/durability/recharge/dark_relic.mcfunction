@@ -22,6 +22,6 @@ scoreboard players add @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"blight"}}}}}] 
 scoreboard players add @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"skitter"}}}}}] ttb_staff_dur 8
 scoreboard players add @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"netherknight"}}}}}] ttb_staff_dur 8
 scoreboard players add @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"spirit"}}}}}] ttb_staff_dur 50
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update
 
 clear @s[gamemode=!creative,gamemode=!spectator] clock{ttb:{item:"dark_relic"}} 1

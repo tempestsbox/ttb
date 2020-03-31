@@ -13,4 +13,4 @@ tp @s @e[type=zombie,sort=random,distance=..32,limit=1]
 execute at @s run function ttb:item/staff/relativity/post_teleport
 
 #depletion
-function ttb:item/staff/durability/update
+execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update
