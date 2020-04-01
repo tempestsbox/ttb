@@ -7,7 +7,7 @@
     "text.ttb.debug.prefix": "TTB Debug",
     "text.ttb.debug.removal": "Removing entity:",
     "text.ttb.entity.from": " from ",
-    "text.ttb.entity.whilst_fighting": " whilst fighting ",
+    "text.ttb.entity.whilst_fighting": "%s whilst fighting %s",
     "text.ttb.mana": "Mana",
     "text.ttb.mana.none": "Not enough mana",
 
