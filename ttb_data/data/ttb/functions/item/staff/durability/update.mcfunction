@@ -31,6 +31,6 @@ execute store result block ~ ~-1 ~ Items[{Slot:0b}].tag.Damage int 1 run scorebo
 tellraw @s[tag=ttb_debug] ["Staff durability: ",[{"nbt":"SelectedItem.tag.ttb.staff.durability","entity":"@s"},"/",{"nbt":"SelectedItem.tag.ttb.staff.max_durability","entity":"@s"}]]
 
 #post
-loot replace entity @s weapon.mainhand mine ~ ~-1 ~ air{ttb:{shulker_box_loot:{drop_contents:1b}}}
+loot replace entity @s weapon.mainhand 1 mine ~ ~-1 ~ air{ttb:{shulker_box_loot:{drop_contents:1b}}}
 setblock ~ ~-1 ~ air
 forceload remove ~ ~
