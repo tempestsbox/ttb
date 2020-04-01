@@ -1,4 +1,6 @@
 #called by entity/player/clock16t
 
 #recharge
-execute if entity @s[nbt={SelectedItem:{tag:{ttb:{item:"staff"}}}}] run function ttb:item/staff/durability/recharge/dark_relic
+execute store result score @s ttb_staff_dur run data get entity @s SelectedItem.tag.ttb.staff.durability
+execute store result score @s ttb_staff_durmax run data get entity @s SelectedItem.tag.ttb.staff.max_durability
+execute if entity @s[nbt={SelectedItem:{tag:{ttb:{item:"staff"}}}}] if score @s ttb_staff_dur < @s ttb_staff_durmax run function ttb:item/staff/durability/recharge/dark_relic

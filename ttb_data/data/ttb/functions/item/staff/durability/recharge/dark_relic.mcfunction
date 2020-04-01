@@ -5,7 +5,6 @@ particle effect ~ ~ ~ 1 1 1 0.01 200 normal @a
 playsound entity.wither.ambient player @a[distance=..16] ~ ~ ~ 2 0.5 1
 
 #functionality
-execute store result score @s ttb_staff_dur run data get entity @s SelectedItem.tag.ttb.staff.durability
 scoreboard players add @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"repulsion"}}}}}] ttb_staff_dur 7
 scoreboard players add @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"relativity"}}}}}] ttb_staff_dur 10
 scoreboard players add @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"extraction"}}}}}] ttb_staff_dur 15
