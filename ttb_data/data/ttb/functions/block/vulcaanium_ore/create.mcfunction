@@ -1,7 +1,9 @@
-#@s - vulcaanium ore create stand
+#@s - vulcaanium ore creation item frame
 #called by tick
 
-#kill creation stand
+playsound block.stone.place block @a[distance=..16] ~ ~ ~ 1 1 1
+
+#kill creation item frame
 kill @s[type=!player]
 
 #create titanium plating
