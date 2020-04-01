@@ -27,6 +27,12 @@
                 "custom_model_data": 6830004
             },
             "model": "ttb:block/tempite_stone"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830005
+            },
+            "model": "ttb:block/tempite_stone_on"
         }
     ]
 }

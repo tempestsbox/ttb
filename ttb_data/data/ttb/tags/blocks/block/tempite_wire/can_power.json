@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#ttb:block/tempite_wire",
+        "minecraft:hopper"
+    ]
+}

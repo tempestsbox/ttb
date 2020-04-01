@@ -2,6 +2,7 @@
 #@s - armor stand
 #called by tick
 
-data merge entity @s[tag=ttb_fire_stand] {Fire:17s}
+data modify entity @s[tag=ttb_fire_stand] Fire set value 17s
 
 execute if entity @s[tag=ttb_tempest_crafter] run function ttb:block/tempest_crafter/tick
+execute if entity @s[tag=ttb_tempite_stone] run function ttb:block/tempite_stone/tick
