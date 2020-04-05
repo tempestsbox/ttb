@@ -1,5 +1,8 @@
 #called by block/tempite_stone/triggered || entity/area_effect_cloud/tick
 
+#audiovisuals
+execute if entity @s[type=area_effect_cloud] run particle dust 0.721 0.086 0.850 1 ~ ~ ~ .25 .25 .25 0 25 normal @a
+
 #check adjacent blocks for wiring
 execute positioned ~ ~1 ~ if block ~ ~ ~ #ttb:block/tempite_wire/can_power unless entity @e[type=area_effect_cloud,tag=ttb_tempite_wire,distance=...1] run function ttb:block/tempite_stone/wire/power_adjacent
 execute positioned ~ ~-1 ~ if block ~ ~ ~ #ttb:block/tempite_wire/can_power unless entity @e[type=area_effect_cloud,tag=ttb_tempite_wire,distance=...1] run function ttb:block/tempite_stone/wire/power_adjacent
