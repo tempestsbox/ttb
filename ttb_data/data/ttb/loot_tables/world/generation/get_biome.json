@@ -1,0 +1,923 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:alternative",
+                                "terms": [
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "predicate": {
+                                            "biome": "minecraft:the_void"
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "predicate": {
+                                            "biome": "minecraft:river"
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "predicate": {
+                                            "biome": "minecraft:frozen_river"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{}}}}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{snowy:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_beach"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_tundra"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:ice_spikes"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{cold:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:gravelly_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:wooded_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:modified:{gravelly_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:taiga_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_tree_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_spruce_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_tree_taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_spruce_taiga_hills"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{the_end:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:the_end"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:small_end_islands"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:end_midlands"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:end_highlands"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:end_barrens"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{jungle:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:jungle"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:modified_jungle"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:jungle_edge"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:modified_jungle_edge"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:bamboo_jungle"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:bamboo_jungle_hills"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{swamp:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:swamp"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:swamp_hills"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{warm:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:desert"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:desert_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:desert_lakes"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:savanna"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:savanna_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:shattered_savanna"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:shattered_savanna_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:badlands"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:badlands_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:eroded_badlands"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:wooded_badlands_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:modified_badlands_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:modified_wooded_badlands_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:nether_wastes"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{ocean:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:ocean"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:cold_ocean"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:deep_ocean"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:warm_ocean"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:frozen_ocean"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:lukewarm_ocean"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:deep_cold_ocean"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:deep_warm_ocean"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:deep_frozen_ocean"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:deep_lukewarm_ocean"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{desert:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:desert"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:desert_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:desert_lakes"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{badlands:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:badlands"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:badlands_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:eroded_badlands"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:wooded_badlands_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:modified_badlands_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:modified_wooded_badlands_plateau"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{forest:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:dark_forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:dark_forest_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:birch_forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:birch_forest_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:flower_forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:tall_birch_forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:taiga_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_tree_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_spruce_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_tree_taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_spruce_taiga_hills"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{plains:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:plains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_tundra"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:sunflower_plains"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{beach:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:stone_shore"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:beach"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_beach"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{generation:{biome:{wooded:1b}}}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:dark_forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:dark_forest_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:birch_forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:birch_forest_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:flower_forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:tall_birch_forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:taiga_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_tree_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_spruce_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_tree_taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_spruce_taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:dark_forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:dark_forest_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:birch_forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:birch_forest_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:flower_forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:tall_birch_forest"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:taiga_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_tree_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_spruce_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_tree_taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:giant_spruce_taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:swamp"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:swamp_hills"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

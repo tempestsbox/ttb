@@ -10,10 +10,7 @@ execute unless entity @a[limit=1] run say TTB: Loaded
 # function ttb:build/check
 
 #initialise data
-scoreboard objectives add ttb_place_iframe minecraft.used:minecraft.item_frame
-scoreboard objectives add ttb_use_crtstck minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add ttb_relic_damage minecraft.custom:minecraft.damage_dealt
-scoreboard players set $threshold ttb_relic_damage 500
+scoreboard objectives add ttb_data dummy
 
 scoreboard objectives add ttb_slot_count dummy
 scoreboard objectives add ttb_slot_size dummy
@@ -32,6 +29,11 @@ scoreboard objectives add ttb_staff_dur dummy
 scoreboard players set $carrot_on_a_stick_dur ttb_staff_dur 25
 scoreboard objectives add ttb_staff_durmax dummy
 scoreboard objectives add ttb_ether_specmo dummy
+
+scoreboard objectives add ttb_place_iframe minecraft.used:minecraft.item_frame
+scoreboard objectives add ttb_use_crtstck minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add ttb_relic_damage minecraft.custom:minecraft.damage_dealt
+scoreboard players set $threshold ttb_relic_damage 500
 
 #trigger clocks
 function ttb:clock16t
