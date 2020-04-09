@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{entity:\"endermenace\"}}"
+                            "tag": "{ttb:{entity_spawning:{id:\"endermenace\"}}}"
                         }
                     ]
                 },

@@ -32,7 +32,19 @@
             "predicate": {
                 "custom_model_data": 6830005
             },
-            "model": "ttb:block/tempite_stone_on"
+            "model": "ttb:block/tempite_stone_powered_ambient"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830006
+            },
+            "model": "ttb:block/tempite_stone_powered_full"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830007
+            },
+            "model": "ttb:block/tempite_insulator"
         }
     ]
 }

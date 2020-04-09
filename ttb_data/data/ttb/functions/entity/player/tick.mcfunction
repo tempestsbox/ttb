@@ -1,7 +1,7 @@
 #called by tick
 
 #world generation
-execute if block ~ 0 ~ bedrock align xz run function ttb:world/generation/chunk/init
+# execute if block ~ 0 ~ bedrock align xz run function ttb:world/generation/chunk/init
 # --> entity/area_effect_cloud/tick
 
 #usages

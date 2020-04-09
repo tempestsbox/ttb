@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "#ttb:sprite",
+        "minecraft:player",
+        "minecraft:ender_dragon",
+        "minecraft:wither"
+    ]
+}

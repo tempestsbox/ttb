@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{entity:\"ore_dweller\"}}"
+                            "tag": "{ttb:{entity_spawning:{id:\"ore_dweller\"}}}"
                         }
                     ]
                 },

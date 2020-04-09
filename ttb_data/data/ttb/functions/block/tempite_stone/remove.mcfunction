@@ -1,9 +1,13 @@
-#@s - tempite stone unless block ~ ~ ~ hopper[facing=down]{CustomName:'{"translate":"block.ttb.tempite_stone"}'}
+#@s - tempite stone unless block ~ ~ ~ command_block[facing=up]{CustomName:'{"translate":"block.ttb.tempite_stone"}'}
 #called by block/tempite_stone/tick
 
+#audiovisuals
+playsound block.stone.break block @a[distance=..16] ~ ~ ~ 1 1 1
+particle block stone ~ ~ ~ .25 .25 .25 0 64 normal @a
+particle block cyan_terracotta ~ ~ ~ .25 .25 .25 0 32 normal @a
+
 #reimburse items
-execute align xyz if entity @e[type=item,dx=0,dy=0,dz=0,nbt={Item:{id:"minecraft:hopper",tag:{display:{Name:'{"translate":"block.ttb.tempite_stone"}'}}}}] run loot spawn ~.5 ~ ~.5 loot ttb:blocks/tempite_stone
+execute align xyz run loot spawn ~.5 ~ ~.5 loot ttb:blocks/tempite_stone
 
 #kill entities
 kill @s[type=!player]
-execute align xyz run kill @e[type=item,dx=0,dy=0,dz=0,nbt={Item:{id:"minecraft:hopper",tag:{display:{Name:'{"translate":"block.ttb.tempite_stone"}'}}}}]

@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "#ttb:air",
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:grass",
+        "minecraft:tall_grass",
+        "minecraft:seagrass",
+        "minecraft:dead_bush",
+        "minecraft:fern",
+        "minecraft:crimson_roots",
+        "minecraft:warped_roots"
+    ]
+}

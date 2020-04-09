@@ -4,6 +4,7 @@
 execute if entity @s[type=item] run function ttb:entity/item/tick
 execute if entity @s[type=armor_stand] run function ttb:entity/armor_stand/tick
 execute if entity @s[type=area_effect_cloud] run function ttb:entity/area_effect_cloud/tick
+execute if entity @s[type=item_frame] run function ttb:entity/item_frame/tick
 execute if entity @s[type=!#ttb:entity/function/spawning/no_check,tag=!ttb_entity,tag=!ttb_no_check] run function ttb:entity/function/spawning/check
 
 #entity immersion

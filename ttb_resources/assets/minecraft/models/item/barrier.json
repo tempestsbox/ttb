@@ -69,6 +69,18 @@
                 "custom_model_data": 6830011
             },
             "model": "ttb:entity/blight_moving_hurt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830012
+            },
+            "model": "ttb:gui/tempest_crafter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830013
+            },
+            "model": "ttb:block/tempite_wire"
         }
     ]
 }
