@@ -120,7 +120,7 @@
                                         {
                                             "condition": "minecraft:location_check",
                                             "predicate": {
-                                                "biome": "minecraft:modified:{gravelly_mountains"
+                                                "biome": "minecraft:modified_gravelly_mountains"
                                             }
                                         },
                                         {

@@ -11,13 +11,7 @@ execute if block ~ ~2 ~ bedrock run function ttb:world/generation/chunk/structur
 fill ~ 0 ~ ~15 0 ~15 barrier replace bedrock
 
 #spread outwards
-execute positioned ~16 0 ~ if block ~ ~ ~ bedrock unless entity @e[type=area_effect_cloud,tag=ttb_chunk,distance=..1] run summon area_effect_cloud ~ ~ ~ {Tags:["ttb_chunk","ttb_chunk_generate"],CustomName:'"ttb_chunk"',Duration:3}
-execute positioned ~-16 0 ~ if block ~ ~ ~ bedrock unless entity @e[type=area_effect_cloud,tag=ttb_chunk,distance=..1] run summon area_effect_cloud ~ ~ ~ {Tags:["ttb_chunk","ttb_chunk_generate"],CustomName:'"ttb_chunk"',Duration:3}
-execute positioned ~ 0 ~16 if block ~ ~ ~ bedrock unless entity @e[type=area_effect_cloud,tag=ttb_chunk,distance=..1] run summon area_effect_cloud ~ ~ ~ {Tags:["ttb_chunk","ttb_chunk_generate"],CustomName:'"ttb_chunk"',Duration:3}
-execute positioned ~ 0 ~-16 if block ~ ~ ~ bedrock unless entity @e[type=area_effect_cloud,tag=ttb_chunk,distance=..1] run summon area_effect_cloud ~ ~ ~ {Tags:["ttb_chunk","ttb_chunk_generate"],CustomName:'"ttb_chunk"',Duration:3}
+execute store result score $active_chunks ttb_data if entity @e[type=area_effect_cloud,tag=ttb_chunk]
+execute if score $active_chunks ttb_data matches ..47 run function ttb:world/generation/chunk/spread
 
 kill @s[type=!player]
-
-#warn
-execute store result score $active_chunks ttb_data if entity @e[type=area_effect_cloud,tag=ttb_chunk]
-title @a actionbar [[{"text":"[","color":"black"},{"translate":"pack.ttb.name","color":"dark_gray"},{"text":"] ","color":"black"}],[{"translate":"text.ttb.world_generation.warn","color":"dark_gray"}],[" (",{"score":{"name":"$active_chunks","objective":"ttb_data"}},")"]]
