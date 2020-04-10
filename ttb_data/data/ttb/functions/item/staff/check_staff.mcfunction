@@ -17,3 +17,5 @@ execute if entity @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"blight"}}}}}] run f
 execute if entity @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"skitter"}}}}}] run function ttb:item/staff/skitter/use
 execute if entity @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"netherknight"}}}}}] run function ttb:item/staff/netherknight/use
 execute if entity @s[nbt={SelectedItem:{tag:{ttb:{staff:{id:"spirit"}}}}}] run function ttb:item/staff/spirit/use
+
+execute if entity @s[nbt={SelectedItem:{tag:{ttb:{staff:{durability:0}}}}}] run function ttb:item/staff/break
