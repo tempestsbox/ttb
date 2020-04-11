@@ -31,6 +31,7 @@ scoreboard objectives add ttb_staff_dur dummy
 scoreboard players set $carrot_on_a_stick_dur ttb_staff_dur 25
 scoreboard objectives add ttb_staff_durmax dummy
 scoreboard objectives add ttb_ether_specmo dummy
+scoreboard objectives add ttb_ether_gamemo dummy
 ## player tracking
 scoreboard objectives add ttb_place_iframe minecraft.used:minecraft.item_frame
 scoreboard objectives add ttb_use_crtstck minecraft.used:minecraft.carrot_on_a_stick
