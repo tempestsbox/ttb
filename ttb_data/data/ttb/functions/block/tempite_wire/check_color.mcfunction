@@ -1,4 +1,4 @@
-#called by block/tempite_stone/triggered
+#called by block/tempite_stone/triggered || block/tempite_wire/color/glass
 
 execute if block ~ ~ ~ white_stained_glass run tag @s add ttb_tempite_wire_white
 execute if block ~ ~ ~ orange_stained_glass run tag @s add ttb_tempite_wire_orange
@@ -17,4 +17,4 @@ execute if block ~ ~ ~ green_stained_glass run tag @s add ttb_tempite_wire_green
 execute if block ~ ~ ~ red_stained_glass run tag @s add ttb_tempite_wire_red
 execute if block ~ ~ ~ black_stained_glass run tag @s add ttb_tempite_wire_black
 
-function ttb:block/tempite_wire/power_adjacent
+execute unless entity @s[tag=ttb_tempite_wire_glass] run function ttb:block/tempite_wire/power_adjacent

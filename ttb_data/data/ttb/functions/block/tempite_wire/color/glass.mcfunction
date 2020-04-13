@@ -1,4 +1,4 @@
-#called by block/tempite_wire/power_adjacent
+#called by block/tempite_wire/color/compare_type
 
 execute if block ~ ~ ~ white_stained_glass run function ttb:block/tempite_wire/color/white
 execute if block ~ ~ ~ orange_stained_glass run function ttb:block/tempite_wire/color/orange
