@@ -26,7 +26,7 @@
             "predicate": {
                 "custom_model_data": 6830004
             },
-            "model": "ttb:block/tempite_stone"
+            "model": "ttb:item/tempite_stone"
         },
         {
             "predicate": {
@@ -44,7 +44,13 @@
             "predicate": {
                 "custom_model_data": 6830007
             },
-            "model": "ttb:block/tempite_insulator"
+            "model": "ttb:item/tempite_insulator"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830008
+            },
+            "model": "ttb:item/breaker"
         }
     ]
 }

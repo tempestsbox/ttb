@@ -1,9 +1,11 @@
 {
     "parent": "ttb:block/cube",
     "textures": {
-        "side": "#all",
-        "top": "#all",
-        "front": "#all",
-        "bottom": "#all"
+        "north": "#all",
+        "east": "#all",
+        "south": "#all",
+        "west": "#all",
+        "up": "#all",
+        "down": "#all"
     }
 }

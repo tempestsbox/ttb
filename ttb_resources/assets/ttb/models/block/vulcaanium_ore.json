@@ -1,5 +1,5 @@
 {
-    "parent": "ttb:block/cube_all_spawner",
+    "parent": "ttb:block/cube_spawner_all",
     "textures": {
         "all": "ttb:block/vulcaanium_ore"
     }

@@ -1,4 +1,3 @@
-#@s - tempite stone unless block ~ ~ ~ command_block[facing=up]{CustomName:'{"translate":"block.ttb.tempite_stone"}'}
 #called by block/tempite_stone/tick
 
 #audiovisuals

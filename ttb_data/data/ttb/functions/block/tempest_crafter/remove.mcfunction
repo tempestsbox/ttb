@@ -1,4 +1,3 @@
-#@s - tempest crafter unless block ~ ~ ~ barrel[facing=up]{CustomName:'{"translate":"block.ttb.tempest_crafter"}'}
 #called by block/tempest_crafter/tick
 
 #reimburse items

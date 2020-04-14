@@ -37,7 +37,7 @@ scoreboard objectives add ttb_relic_damage minecraft.custom:minecraft.damage_dea
 scoreboard players set $threshold ttb_relic_damage 500
 
 #initialise datas
-data modify storage ttb:block tempite_stone.Command set value "execute as @e[type=armor_stand,tag=ttb_tempite_stone,distance=...1,sort=nearest,limit=1] run function ttb:block/tempite_stone/triggered"
+data modify storage ttb:block tempite_stone.Command set value "execute as @e[type=armor_stand,tag=ttb_tempite_stone,distance=...1,limit=1] run function ttb:block/tempite_stone/triggered"
 data modify storage ttb:block tempest_crafter.Items set value [{Slot:0b,id:barrier,Count:1,tag:{CustomModelData:6830012}},{Slot:1b,id:barrier,Count:1},{Slot:5b,id:barrier,Count:1},{Slot:6b,id:barrier,Count:1},{Slot:7b,id:barrier,Count:1},{Slot:8b,id:barrier,Count:1},{Slot:10b,id:barrier,Count:1},{Slot:14b,id:barrier,Count:1},{Slot:15b,id:barrier,Count:1},{Slot:17b,id:barrier,Count:1},{Slot:18b,id:barrier,Count:1},{Slot:19b,id:barrier,Count:1},{Slot:23b,id:barrier,Count:1},{Slot:24b,id:barrier,Count:1},{Slot:25b,id:barrier,Count:1},{Slot:26b,id:barrier,Count:1}]
 data modify storage ttb:block tempest_crafter.Items[{}].tag.ttb.gui_item set value 1b
 data modify storage ttb:block tempest_crafter.Items[{}].tag.display.Name set value '""'

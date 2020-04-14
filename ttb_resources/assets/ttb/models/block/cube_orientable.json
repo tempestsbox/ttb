@@ -1,0 +1,25 @@
+{
+    "parent": "ttb:block/cube",
+    "textures": {
+        "north": "#front",
+        "east": "#side",
+        "south": "#back",
+        "west": "#side",
+        "up": "#top",
+        "down": "#bottom"
+    },
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                135,
+                0
+            ],
+            "scale": [
+                0.40,
+                0.40,
+                0.40
+            ]
+        }
+    }
+}

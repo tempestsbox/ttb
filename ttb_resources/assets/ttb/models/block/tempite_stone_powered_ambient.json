@@ -1,6 +1,6 @@
 {
     "parent": "ttb:block/cube_all",
     "textures": {
-        "all": "ttb:block/tempite_stone_on"
+        "all": "ttb:block/tempite_stone_powered_ambient"
     }
 }

@@ -81,6 +81,12 @@
                 "custom_model_data": 6830013
             },
             "model": "ttb:block/tempite_wire"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830014
+            },
+            "model": "ttb:block/tempite_wire_glass"
         }
     ]
 }
