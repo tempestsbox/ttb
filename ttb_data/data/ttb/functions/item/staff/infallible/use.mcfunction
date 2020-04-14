@@ -8,8 +8,8 @@ particle block obsidian ~ ~1 ~ 1 1 1 0.01 400 normal @a
 #functionality
 effect give @s blindness 10 0 true
 effect give @s resistance 10 255
-effect give @s slowness 10 255 true
-effect give @s jump_boost 10 128 true
+effect give @s slowness 10 255
+effect give @s jump_boost 10 250 true
 effect give @s weakness 10 255 true
 
 #depletion
