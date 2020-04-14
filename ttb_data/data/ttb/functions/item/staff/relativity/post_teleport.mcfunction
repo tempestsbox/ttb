@@ -1,4 +1,3 @@
-#post-teleport functionality
 #called by item/staff/relativity/use
 
 #audiovisuals

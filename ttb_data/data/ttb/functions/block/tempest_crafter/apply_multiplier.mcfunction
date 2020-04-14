@@ -1,5 +1,3 @@
-#applies set multiplier to crafted items
-#@s - crafter after recipe
 #called by block/tempest_crafter/recipe_validity_check
 
 execute store result score stack_multiplier ttb_slot_size run data get block ~ ~ ~ Items[{Slot:16b}].tag.ttb.crafting.multiplier

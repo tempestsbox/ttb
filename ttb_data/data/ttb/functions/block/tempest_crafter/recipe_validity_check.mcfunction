@@ -1,5 +1,3 @@
-#checks all slots have the same count
-#@s - tempest crafter
 #called by block/tempest_crafter/tick
 
 #store number of full slots

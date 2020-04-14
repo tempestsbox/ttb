@@ -1,5 +1,3 @@
-#item tick
-#@s - item
 #called by tick
 
 #custom blocks

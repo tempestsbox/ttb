@@ -1,5 +1,3 @@
-#armor stand tick
-#@s - armor stand
 #called by tick
 
 data modify entity @s[tag=ttb_fire_stand] Fire set value 17s

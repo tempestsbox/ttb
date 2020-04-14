@@ -1,4 +1,3 @@
-#@s - tempest crafter
 #called by entity/armor_stand/tick
 
 #removal

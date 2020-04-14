@@ -1,5 +1,3 @@
-#area effect cloud tick
-#@s - area effect cloud
 #called by tick
 
 #world generation

@@ -1,4 +1,3 @@
-#@s - tempite stone
 #called by entity/armor_stand/tick
 
 #removal
