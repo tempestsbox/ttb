@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:reference",
+                "name": "ttb:entity/player/holding/staff"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "ttb:entity/player/holding/bright_relic"
+            }
+        ]
+    }
+}
