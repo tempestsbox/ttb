@@ -7,6 +7,8 @@ execute if entity @s[type=area_effect_cloud] run function ttb:entity/area_effect
 execute if entity @s[type=item_frame] run function ttb:entity/item_frame/tick
 execute if entity @s[type=!#ttb:entity/function/spawning/no_check,tag=!ttb_entity,tag=!ttb_no_check] run function ttb:entity/function/spawning/check
 
+execute if entity @s[type=tnt,tag=ttb_shatter_staff_tnt,nbt={Fuse:2s}] run function ttb:item/staff/shatter/explosion_simulation
+
 #entity immersion
 execute if entity @s[tag=ttb_dynamic_model] unless entity @s[tag=ttb_remove] run function ttb:entity/function/model/check
 execute if entity @s[tag=ttb_sound] unless entity @s[tag=ttb_remove] run function ttb:entity/function/sound_events/check

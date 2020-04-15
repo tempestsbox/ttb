@@ -7,4 +7,4 @@ summon firework_rocket ~ ~5 ~ {LifeTime:0,FireworksItem:{id:firework_rocket,Coun
 
 #functionality
 data modify entity @s Motion[1] set value 1.7
-summon tnt ~ ~ ~ {Fuse:30s,Motion:[0.0,1.2,0.0]}
+summon tnt ~ ~ ~ {Fuse:30s,Motion:[0.0,1.2,0.0],Tags:["ttb_entity","ttb_shatter_staff_tnt"]}
