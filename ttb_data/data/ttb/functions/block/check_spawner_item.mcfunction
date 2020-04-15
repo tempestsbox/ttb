@@ -21,4 +21,4 @@ kill @s[type=!player]
 #kill orbs if necessary
 tag @s[nbt={Item:{tag:{ttb:{spawner:{tool:{tag:{Enchantments:[{id:"minecraft:silk_touch"}]}}}}}}}] add ttb_kill_orbs
 
-execute if entity @s[tag=ttb_kill_orbs] align xyz run kill @e[type=experience_orb,dx=0,dy=0,dz=0]
+execute if entity @s[tag=ttb_kill_orbs] align xyz run kill @e[type=experience_orb,dx=0]
