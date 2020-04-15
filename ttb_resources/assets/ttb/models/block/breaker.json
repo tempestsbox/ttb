@@ -1,10 +1,10 @@
 {
     "parent": "ttb:block/cube_orientable",
     "textures": {
-        "front": "block/furnace_front",
-        "back": "block/furnace_side",
-        "side": "block/furnace_side",
-        "top": "block/furnace_top",
-        "bottom": "loldoesntexist"
+        "front": "ttb:block/breaker_front",
+        "back": "ttb:block/breaker_back",
+        "side": "ttb:block/breaker_side",
+        "top": "ttb:block/breaker_vertical",
+        "bottom": "ttb:block/breaker_vertical"
     }
 }
