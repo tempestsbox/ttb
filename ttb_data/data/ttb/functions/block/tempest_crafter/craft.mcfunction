@@ -1,11 +1,3 @@
-#called by entity/item/clock16t
-
-#audiovisuals
-playsound entity.firework_rocket.blast player @a[distance=..20] ~ ~ ~ 1 2 1
-playsound entity.firework_rocket.launch player @a[distance=..20] ~ ~ ~ 1 0.5 1
-
-particle end_rod ~ ~ ~ .15 .2 .1 .05 20 force @a
-
-#functionality
-setblock ~ ~ ~ air
-function ttb:block/tempest_crafter/create
+function ttb:block/tempest_crafter/gui/remove_recipe
+loot replace block ~ ~ ~ container.16 loot ttb:items/tempest_crafter
+data modify block ~ ~ ~ Items[{Slot:16b}].tag.ttb.crafting.multiplier set value 1
