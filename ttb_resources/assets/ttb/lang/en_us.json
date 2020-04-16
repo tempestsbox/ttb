@@ -11,7 +11,6 @@
     "text.ttb.mana": "Mana",
     "text.ttb.mana.none": "Not enough mana",
     "text.ttb.world_generation.warn": "You may lag while terrain is being generated!",
-    "text.ttb.world_generation.finalising": "World generation - finalizing...",
     "text.ttb.world_generation.done": "World generation - done!",
 
     "block.ttb.amethyst_ore": "Amethyst Ore",
