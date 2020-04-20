@@ -1,16 +1,10 @@
 #called by block/tempest_crafter/tick
 
-#store number of full slots
-scoreboard players reset @s ttb_slot_count
-execute if data block ~ ~ ~ Items[{Slot:2b}] run scoreboard players add @s ttb_slot_count 1
-execute if data block ~ ~ ~ Items[{Slot:3b}] run scoreboard players add @s ttb_slot_count 1
-execute if data block ~ ~ ~ Items[{Slot:4b}] run scoreboard players add @s ttb_slot_count 1
-execute if data block ~ ~ ~ Items[{Slot:11b}] run scoreboard players add @s ttb_slot_count 1
-execute if data block ~ ~ ~ Items[{Slot:12b}] run scoreboard players add @s ttb_slot_count 1
-execute if data block ~ ~ ~ Items[{Slot:13b}] run scoreboard players add @s ttb_slot_count 1
-execute if data block ~ ~ ~ Items[{Slot:20b}] run scoreboard players add @s ttb_slot_count 1
-execute if data block ~ ~ ~ Items[{Slot:21b}] run scoreboard players add @s ttb_slot_count 1
-execute if data block ~ ~ ~ Items[{Slot:22b}] run scoreboard players add @s ttb_slot_count 1
+#store number of full slots, accounting for gui and modifier
+execute store result score @s ttb_slot_count run data get block ~ ~ ~ Items
+scoreboard players remove @s ttb_slot_count 16
+execute if data block ~ ~ ~ Items[{Slot:9b}] run scoreboard players remove @s ttb_slot_count 1
+execute if data block ~ ~ ~ Items[{Slot:16b}] run scoreboard players remove @s ttb_slot_count 1
 
 #get number of items from first array element
 execute store result score first_stack_count ttb_slot_size run data get block ~ ~ ~ Items[{Slot:2b}].Count

@@ -1,9 +1,9 @@
 #called by item/staff/check_staff
 
 #audiovisuals
-playsound entity.guardian.death hostile @a[distance=..16] ~ ~ ~ 2 0.5 1
-playsound entity.guardian.death hostile @a[distance=..16] ~ ~ ~ 2 0.7 1
-playsound entity.guardian.hurt hostile @a[distance=..16] ~ ~ ~ 2 0.5 1
+playsound entity.guardian.death player @a[distance=..16] ~ ~ ~ 2 0.5 1
+playsound entity.guardian.death player @a[distance=..16] ~ ~ ~ 2 0.7 1
+playsound entity.guardian.hurt player @a[distance=..16] ~ ~ ~ 2 0.5 1
 particle flame ~ ~ ~ 2 0 2 0.01 500 normal @a
 
 #functionality

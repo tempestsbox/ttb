@@ -11,6 +11,27 @@
                             "function": "minecraft:set_nbt",
                             "tag": "{ttb:{entity_spawning:{id:\"endermenace\"}}}"
                         }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:time_check",
+                                    "value": {
+                                        "min": 0,
+                                        "max": 1000
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:time_check",
+                                    "value": {
+                                        "min": 13000,
+                                        "max": 24000
+                                    }
+                                }
+                            ]
+                        }
                     ]
                 },
                 {

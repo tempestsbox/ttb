@@ -3,6 +3,7 @@
     "values": [
         "#ttb:block/tempite_wire",
         "minecraft:glass",
-        "minecraft:command_block"
+        "minecraft:command_block",
+        "minecraft:barrel"
     ]
 }

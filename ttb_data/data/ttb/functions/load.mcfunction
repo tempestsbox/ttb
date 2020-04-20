@@ -23,6 +23,7 @@ scoreboard objectives add ttb_raycast_iter dummy
 scoreboard objectives add ttb_blight_frze dummy
 ## gamerules/constants
 scoreboard objectives add ttb_gamerules dummy
+scoreboard players set #64 ttb_gamerules 64
 scoreboard players set #100 ttb_gamerules 100
 execute unless score entityRemovalDebugMessage ttb_gamerules matches 0..1 run scoreboard players set entityRemovalDebugMessage ttb_gamerules 0
 ## staffs
@@ -37,15 +38,43 @@ scoreboard objectives add ttb_use_crtstck minecraft.used:minecraft.carrot_on_a_s
 scoreboard objectives add ttb_relic_damage minecraft.custom:minecraft.damage_dealt
 scoreboard players set $threshold ttb_relic_damage 500
 ## machines
-scoreboard objectives add ttb_machine_amet dummy
+scoreboard objectives add ttb_tempite_amnt dummy
+scoreboard players set $amethyst ttb_tempite_amnt 1000
+scoreboard players operation $max ttb_tempite_amnt = $amethyst ttb_tempite_amnt
+scoreboard players operation $max ttb_tempite_amnt *= #64 ttb_gamerules
+scoreboard players set $cost_tempite_stone ttb_tempite_amnt 4
+scoreboard players set $cost_breaker ttb_tempite_amnt 20
+scoreboard objectives add ttb_machine_cool dummy
+scoreboard players set $tempite_stone ttb_machine_cool 20
+scoreboard players set $breaker ttb_machine_cool 8
+scoreboard players set $hopper ttb_machine_cool 8
+scoreboard objectives add ttb_tempite_deca dummy
+scoreboard players set $max ttb_tempite_deca 32
+scoreboard objectives add ttb_ascended dummy
+scoreboard objectives add ttb_reduced dummy
+scoreboard objectives add ttb_ench_level dummy
+scoreboard objectives add ttb_ench_store dummy
+scoreboard objectives add ttb_ench_quarry dummy
+scoreboard objectives add ttb_ench_fortune dummy
+scoreboard objectives add ttb_ench_silk dummy
+scoreboard objectives add ttb_ench_smelt dummy
+scoreboard objectives add ttb_ench_wither dummy
+scoreboard objectives add ttb_ench_power dummy
 
 #initialise datas
-data modify storage ttb:block tempite_stone.Command set value "execute as @e[type=armor_stand,tag=ttb_tempite_stone,scores={ttb_machine_amet=1..},distance=...1,limit=1] run function ttb:block/tempite_stone/triggered"
-data modify storage ttb:block tempest_crafter.Items set value [{Slot:0b,id:barrier,Count:1,tag:{CustomModelData:6830012}},{Slot:1b,id:barrier,Count:1},{Slot:5b,id:barrier,Count:1},{Slot:6b,id:barrier,Count:1},{Slot:7b,id:barrier,Count:1},{Slot:8b,id:barrier,Count:1},{Slot:10b,id:barrier,Count:1},{Slot:14b,id:barrier,Count:1},{Slot:15b,id:barrier,Count:1},{Slot:17b,id:barrier,Count:1},{Slot:18b,id:barrier,Count:1},{Slot:19b,id:barrier,Count:1},{Slot:23b,id:barrier,Count:1},{Slot:24b,id:barrier,Count:1},{Slot:25b,id:barrier,Count:1},{Slot:26b,id:barrier,Count:1}]
-data modify storage ttb:block tempest_crafter.Items[{}].tag.ttb.gui_item set value 1b
-data modify storage ttb:block tempest_crafter.Items[{}].tag.display.Name set value '""'
-data modify storage ttb:block tempest_crafter.Items[{}].tag.CustomModelData set value 6830001
+data modify storage ttb:block tempite_stone.Command set value "execute as @e[type=armor_stand,tag=ttb_tempite_stone,scores={ttb_tempite_amnt=4..},distance=...1,limit=1] run function ttb:block/tempite_stone/triggered"
+
+data modify storage ttb:block tempest_crafter.Items set value [{Slot:0b,id:barrier,Count:1},{Slot:1b,id:barrier,Count:1},{Slot:5b,id:barrier,Count:1},{Slot:6b,id:barrier,Count:1},{Slot:7b,id:barrier,Count:1},{Slot:8b,id:barrier,Count:1},{Slot:10b,id:barrier,Count:1},{Slot:14b,id:barrier,Count:1},{Slot:15b,id:barrier,Count:1},{Slot:17b,id:barrier,Count:1},{Slot:18b,id:barrier,Count:1},{Slot:19b,id:barrier,Count:1},{Slot:23b,id:barrier,Count:1},{Slot:24b,id:barrier,Count:1},{Slot:25b,id:barrier,Count:1},{Slot:26b,id:barrier,Count:1}]
+data modify storage ttb:block tempest_crafter.Items[].tag.ttb.gui_item set value 1b
+data modify storage ttb:block tempest_crafter.Items[].tag.display.Name set value '""'
+data modify storage ttb:block tempest_crafter.Items[].tag.CustomModelData set value 6830001
 data modify storage ttb:block tempest_crafter.Items[{Slot:0b}].tag.CustomModelData set value 6830012
+
+data modify storage ttb:block machine.Items set value [{Slot:0b,id:barrier,Count:1},{Slot:1b,id:barrier,Count:1},{Slot:2b,id:barrier,Count:1},{Slot:5b,id:barrier,Count:1},{Slot:8b,id:barrier,Count:1},{Slot:9b,id:barrier,Count:1},{Slot:11b,id:barrier,Count:1},{Slot:14b,id:barrier,Count:1},{Slot:17b,id:barrier,Count:1},{Slot:18b,id:barrier,Count:1},{Slot:19b,id:barrier,Count:1},{Slot:20b,id:barrier,Count:1},{Slot:23b,id:barrier,Count:1},{Slot:26b,id:barrier,Count:1}]
+data modify storage ttb:block machine.Items[].tag.ttb.gui_item set value 1b
+data modify storage ttb:block machine.Items[].tag.display.Name set value '""'
+data modify storage ttb:block machine.Items[].tag.CustomModelData set value 6830001
+data modify storage ttb:block machine.Items[{Slot:0b}].tag.CustomModelData set value 6830015
 
 #trigger clocks
 function ttb:clock16t

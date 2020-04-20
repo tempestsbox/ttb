@@ -6,7 +6,7 @@ particle block stone ~ ~ ~ .25 .25 .25 0 64 normal @a
 particle block cyan_terracotta ~ ~ ~ .25 .25 .25 0 32 normal @a
 
 #reimburse items
-execute align xyz run loot spawn ~.5 ~ ~.5 loot ttb:blocks/tempite_stone
+execute align xyz positioned ~.5 ~ ~.5 run function ttb:block/tempite_stone/reimburse_items
 
 #kill entities
 kill @s[type=!player]

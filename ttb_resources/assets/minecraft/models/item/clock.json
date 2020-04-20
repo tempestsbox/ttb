@@ -93,6 +93,24 @@
                 "custom_model_data": 6830004
             },
             "model": "ttb:item/dark_relic"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830005
+            },
+            "model": "ttb:item/amethyst_crystal"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830006
+            },
+            "model": "ttb:item/vulcaanium_crystal"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830007
+            },
+            "model": "ttb:item/mysterious_dust"
         }
     ]
 }

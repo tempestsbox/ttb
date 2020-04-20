@@ -1,0 +1,6 @@
+{
+    "parent": "ttb:gui/upper_section",
+    "textures": {
+        "texture": "ttb:gui/machine_row_two"
+    }
+}

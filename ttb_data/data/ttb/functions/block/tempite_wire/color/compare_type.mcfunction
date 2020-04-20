@@ -18,3 +18,5 @@ execute if block ~ ~ ~ red_stained_glass if entity @s[tag=ttb_tempite_wire_red] 
 execute if block ~ ~ ~ black_stained_glass if entity @s[tag=ttb_tempite_wire_black] run function ttb:block/tempite_wire/color/black
 
 execute if entity @s[tag=ttb_tempite_wire_glass_new] run function ttb:block/tempite_wire/color/glass
+
+function ttb:block/tempite_wire/add_decay
