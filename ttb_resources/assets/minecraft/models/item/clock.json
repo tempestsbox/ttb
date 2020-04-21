@@ -111,6 +111,12 @@
                 "custom_model_data": 6830007
             },
             "model": "ttb:item/mysterious_dust"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830008
+            },
+            "model": "ttb:item/tempest_pearl"
         }
     ]
 }
