@@ -12,3 +12,7 @@ execute if score @s ttb_slot_count matches 9 if score @s ttb_slot_size matches 1
 #relics
 execute if score @s ttb_slot_count matches 3 if score @s ttb_slot_size matches ..64 if block ~ ~ ~ barrel{Items:[{id:"minecraft:diamond",Slot:11b},{id:"minecraft:sea_lantern",Slot:12b},{id:"minecraft:diamond",Slot:13b}]} run function ttb:item/bright_relic/craft
 execute if score @s ttb_slot_count matches 3 if score @s ttb_slot_size matches ..64 if block ~ ~ ~ barrel{Items:[{id:"minecraft:diamond",Slot:11b},{id:"minecraft:ender_eye",Slot:12b},{id:"minecraft:diamond",Slot:13b}]} run function ttb:item/dark_relic/craft
+
+#crystals
+execute if score @s ttb_slot_count matches 5 if score @s ttb_slot_size matches 1 if block ~ ~ ~ barrel{Items:[{tag:{ttb:{item:"mysterious_dust"}},Slot:3b},{tag:{ttb:{item:"mysterious_dust"}},Slot:11b},{tag:{ttb:{item:"amethyst"}},Slot:12b},{tag:{ttb:{item:"mysterious_dust"}},Slot:13b},{tag:{ttb:{item:"mysterious_dust"}},Slot:21b}]} run function ttb:item/amethyst_crystal/craft
+execute if score @s ttb_slot_count matches 5 if score @s ttb_slot_size matches 1 if block ~ ~ ~ barrel{Items:[{tag:{ttb:{item:"mysterious_dust"}},Slot:3b},{tag:{ttb:{item:"mysterious_dust"}},Slot:11b},{tag:{ttb:{item:"vulcaanium"}},Slot:12b},{tag:{ttb:{item:"mysterious_dust"}},Slot:13b},{tag:{ttb:{item:"mysterious_dust"}},Slot:21b}]} run function ttb:item/vulcaanium_crystal/craft
