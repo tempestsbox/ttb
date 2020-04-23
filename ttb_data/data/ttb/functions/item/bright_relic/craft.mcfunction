@@ -1,3 +1,4 @@
-function ttb:block/tempest_crafter/gui/remove_items
 loot replace block ~ ~ ~ container.16 loot ttb:items/bright_relic
-data modify block ~ ~ ~ Items[{Slot:16b}].tag.ttb.crafting.multiplier set value 1
+
+function ttb:block/tempest_crafter/unstackable_craft
+function ttb:block/tempest_crafter/gui/subtract_items

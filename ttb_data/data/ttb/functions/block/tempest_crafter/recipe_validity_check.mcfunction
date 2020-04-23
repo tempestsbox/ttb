@@ -7,6 +7,17 @@ data remove block ~ ~ ~ Items[{Slot:0b}].tag.ttb.crafting.input[{Slot:9b}]
 
 execute store result score @s ttb_slot_count run data get block ~ ~ ~ Items[{Slot:0b}].tag.ttb.crafting.input
 
+#make recipe usable in recipe_check
+data modify block ~ ~ ~ Items[{Slot:0b}].tag.ttb.crafting.input[{Slot:2b}].Slot set value 0b
+data modify block ~ ~ ~ Items[{Slot:0b}].tag.ttb.crafting.input[{Slot:3b}].Slot set value 1b
+data modify block ~ ~ ~ Items[{Slot:0b}].tag.ttb.crafting.input[{Slot:4b}].Slot set value 2b
+data modify block ~ ~ ~ Items[{Slot:0b}].tag.ttb.crafting.input[{Slot:11b}].Slot set value 3b
+data modify block ~ ~ ~ Items[{Slot:0b}].tag.ttb.crafting.input[{Slot:12b}].Slot set value 4b
+data modify block ~ ~ ~ Items[{Slot:0b}].tag.ttb.crafting.input[{Slot:13b}].Slot set value 5b
+data modify block ~ ~ ~ Items[{Slot:0b}].tag.ttb.crafting.input[{Slot:20b}].Slot set value 6b
+data modify block ~ ~ ~ Items[{Slot:0b}].tag.ttb.crafting.input[{Slot:21b}].Slot set value 7b
+data modify block ~ ~ ~ Items[{Slot:0b}].tag.ttb.crafting.input[{Slot:22b}].Slot set value 8b
+
 #get number of items from first array element
 execute store result score first_stack_count ttb_slot_size run data get block ~ ~ ~ Items[{Slot:0b}].tag.ttb.crafting.input[0].Count
 
@@ -41,4 +52,4 @@ scoreboard players operation @s ttb_slot_size = first_stack_count ttb_slot_size
 execute if score @s ttb_slot_size matches 1.. run function ttb:block/tempest_crafter/recipe_check
 
 #check if one of the recipes succeeded
-execute if score @s ttb_slot_size matches 1.. if block ~ ~ ~ barrel{Items:[{tag:{ttb:{crafting:{}}}}]} run function ttb:block/tempest_crafter/apply_multiplier
+execute if score @s ttb_slot_size matches 1.. if data block ~ ~ ~ Items[].tag.ttb.crafting.multiplier run function ttb:block/tempest_crafter/apply_multiplier
