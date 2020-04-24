@@ -123,6 +123,12 @@
                 "custom_model_data": 6830009
             },
             "model": "ttb:item/mysterious_pearl"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830010
+            },
+            "model": "ttb:item/restoration_tome"
         }
     ]
 }

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:clock",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{item:\"restoration_tome\"},display:{Name:'{\"translate\":\"item.ttb.restoration_tome\",\"italic\":false}'},CustomModelData:6830010}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
