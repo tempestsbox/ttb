@@ -12,7 +12,7 @@
     ],
     "display": {
         "gui": {
-            "translation": [72, 29, -80],
+            "translation": [54, 29, -80],
             "scale": [3.66, 3.66, 3.66]
         },
         "ground": {

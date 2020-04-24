@@ -64,17 +64,13 @@ scoreboard objectives add ttb_ench_power dummy
 #initialise datas
 data modify storage ttb:block tempite_stone.Command set value "execute as @e[type=armor_stand,tag=ttb_tempite_stone,scores={ttb_tempite_amnt=4..},distance=...1,limit=1] run function ttb:block/tempite_stone/triggered"
 
-data modify storage ttb:block tempest_crafter.Items set value [{Slot:0b,id:barrier,Count:1},{Slot:1b,id:barrier,Count:1},{Slot:5b,id:barrier,Count:1},{Slot:6b,id:barrier,Count:1},{Slot:7b,id:barrier,Count:1},{Slot:8b,id:barrier,Count:1},{Slot:10b,id:barrier,Count:1},{Slot:14b,id:barrier,Count:1},{Slot:15b,id:barrier,Count:1},{Slot:17b,id:barrier,Count:1},{Slot:18b,id:barrier,Count:1},{Slot:19b,id:barrier,Count:1},{Slot:23b,id:barrier,Count:1},{Slot:24b,id:barrier,Count:1},{Slot:25b,id:barrier,Count:1},{Slot:26b,id:barrier,Count:1}]
-data modify storage ttb:block tempest_crafter.Items[].tag.ttb.gui_item set value 1b
-data modify storage ttb:block tempest_crafter.Items[].tag.display.Name set value '""'
-data modify storage ttb:block tempest_crafter.Items[].tag.CustomModelData set value 6830001
-data modify storage ttb:block tempest_crafter.Items[{Slot:0b}].tag.CustomModelData set value 6830012
+data modify storage ttb:block tempest_crafter.Items set value [{Slot:0b},{Slot:1b},{Slot:5b},{Slot:6b},{Slot:7b},{Slot:8b},{Slot:10b},{Slot:14b},{Slot:15b},{Slot:17b},{Slot:18b},{Slot:19b},{Slot:23b},{Slot:24b},{Slot:25b},{Slot:26b}]
+data modify storage ttb:block tempest_crafter.Items[] merge value {tag:{ttb:{gui_item:1b},display:{Name:'""'},CustomModelData:6830001},id:barrier,Count:1b}
+data modify storage ttb:block tempest_crafter.Items[{Slot:1b}].tag.CustomModelData set value 6830012
 
-data modify storage ttb:block machine.Items set value [{Slot:0b,id:barrier,Count:1},{Slot:1b,id:barrier,Count:1},{Slot:2b,id:barrier,Count:1},{Slot:5b,id:barrier,Count:1},{Slot:8b,id:barrier,Count:1},{Slot:9b,id:barrier,Count:1},{Slot:11b,id:barrier,Count:1},{Slot:14b,id:barrier,Count:1},{Slot:17b,id:barrier,Count:1},{Slot:18b,id:barrier,Count:1},{Slot:19b,id:barrier,Count:1},{Slot:20b,id:barrier,Count:1},{Slot:23b,id:barrier,Count:1},{Slot:26b,id:barrier,Count:1}]
-data modify storage ttb:block machine.Items[].tag.ttb.gui_item set value 1b
-data modify storage ttb:block machine.Items[].tag.display.Name set value '""'
-data modify storage ttb:block machine.Items[].tag.CustomModelData set value 6830001
-data modify storage ttb:block machine.Items[{Slot:0b}].tag.CustomModelData set value 6830015
+data modify storage ttb:block machine.Items set value [{Slot:0b},{Slot:1b},{Slot:2b},{Slot:5b},{Slot:8b},{Slot:9b},{Slot:11b},{Slot:14b},{Slot:17b},{Slot:18b},{Slot:19b},{Slot:20b},{Slot:23b},{Slot:26b}]
+data modify storage ttb:block machine.Items[] merge value {tag:{ttb:{gui_item:1b},display:{Name:'""'},CustomModelData:6830001},id:barrier,Count:1b}
+data modify storage ttb:block machine.Items[{Slot:1b}].tag.CustomModelData set value 6830015
 
 #trigger clocks
 function ttb:clock16t
