@@ -12,7 +12,7 @@ execute if data block ~ ~ ~ Items[{Slot:1b}].tag.ttb.crafting.input[{Slot:21b}] 
 execute if data block ~ ~ ~ Items[{Slot:1b}].tag.ttb.crafting.input[{Slot:22b}] run data modify block ~ ~ ~ Items[{Slot:1b}].tag.ttb.crafting.input[{Slot:22b}].Slot set value 8b
 
 #tempest crafter
-execute if score @s ttb_slot_count matches 9 if score @s ttb_slot_size matches ..64 if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{ttb:{crafting:{input:[{id:"minecraft:diamond",Slot:0b},{id:"minecraft:glass",Slot:1b},{id:"minecraft:diamond",Slot:2b},{id:"minecraft:gold_ingot",Slot:3b},{id:"minecraft:end_crystal",Slot:4b},{id:"minecraft:gold_ingot",Slot:5b},{id:"minecraft:obsidian",Slot:6b},{id:"minecraft:obsidian",Slot:7b},{id:"minecraft:obsidian",Slot:8b}]}}}}]} run function ttb:block/tempest_crafter/craft
+execute if score @s ttb_slot_count matches 9 if score @s ttb_slot_size matches ..64 if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{ttb:{crafting:{input:[{tag:{ttb:{item:"amethyst"}},Slot:0b},{id:"minecraft:glass",Slot:1b},{tag:{ttb:{item:"amethyst"}},Slot:2b},{id:"minecraft:crying_obsidian",Slot:3b},{id:"minecraft:end_crystal",Slot:4b},{id:"minecraft:crying_obsidian",Slot:5b},{id:"minecraft:gold_block",Slot:6b},{id:"minecraft:gold_block",Slot:7b},{id:"minecraft:gold_block",Slot:8b}]}}}}]} run function ttb:block/tempest_crafter/craft
 
 #staff recipes
 execute if score @s ttb_slot_count matches 7 if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{ttb:{crafting:{input:[{id:"minecraft:diamond",Slot:0b},{id:"minecraft:ender_eye",Slot:1b},{id:"minecraft:diamond",Slot:2b},{id:"minecraft:diamond",Slot:3b},{id:"minecraft:blaze_rod",Slot:4b},{id:"minecraft:diamond",Slot:5b},{id:"minecraft:blaze_rod",Slot:7b}]}}}}]} run function ttb:item/staff/craft
