@@ -23,4 +23,5 @@ scoreboard players add @s[predicate=ttb:entity/player/holding/netherknight_staff
 scoreboard players add @s[predicate=ttb:entity/player/holding/spirit_staff] ttb_staff_dur 50
 execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update
 
-clear @s[gamemode=!creative,gamemode=!spectator] clock{ttb:{item:"dark_relic"}} 1
+replaceitem entity @s weapon.offhand air
+loot give @s[gamemode=!survival,gamemode=!adventure] loot ttb:items/dark_relic

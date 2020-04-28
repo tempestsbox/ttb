@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/template/base",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "ttb:unstackable",
+                                    "attribute": "generic.armor",
+                                    "slot": "feet",
+                                    "amount": 0,
+                                    "operation": "addition"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags:2b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

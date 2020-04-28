@@ -4,8 +4,8 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:clock",
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/template/unstackable",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
