@@ -5,5 +5,3 @@ execute if entity @s[tag=ttb_create_vulcaanium_ore] run function ttb:block/vulca
 execute if entity @s[tag=ttb_create_breaker] run function ttb:block/breaker/create
 execute if entity @s[tag=ttb_create_tempest_crafter] run function ttb:block/tempest_crafter/create
 execute if entity @s[tag=ttb_create_tempite_stone] run function ttb:block/tempite_stone/create
-
-execute as @e[type=armor_stand,tag=ttb_block_directional,distance=...1,limit=1] at @s run function ttb:block/set_rotation
