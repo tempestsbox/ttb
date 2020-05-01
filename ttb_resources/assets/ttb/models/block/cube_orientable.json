@@ -5,8 +5,8 @@
         "east": "#side",
         "south": "#back",
         "west": "#side",
-        "up": "#top",
-        "down": "#bottom"
+        "up": "#up",
+        "down": "#down"
     },
     "display": {
         "firstperson_righthand": {

@@ -4,7 +4,7 @@
         "front": "ttb:block/breaker_front",
         "back": "ttb:block/breaker_back",
         "side": "ttb:block/breaker_side",
-        "top": "ttb:block/breaker_vertical",
-        "bottom": "ttb:block/breaker_vertical"
+        "up": "ttb:block/breaker_vertical",
+        "down": "ttb:block/breaker_vertical"
     }
 }
