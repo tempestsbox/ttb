@@ -15,14 +15,14 @@
                                     "condition": "minecraft:match_tool",
                                     "predicate": {
                                         "item": "minecraft:air",
-                                        "nbt": "{ttb:{shulker_box_loot:{drop_contents:1b}}}"
+                                        "nbt": "{drop_contents:1b}"
                                     }
                                 }
                             ]
                         },
                         {
                             "type": "minecraft:item",
-                            "name": "minecraft:black_shulker_box",
+                            "name": "minecraft:yellow_shulker_box",
                             "functions": [
                                 {
                                     "function": "minecraft:copy_name",

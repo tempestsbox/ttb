@@ -4,7 +4,7 @@
 forceload add ~ ~
 
 #get copy
-setblock ~ ~-1 ~ black_shulker_box{Items:[{Slot:0b,id:barrier,Count:1b,tag:{CustomModelData:6830001}}]}
+setblock ~ ~-1 ~ yellow_shulker_box{Items:[{Slot:0b,id:barrier,Count:1b,tag:{CustomModelData:6830001}}]}
 data modify block ~ ~-1 ~ Items[{Slot:0b}] set from entity @s SelectedItem
 
 #update copy
@@ -31,6 +31,6 @@ execute store result block ~ ~-1 ~ Items[{Slot:0b}].tag.Damage int 1 run scorebo
 tellraw @s[tag=ttb_debug] ["Staff durability: ",[{"nbt":"SelectedItem.tag.ttb.staff.durability","entity":"@s"},"/",{"nbt":"SelectedItem.tag.ttb.staff.max_durability","entity":"@s"}]]
 
 #post
-loot replace entity @s weapon.mainhand 1 mine ~ ~-1 ~ air{ttb:{shulker_box_loot:{drop_contents:1b}}}
+loot replace entity @s weapon.mainhand 1 mine ~ ~-1 ~ air{drop_contents:1b}
 setblock ~ ~-1 ~ air
 forceload remove ~ ~
