@@ -21,4 +21,5 @@ scoreboard players remove @s[scores={ttb_ascended=6}] ttb_tempite_amnt 18
 function ttb:block/breaker/cost/enchantments_reduced
 function ttb:block/breaker/cost/enchantments_ascended
 
+scoreboard players operation tempite_amnt_temp ttb_data = @s ttb_tempite_amnt
 execute if score @s ttb_tempite_amnt matches ..-1 run function ttb:block/breaker/cost/reverse/all
