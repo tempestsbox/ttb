@@ -13,6 +13,8 @@
         "minecraft:netherrack",
         "minecraft:end_stone",
         "minecraft:snow",
-        "minecraft:magma_block"
+        "minecraft:magma_block",
+        "minecraft:basalt",
+        "minecraft:blackstone"
     ]
 }
