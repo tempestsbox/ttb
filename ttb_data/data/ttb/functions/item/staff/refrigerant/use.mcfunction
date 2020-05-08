@@ -12,7 +12,9 @@ effect give @e[type=!#ttb:item/staff/refrigerant/no_target,distance=..6] slownes
 fill ~-6 ~-6 ~-6 ~6 ~4 ~6 ice replace water
 fill ~-6 ~-4 ~-6 ~6 ~4 ~6 cobblestone replace magma_block
 fill ~-6 ~-4 ~-6 ~6 ~4 ~6 magma_block replace lava
+
 fill ~-2 ~ ~-2 ~2 ~ ~2 snow keep
+execute positioned ~2 ~ ~2 if block ~ ~ ~ snow if block ~ ~-1 ~ #ttb:block/replace_on_creation run setblock ~ ~ ~ air
 
 #depletion
 execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update
