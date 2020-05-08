@@ -1,7 +1,7 @@
 #called by tick
 
 #world generation
-execute unless entity @s[tag=ttb_world_gen_disabled] if block ~ 0 ~ bedrock align xz run function ttb:world/generation/chunk/init
+execute unless entity @s[tag=ttb_world_gen_disabled] if predicate ttb:entity/function/location_check/dimension/overworld if block ~ 0 ~ bedrock align xz run function ttb:world/generation/chunk/init
 # --> entity/area_effect_cloud/tick
 
 #usages
