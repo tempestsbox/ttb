@@ -11,7 +11,6 @@ execute unless entity @a[limit=1] run say TTB: Loaded
 ## data
 scoreboard objectives add ttb_data dummy
 scoreboard players set active_chunks_max ttb_data 24
-scoreboard objectives add ttb_biome dummy
 scoreboard objectives add ttb_model_cmd dummy
 ## custom crafting
 scoreboard objectives add ttb_slot_count dummy

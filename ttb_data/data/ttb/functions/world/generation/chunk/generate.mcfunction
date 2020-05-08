@@ -1,11 +1,9 @@
 #called by entity/area_effect_cloud/tick
 
-#get the biome type
-scoreboard players reset * ttb_biome
-execute positioned ~8 -1000 ~8 run function ttb:world/generation/chunk/scan
-
+#spawn structure markers
+execute if predicate ttb:world/biome/snowy run function ttb:world/structure/check_spawn/snowy
 #try to spawn a structure before any chunk modifications have been done
-execute if block ~ ~2 ~ bedrock run function ttb:world/generation/chunk/structure_check
+execute as @e[type=area_effect_cloud,tag=ttb_structure,distance=...1] run function ttb:world/generation/chunk/structure_check
 
 #mark the chunk as generated
 fill ~ 0 ~ ~15 0 ~15 barrier replace bedrock

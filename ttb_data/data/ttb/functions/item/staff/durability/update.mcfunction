@@ -4,7 +4,7 @@
 forceload add ~ ~
 
 #get copy
-setblock ~ ~-1 ~ yellow_shulker_box{Items:[{Slot:0b,id:barrier,Count:1b,tag:{CustomModelData:6830001}}]}
+setblock ~ ~-1 ~ yellow_shulker_box{Items:[{Slot:0b,id:"barrier",Count:1b,tag:{CustomModelData:6830001}}]}
 data modify block ~ ~-1 ~ Items[{Slot:0b}] set from entity @s SelectedItem
 
 #update copy
