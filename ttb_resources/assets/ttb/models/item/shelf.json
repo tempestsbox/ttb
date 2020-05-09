@@ -1,0 +1,35 @@
+{
+    "parent": "ttb:block/shelf",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [0, 0, 90],
+            "translation": [0.5, 0, -6.25]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [0, 0, 90],
+            "translation": [0.5, 0, -6.5]
+        },
+        "firstperson_righthand": {
+            "rotation": [0, 0, -62.75],
+            "translation": [-1.75, 5.25, -0.75],
+            "scale": [0.6, 0.6, 0.6]
+        },
+        "firstperson_lefthand": {
+            "rotation": [0, 0, -62.75],
+            "translation": [-1.75, 5.25, -0.75],
+            "scale": [0.6, 0.6, 0.6]
+        },
+        "ground": {
+            "translation": [0.25, 0, -6],
+            "scale": [0.75, 0.75, 0.75]
+        },
+        "head": {
+            "translation": [0, -2, -12.5],
+            "scale": [0.75, 0.75, 0.75]
+        },
+        "fixed": {
+            "rotation": [0, 0, 90],
+            "translation": [0, 0, -9.25]
+        }
+    }
+}

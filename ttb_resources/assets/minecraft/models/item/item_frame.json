@@ -1,8 +1,5 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/item_frame"
-    },
+    "parent": "ttb:item/shelf",
     "overrides": [
         {
             "predicate": {
