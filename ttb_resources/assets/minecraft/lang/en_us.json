@@ -1,0 +1,11 @@
+{
+    "item.minecraft.item_frame": "Shelf",
+
+    "entity.minecraft.item_frame": "Shelf",
+
+    "subtitles.entity.item_frame.add_item": "Shelf fills",
+    "subtitles.entity.item_frame.break": "Shelf breaks",
+    "subtitles.entity.item_frame.place": "Shelf placed",
+    "subtitles.entity.item_frame.remove_item": "Shelf empties",
+    "subtitles.entity.item_frame.rotate_item": "Shelf clicks"
+}
