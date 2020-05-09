@@ -10,6 +10,7 @@ execute unless entity @a[limit=1] run say TTB: Loaded
 #initialise scoreboard data
 ## data
 scoreboard objectives add ttb_data dummy
+execute store result score seed ttb_data run seed
 scoreboard players set active_chunks_max ttb_data 24
 scoreboard objectives add ttb_model_cmd dummy
 ## custom crafting
@@ -70,6 +71,8 @@ data modify storage ttb:block tempest_crafter.Items[{Slot:1b}].tag.CustomModelDa
 data modify storage ttb:block machine.Items set value [{Slot:0b},{Slot:1b},{Slot:2b},{Slot:5b},{Slot:8b},{Slot:9b},{Slot:11b},{Slot:14b},{Slot:17b},{Slot:18b},{Slot:19b},{Slot:20b},{Slot:23b},{Slot:26b}]
 data modify storage ttb:block machine.Items[] merge value {tag:{ttb:{gui_item:1b},display:{Name:'""'},CustomModelData:6830001},id:barrier,Count:1b}
 data modify storage ttb:block machine.Items[{Slot:1b}].tag.CustomModelData set value 6830015
+
+data modify storage ttb:world structure.dungeon.room_check_result set value [{id:''}]
 
 #trigger clocks
 function ttb:clock16t

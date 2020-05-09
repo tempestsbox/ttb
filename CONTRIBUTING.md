@@ -1,4 +1,4 @@
-# Contributing to TTB: Reborn
+# Contributing to TTB
 
 ## Folder Format
 - Blocks: `block/<block>/`
