@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:command_block",
+        "minecraft:redstone_block",
+        "minecraft:structure_block"
+    ]
+}
