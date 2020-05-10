@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow_pulling_0",
+    "textures": {
+        "layer0": "ttb:item/quick_bow_pulling_0"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:red_wool"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_wool"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_wool"
+                }
+            ]
+        }
+    ]
+}
