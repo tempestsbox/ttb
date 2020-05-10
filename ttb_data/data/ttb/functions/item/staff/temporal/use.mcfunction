@@ -5,7 +5,7 @@ playsound entity.wither.death player @a[distance=..32] ~ ~ ~ 2 2 1
 particle enchant ~ ~ ~ .5 .5 .5 1 500 normal @a
 particle flame ~ ~ ~ .5 .5 .5 1 500 normal @a
 
-tellraw @a [{"selector":"@s","color":"yellow","italic":true}," ",{"translate":"item.ttb.staff.temporal.sped_up_time","color":"yellow","italic":true}]
+tellraw @a [{"translate":"item.ttb.staff.temporal.sped_up_time","with":[{"selector":"@s"}],"color":"yellow","italic":true}]
 
 #functionality
 time add 6000
