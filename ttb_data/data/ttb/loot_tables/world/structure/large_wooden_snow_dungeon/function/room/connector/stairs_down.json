@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/terminator_flowers_red'}}}}"
+                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/terminator_flowers_red',shift_y:-1}}}}"
                         }
                     ]
                 },
@@ -19,7 +19,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/terminator_flowers_blue'}}}}"
+                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/terminator_flowers_blue',shift_y:-1}}}}"
                         }
                     ]
                 },
@@ -29,7 +29,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/terminator_flowers_yellow'}}}}"
+                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/terminator_flowers_yellow',shift_y:-1}}}}"
                         }
                     ]
                 },
@@ -39,7 +39,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/stairs_up_3x4'}}}}"
+                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/stairs_up_3x4',shift_y:-1}}}}"
                         }
                     ]
                 },
@@ -49,16 +49,26 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/corridor_initial'}}}}"
+                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/stairs_down_3x4',shift_y:-2}}}}"
                         }
-                    ],
-                    "weight": 3
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:empty",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/corridor',shift_y:-1}}}}"
+                        }
+                    ]
                 }
             ],
             "functions": [
                 {
                     "function": "minecraft:set_nbt",
-                    "tag": "{ttb:{world:{structure:{relative_width:5,shift_y:-1}}}}"
+                    "tag": "{ttb:{world:{structure:{relative_width:5}}}}"
                 }
             ]
         }
