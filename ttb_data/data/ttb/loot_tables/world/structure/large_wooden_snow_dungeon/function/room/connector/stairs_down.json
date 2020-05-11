@@ -42,6 +42,17 @@
                             "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/stairs_up_3x4'}}}}"
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:empty",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/corridor_initial'}}}}"
+                        }
+                    ],
+                    "weight": 3
                 }
             ],
             "functions": [
