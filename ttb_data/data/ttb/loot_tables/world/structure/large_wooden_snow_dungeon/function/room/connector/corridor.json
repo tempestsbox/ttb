@@ -10,19 +10,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "ttb:empty",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/stairs_up_3x4'}}}}"
-                        }
-                    ]
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{ttb:{world:{structure:{relative_width:5}}}}"
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/stairs_up_3x4"
                 }
             ]
         }
