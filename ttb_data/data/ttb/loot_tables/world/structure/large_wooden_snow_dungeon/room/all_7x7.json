@@ -1,0 +1,89 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_arena"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_conference"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_couch"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_crystals"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_dead_bush"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_dorm"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_explosives"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_flora"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_flower"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_fossil"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_lamp"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_library"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_memoriam"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_podium"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_smeltery"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_stalactites"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_stock"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_storage"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_trapped"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/7x7_wood"
+                }
+            ]
+        }
+    ]
+}

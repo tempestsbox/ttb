@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/7x7_library'}}}}"
+                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/7x7_stock'}}}}"
                         }
                     ]
                 }
