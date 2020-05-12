@@ -61,6 +61,10 @@ scoreboard objectives add ttb_ench_smelt dummy
 scoreboard objectives add ttb_ench_wither dummy
 scoreboard objectives add ttb_ench_power dummy
 
+#initialise teams
+team add ttb_mob
+team modify ttb_mob nametagVisibility never
+
 #initialise datas
 data modify storage ttb:block tempite_stone.Command set value "execute as @e[type=armor_stand,tag=ttb_tempite_stone,scores={ttb_tempite_amnt=4..},distance=...1,limit=1] run function ttb:block/tempite_stone/triggered"
 
