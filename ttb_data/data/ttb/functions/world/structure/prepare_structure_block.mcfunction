@@ -4,6 +4,5 @@ execute if data storage ttb:world structure.dungeon.get_room_result[0].relative_
 
 execute if data storage ttb:world structure.dungeon.get_room_result[0].shift_y store result block ~ ~ ~ posY int 1 run data get storage ttb:world structure.dungeon.get_room_result[0].shift_y
 
-data modify storage ttb:world structure.orientation set value [{id:""}]
 data remove storage ttb:world structure.dungeon.get_room_result[0].shift_y
 data remove storage ttb:world structure.dungeon.get_room_result[0].relative_width
