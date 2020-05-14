@@ -12,4 +12,4 @@ fill ~ 0 ~ ~15 0 ~15 barrier replace bedrock
 execute store result score active_chunks ttb_data if entity @e[type=area_effect_cloud,tag=ttb_chunk]
 execute if score active_chunks ttb_data < active_chunks_max ttb_data run function ttb:world/generation/chunk/spread
 
-kill @s[type=!player]
+kill @s[type=area_effect_cloud]
