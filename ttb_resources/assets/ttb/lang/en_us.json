@@ -13,6 +13,8 @@
     "text.ttb.world_generation.warn": "You may lag while terrain is being generated!",
     "text.ttb.world_generation.done": "World generation - done!",
 
+    "structure.ttb.large_wooden_snow_dungeon": "Deadlock Lair",
+
     "block.ttb.amethyst_ore": "Amethyst Ore",
     "block.ttb.vulcaanium_ore": "Vulcaanium Ore",
     "block.ttb.tempest_crafter": "Tempest Crafter",
