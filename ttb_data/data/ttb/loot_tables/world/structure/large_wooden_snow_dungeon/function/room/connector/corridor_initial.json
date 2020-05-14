@@ -5,19 +5,11 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/terminator_flowers_red"
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/terminator_flowers_blue"
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/terminator_flowers_yellow"
-                },
-                {
-                    "type": "minecraft:loot_table",
                     "name": "ttb:world/structure/large_wooden_snow_dungeon/room/stairs_down_3x4"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/corridor"
                 }
             ]
         }
