@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/quick_bow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "ttb:movement_speed",
+                                    "attribute": "generic.movement_speed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": 0.1,
+                                        "max": 0.25
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

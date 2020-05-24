@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"translate\":\"item.ttb.levitation_arrow\",\"italic\":false}'},CustomPotionEffects:[{Id:25,Amplifier:0,Duration:400}],CustomPotionColor:5493990}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/attributed/optimism"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/attributed/quick_boots",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/attributed/quick_bow",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/attributed/quick_sword",
+                    "weight": 2
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_damage",
+                    "damage": {
+                        "min": 0.20,
+                        "max": 0.35
+                    }
+                }
+            ]
+        }
+    ]
+}

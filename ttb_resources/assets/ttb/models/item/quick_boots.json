@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "ttb:item/quick_boots",
+        "layer1": "ttb:item/quick_boots_overlay"
+    }
+}

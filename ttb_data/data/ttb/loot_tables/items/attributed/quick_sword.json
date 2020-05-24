@@ -1,0 +1,50 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/quick_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "ttb:movement_speed",
+                                    "attribute": "generic.movement_speed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": 0.1,
+                                        "max": 0.3
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "ttb:attack_damage",
+                                    "attribute": "generic.attack_damage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 4,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "ttb:attack_speed",
+                                    "attribute": "generic.attack_speed",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -1,
+                                        "max": 0.5
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

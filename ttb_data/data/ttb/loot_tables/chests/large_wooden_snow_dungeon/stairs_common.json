@@ -2,19 +2,28 @@
     "type": "minecraft:chest",
     "pools": [
         {
-            "rolls": 1,
+            "rolls": 5,
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_wool"
+                    "name": "minecraft:cobweb"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:green_wool"
+                    "name": "minecraft:coal"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:blue_wool"
+                    "name": "minecraft:snowball"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 4
+                    }
                 }
             ]
         }
