@@ -5,12 +5,12 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "ttb:items/staff/common",
+                    "name": "ttb:items/staff/crafting/common",
                     "weight": 4
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "ttb:items/staff/rare"
+                    "name": "ttb:items/staff/crafting/rare"
                 }
             ]
         }
