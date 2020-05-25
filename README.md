@@ -8,5 +8,5 @@ This project is an update of [Zoey's](https://tempestsbox.github.io/faq#Who-is-Z
 https://tempestsbox.github.io
 
 ### Troubleshooting and Reporting Issues
-Before reporting: Try if you can reproduce your issue when using a freshly setup world using the latest version of Minecraft in vanilla, TTB: Reborn (with default configuration), and no other data packs. This can already give insights on whether your version (TTB: Reborn actively supports 1.16+) or another data pack is involved in the issue.
+Before reporting: Try if you can reproduce your issue when using a freshly setup world using the latest version of Minecraft in vanilla, TTB (with default configuration), and no other data packs. This can already give insights on whether your version (TTB actively supports 1.16+) or another data pack is involved in the issue.
 When reporting: You can submit a bug report through the [issue tracker](https://github.com/tempestsbox/ttb/issues).
