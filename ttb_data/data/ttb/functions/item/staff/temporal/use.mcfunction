@@ -1,7 +1,7 @@
 #called by item/staff/check_staff
 
 #audiovisuals
-playsound entity.wither.death player @a[distance=..32] ~ ~ ~ 2 2 1
+playsound block.bell.resonate player @a[distance=..32] ~ ~ ~ 2 2 1
 particle enchant ~ ~ ~ .5 .5 .5 1 500 normal @a
 particle flame ~ ~ ~ .5 .5 .5 1 500 normal @a
 
