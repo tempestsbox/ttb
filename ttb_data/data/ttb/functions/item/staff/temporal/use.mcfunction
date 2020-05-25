@@ -13,4 +13,4 @@ time add 6000
 #depletion
 execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update
 
-spreadplayers ~ ~ 0 36 true @e[type=!player,type=!#ttb:sprite,distance=..32]
+execute as @e[type=!player,type=!#ttb:sprite,distance=..32] positioned ~-15 ~-4 ~-15 if entity @s[dx=31,dy=8,dz=31] at @s run spreadplayers ~ ~ 0 9 false @s
