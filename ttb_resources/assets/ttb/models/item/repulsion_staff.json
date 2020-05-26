@@ -1,3 +1,222 @@
 {
-    "parent": "item/carrot_on_a_stick"
+    "textures": {
+        "texture": "ttb:item/repulsion_staff",
+        "repulse": "ttb:item/repulsion_staff_repulse"
+    },
+    "elements": [
+        {
+            "name": "gem",
+            "from": [6, 22, 6],
+            "to": [10, 28, 10],
+            "rotation": { "angle": 0, "axis": "y", "origin": [14, 30, 14] },
+            "faces": {
+                "north": { "uv": [8, 5, 12, 11], "texture": "#texture" },
+                "east": { "uv": [8, 5, 12, 11], "texture": "#texture" },
+                "south": { "uv": [8, 5, 12, 11], "texture": "#texture" },
+                "west": { "uv": [8, 5, 12, 11], "texture": "#texture" },
+                "up": { "uv": [8, 1, 12, 5], "texture": "#texture" },
+                "down": { "uv": [12, 1, 16, 5], "texture": "#texture" }
+            }
+        },
+        {
+            "name": "north",
+            "from": [0, 21, -8],
+            "to": [16, 21, 8],
+            "rotation": { "angle": 22.5, "axis": "x", "origin": [8, 21, 8] },
+            "faces": {
+                "north": {
+                    "uv": [0, 0, 16, 0],
+                    "rotation": 180,
+                    "texture": "#repulse"
+                },
+                "east": {
+                    "uv": [0, 0, 16, 0],
+                    "rotation": 180,
+                    "texture": "#repulse"
+                },
+                "south": {
+                    "uv": [0, 0, 16, 0],
+                    "rotation": 180,
+                    "texture": "#repulse"
+                },
+                "west": {
+                    "uv": [0, 0, 16, 0],
+                    "rotation": 180,
+                    "texture": "#repulse"
+                },
+                "up": {
+                    "uv": [0, 0, 16, 16],
+                    "rotation": 180,
+                    "texture": "#repulse"
+                },
+                "down": {
+                    "uv": [0, 16, 16, 0],
+                    "rotation": 180,
+                    "texture": "#repulse"
+                }
+            }
+        },
+        {
+            "name": "east",
+            "from": [8, 21, 0],
+            "to": [24, 21, 16],
+            "rotation": { "angle": 22.5, "axis": "z", "origin": [8, 21, 8] },
+            "faces": {
+                "north": {
+                    "uv": [0, 0, 16, 0],
+                    "rotation": 270,
+                    "texture": "#repulse"
+                },
+                "east": {
+                    "uv": [0, 0, 16, 0],
+                    "rotation": 270,
+                    "texture": "#repulse"
+                },
+                "south": {
+                    "uv": [0, 0, 16, 0],
+                    "rotation": 270,
+                    "texture": "#repulse"
+                },
+                "west": {
+                    "uv": [0, 0, 16, 0],
+                    "rotation": 270,
+                    "texture": "#repulse"
+                },
+                "up": {
+                    "uv": [0, 0, 16, 16],
+                    "rotation": 270,
+                    "texture": "#repulse"
+                },
+                "down": {
+                    "uv": [0, 0, 16, 16],
+                    "rotation": 270,
+                    "texture": "#repulse"
+                }
+            }
+        },
+        {
+            "name": "south",
+            "from": [0, 21, 8],
+            "to": [16, 21, 24],
+            "rotation": { "angle": -22.5, "axis": "x", "origin": [8, 21, 8] },
+            "faces": {
+                "north": { "uv": [0, 0, 16, 0], "texture": "#repulse" },
+                "east": { "uv": [0, 0, 16, 0], "texture": "#repulse" },
+                "south": { "uv": [0, 0, 16, 0], "texture": "#repulse" },
+                "west": { "uv": [0, 0, 16, 0], "texture": "#repulse" },
+                "up": { "uv": [0, 0, 16, 16], "texture": "#repulse" },
+                "down": { "uv": [0, 16, 16, 0], "texture": "#repulse" }
+            }
+        },
+        {
+            "name": "west",
+            "from": [-8, 21, 0],
+            "to": [8, 21, 16],
+            "rotation": { "angle": -22.5, "axis": "z", "origin": [8, 21, 8] },
+            "faces": {
+                "north": {
+                    "uv": [0, 0, 16, 0],
+                    "rotation": 90,
+                    "texture": "#repulse"
+                },
+                "east": {
+                    "uv": [0, 0, 16, 0],
+                    "rotation": 90,
+                    "texture": "#repulse"
+                },
+                "south": {
+                    "uv": [0, 0, 16, 0],
+                    "rotation": 90,
+                    "texture": "#repulse"
+                },
+                "west": {
+                    "uv": [0, 0, 16, 0],
+                    "rotation": 90,
+                    "texture": "#repulse"
+                },
+                "up": {
+                    "uv": [0, 0, 16, 16],
+                    "rotation": 90,
+                    "texture": "#repulse"
+                },
+                "down": {
+                    "uv": [0, 0, 16, 16],
+                    "rotation": 90,
+                    "texture": "#repulse"
+                }
+            }
+        },
+        {
+            "name": "top",
+            "from": [7, 6, 7],
+            "to": [9, 22, 9],
+            "rotation": { "angle": 0, "axis": "y", "origin": [15, 14, 15] },
+            "faces": {
+                "north": { "uv": [0, 0, 2, 16], "texture": "#texture" },
+                "east": { "uv": [0, 0, 2, 16], "texture": "#texture" },
+                "south": { "uv": [0, 0, 2, 16], "texture": "#texture" },
+                "west": { "uv": [0, 0, 2, 16], "texture": "#texture" },
+                "up": { "uv": [0, 0, 2, 2], "texture": "#texture" },
+                "down": { "uv": [0, 0, 2, 2], "texture": "#texture" }
+            }
+        },
+        {
+            "name": "bottom",
+            "from": [7, -10, 7],
+            "to": [9, 6, 9],
+            "rotation": { "angle": 0, "axis": "y", "origin": [15, -2, 15] },
+            "faces": {
+                "north": { "uv": [0, 0, 2, 16], "texture": "#texture" },
+                "east": { "uv": [0, 0, 2, 16], "texture": "#texture" },
+                "south": { "uv": [0, 0, 2, 16], "texture": "#texture" },
+                "west": { "uv": [0, 0, 2, 16], "texture": "#texture" },
+                "up": { "uv": [0, 0, 2, 2], "texture": "#texture" },
+                "down": { "uv": [0, 0, 2, 2], "texture": "#texture" }
+            }
+        }
+    ],
+    "groups": [
+        0,
+        {
+            "name": "repulse",
+            "origin": [8, 21, 8],
+            "children": [1, 2, 3, 4]
+        },
+        {
+            "name": "stick",
+            "origin": [15, -2, 15],
+            "children": [5, 6]
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "translation": [0, 0, 1.5]
+        },
+        "thirdperson_lefthand": {
+            "translation": [0, 0, 1.5]
+        },
+        "firstperson_righthand": {
+            "rotation": [-10, 20, 11],
+            "translation": [1.25, 4, 1.75],
+            "scale": [0.5, 0.5, 0.5]
+        },
+        "firstperson_lefthand": {
+            "rotation": [-10, 20, 11],
+            "translation": [1.25, 4, 1.75],
+            "scale": [0.5, 0.5, 0.5]
+        },
+        "ground": {
+            "rotation": [35, 0, 0],
+            "scale": [0.75, 0.75, 0.75]
+        },
+        "gui": {
+            "rotation": [18, 33, -13],
+            "translation": [0, -0.5, 0],
+            "scale": [0.4, 0.4, 0.4]
+        },
+        "fixed": {
+            "translation": [0, 0, -3],
+            "scale": [0.5, 0.5, 0.5]
+        }
+    }
 }
