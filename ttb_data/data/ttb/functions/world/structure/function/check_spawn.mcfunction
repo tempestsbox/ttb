@@ -1,8 +1,10 @@
-#called by entity/area_effect_cloud/tick
+#called by world/generation/chunk/generate
 
-execute if entity @s[tag=ttb_structure_large_wooden_snow_dungeon] positioned ~-8 ~-14 ~-8 run function ttb:world/structure/large_wooden_snow_dungeon/create
+#structure type get
+summon area_effect_cloud ~ ~ ~ {Tags:["ttb_temp"],CustomName:'"ttb_temp"'}
+execute as @e[type=area_effect_cloud,tag=ttb_temp,distance=...1,limit=1] positioned 29999984 253 29999984 run function ttb:world/structure/function/check_spawn_post
 
-#debug message
-tellraw @a[tag=ttb_debug] [{"nbt":"Tags","entity":"@s"}," ",{"nbt":"Pos","entity":"@s"}]
-#remove entity
-tag @s[type=!player] add ttb_remove
+#structure type check
+execute if data storage ttb:world structure.get_spawn_result[0].id run function ttb:world/structure/function/summon_structure_marker
+
+data remove storage ttb:world structure.get_spawn_result

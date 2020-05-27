@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/template_11x11",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{structure:{id:'ttb:large_wooden_snow_dungeon/11x11_spin'}}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,6 +1,6 @@
-#called by world/structure/function/check_spawn
+#called by world/structure/function/check_structure
 
-function ttb:world/structure/prepare_structure_block
+function ttb:world/structure/function/prepare_structure_block
 data modify block ~ ~ ~ name set value "ttb:large_wooden_snow_dungeon/lookout"
 setblock ~ ~1 ~ redstone_block
 

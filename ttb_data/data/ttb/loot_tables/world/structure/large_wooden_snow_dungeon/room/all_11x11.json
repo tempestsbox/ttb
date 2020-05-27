@@ -1,0 +1,85 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_banners"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_cafe"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_cauldrons"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_fell"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_fountain"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_glass_cage"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_library"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_memoriam"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_nostalgia"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_portioned"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_pristine"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_red"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_rock"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_skulls"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_spider"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_spin"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_statue"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_storage"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/11x11_tempite"
+                }
+            ]
+        }
+    ]
+}

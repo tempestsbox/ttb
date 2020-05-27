@@ -1,0 +1,89 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x14_crystals"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_brewing"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_camp"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_checkerboard"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_concrete"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_confusion"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_glass"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_ice_arc"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_ice"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_library"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_purple"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_smeltery"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_snow"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_soldiers"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_spawner"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_terracotta_podium"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_terracotta"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_throne"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_throne2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/15x15_utilities"
+                }
+            ]
+        }
+    ]
+}

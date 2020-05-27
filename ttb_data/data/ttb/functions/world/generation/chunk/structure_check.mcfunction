@@ -13,4 +13,4 @@ tag @s add ttb_structure_invalid
 execute at @s unless block ~ ~-1 ~ #leaves unless block ~ ~-2 ~ #leaves unless block ~ ~-2 ~ water run tag @s remove ttb_structure_invalid
 
 #spawn structures
-# --> entity/area_effect_cloud/tick -> world/structure/function/check_spawn
+# --> entity/area_effect_cloud/tick -> world/structure/function/check_structure

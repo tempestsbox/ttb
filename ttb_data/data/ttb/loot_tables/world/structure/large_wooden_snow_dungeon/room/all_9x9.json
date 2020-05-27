@@ -1,0 +1,89 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_brewing"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_broken_cage"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_cage"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_conference"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_crystal_trees"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_flowers"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_henge"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_hex"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_kitchen"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_kitchen2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_lantern"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_music"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_rails"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_redstone"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_saplings"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_smeltery"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_spooky"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_squid"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_stairs"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/large_wooden_snow_dungeon/room/9x9_water"
+                }
+            ]
+        }
+    ]
+}
