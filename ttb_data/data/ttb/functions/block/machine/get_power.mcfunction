@@ -1,15 +1,7 @@
 #called by block/machine/color_check
 
-scoreboard players set store ttb_ench_level 0
-scoreboard players set @s ttb_ench_level 0
 scoreboard players set @s ttb_ascended 0
 scoreboard players set @s ttb_reduced 0
-scoreboard players set @s ttb_ench_quarry 0
-scoreboard players set @s ttb_ench_wither 0
-scoreboard players set @s ttb_ench_fortune 0
-scoreboard players set @s ttb_ench_silk 0
-scoreboard players set @s ttb_ench_smelt 0
-scoreboard players set @s ttb_ench_power 0
 
 execute if data block ~ ~ ~ Items[{tag:{ttb:{item:"vulcaanium_crystal"}}}] run function ttb:block/machine/get_power_vulcaanium
 

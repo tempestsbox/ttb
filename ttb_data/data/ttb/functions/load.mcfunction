@@ -53,14 +53,6 @@ scoreboard objectives add ttb_tempite_deca dummy
 scoreboard players set $max ttb_tempite_deca 32
 scoreboard objectives add ttb_ascended dummy
 scoreboard objectives add ttb_reduced dummy
-scoreboard objectives add ttb_ench_level dummy
-scoreboard objectives add ttb_ench_store dummy
-scoreboard objectives add ttb_ench_quarry dummy
-scoreboard objectives add ttb_ench_fortune dummy
-scoreboard objectives add ttb_ench_silk dummy
-scoreboard objectives add ttb_ench_smelt dummy
-scoreboard objectives add ttb_ench_wither dummy
-scoreboard objectives add ttb_ench_power dummy
 
 #initialise teams
 team add ttb_mob
