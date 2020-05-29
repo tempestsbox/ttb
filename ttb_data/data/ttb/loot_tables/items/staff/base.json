@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:\"staff\"},RepairCost:999999}"
+                            "tag": "{ttb:{item:'staff'},RepairCost:999999}"
                         }
                     ]
                 }

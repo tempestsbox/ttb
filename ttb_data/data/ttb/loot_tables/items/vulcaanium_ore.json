@@ -4,12 +4,12 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:item_frame",
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/template/block",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EntityTag:{Tags:[\"ttb_create_entity\",\"ttb_create_vulcaanium_ore\"],Invulnerable:1,Silent:1,CustomName:'\"ttb_create_vulcaanium_ore\"'},display:{Name:'{\"translate\":\"block.ttb.vulcaanium_ore\",\"italic\":false}'},ttb:{item:\"vulcaanium_ore\"},CustomModelData:6830002}"
+                            "tag": "{EntityTag:{Tags:['ttb_create_entity','ttb_create_vulcaanium_ore'],CustomName:'\"ttb_create_vulcaanium_ore\"'},display:{Name:'{\"translate\":\"block.ttb.vulcaanium_ore\",\"italic\":false}'},ttb:{item:'vulcaanium_ore'},CustomModelData:6830002}"
                         }
                     ]
                 }

@@ -1,0 +1,29 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "ttb:block/check_spawner_item/tool/wooden_pickaxe"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "ttb:block/check_spawner_item/tool/stone_pickaxe"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "ttb:block/check_spawner_item/tool/iron_pickaxe"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "ttb:block/check_spawner_item/tool/golden_pickaxe"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "ttb:block/check_spawner_item/tool/diamond_pickaxe"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "ttb:block/check_spawner_item/tool/netherite_pickaxe"
+        }
+    ]
+}

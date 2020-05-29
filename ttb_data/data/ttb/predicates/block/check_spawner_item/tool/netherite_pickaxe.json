@@ -1,0 +1,7 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": "{Item:{tag:{ttb:{spawner:{tool:{id:\"minecraft:netherite_pickaxe\"}}}}}}"
+    }
+}

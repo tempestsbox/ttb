@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:\"bright_relic\"},display:{Name:'[{\"translate\":\"item.ttb.bright_relic\",\"italic\":false}]'},CustomModelData:6830003}"
+                            "tag": "{ttb:{item:'bright_relic'},display:{Name:'[{\"translate\":\"item.ttb.bright_relic\",\"italic\":false}]'},CustomModelData:6830003}"
                         }
                     ]
                 }

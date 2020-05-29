@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EntityTag:{Tags:[\"ttb_tempite_insulator\"],Invulnerable:1,Silent:1,Invisible:1b,Fixed:1b,CustomName:'\"ttb_tempite_insulator\"',Item:{id:item_frame,Count:1,tag:{CustomModelData:6830007}}},display:{Name:'{\"translate\":\"block.ttb.tempite_insulator\",\"italic\":false}'},ttb:{item:\"tempite_insulator\"},CustomModelData:6830007}"
+                            "tag": "{EntityTag:{Tags:[\"ttb_tempite_insulator\"],Invulnerable:1,Silent:1,Invisible:1b,Fixed:1b,CustomName:'\"ttb_tempite_insulator\"',Item:{id:item_frame,Count:1,tag:{CustomModelData:6830007}}},display:{Name:'{\"translate\":\"block.ttb.tempite_insulator\",\"italic\":false}'},ttb:{item:'tempite_insulator'},CustomModelData:6830007}"
                         }
                     ]
                 }

@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:\"regressed_spawn_egg\"},CustomModelData:6830001,display:{Lore:['{\"translate\":\"item.ttb.staff.harvest.regressed_spawn_egg.lore\"}']},EntityTag:{Tags:[\"ttb_no_check\"],IsBaby:1,Age:-20000}}"
+                            "tag": "{ttb:{item:'regressed_spawn_egg'},CustomModelData:6830001,display:{Lore:['{\"translate\":\"item.ttb.staff.harvest.regressed_spawn_egg.lore\"}']},EntityTag:{Tags:[\"ttb_no_check\"],IsBaby:1,Age:-20000}}"
                         }
                     ]
                 }

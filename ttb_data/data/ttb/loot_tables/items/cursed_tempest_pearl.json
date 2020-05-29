@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:\"cursed_tempest_pearl\"},display:{Name:'{\"translate\":\"item.ttb.cursed_tempest_pearl\",\"italic\":false}'},CustomModelData:6830012}"
+                            "tag": "{ttb:{item:'cursed_tempest_pearl'},display:{Name:'{\"translate\":\"item.ttb.cursed_tempest_pearl\",\"italic\":false}'},CustomModelData:6830012}"
                         }
                     ]
                 }

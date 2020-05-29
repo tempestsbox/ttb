@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:\"optimism\"},display:{Name:'{\"translate\":\"item.ttb.optimism\",\"italic\":false,\"color\":\"yellow\"}'},CustomModelData:6830001}"
+                            "tag": "{ttb:{item:'optimism'},display:{Name:'{\"translate\":\"item.ttb.optimism\",\"italic\":false,\"color\":\"yellow\"}'},CustomModelData:6830001}"
                         }
                     ]
                 }

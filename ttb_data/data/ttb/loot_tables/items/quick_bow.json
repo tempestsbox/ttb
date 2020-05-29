@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:\"quick_bow\"},display:{Name:'{\"translate\":\"item.ttb.quick_bow\",\"italic\":false,\"color\":\"green\"}'},CustomModelData:6830001}"
+                            "tag": "{ttb:{item:'quick_bow'},display:{Name:'{\"translate\":\"item.ttb.quick_bow\",\"italic\":false,\"color\":\"green\"}'},CustomModelData:6830001}"
                         }
                     ]
                 }

@@ -4,12 +4,12 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:loot_table",
-                    "name": "ttb:items/template/base",
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:'restoration_tome'},display:{Name:'{\"translate\":\"item.ttb.restoration_tome\",\"italic\":false}'},CustomModelData:6830010}"
+                            "tag": "{EntityTag:{Invulnerable:1,Silent:1,Invisible:1b}}"
                         }
                     ]
                 }

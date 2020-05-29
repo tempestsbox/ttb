@@ -4,12 +4,12 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:item_frame",
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/template/block",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EntityTag:{Tags:[\"ttb_create_entity\",\"ttb_create_breaker\"],Invulnerable:1,Silent:1,Invisible:1b,Fixed:1b,CustomName:'\"ttb_create_breaker\"'},display:{Name:'{\"translate\":\"block.ttb.breaker\",\"italic\":false}'},ttb:{item:\"breaker\"},CustomModelData:6830008}"
+                            "tag": "{EntityTag:{Tags:['ttb_create_entity','ttb_create_breaker'],CustomName:'\"ttb_create_breaker\"'},display:{Name:'{\"translate\":\"block.ttb.breaker\",\"italic\":false}'},ttb:{item:'breaker'},CustomModelData:6830008}"
                         }
                     ]
                 }

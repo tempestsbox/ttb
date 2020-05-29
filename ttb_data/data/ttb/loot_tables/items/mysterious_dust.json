@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:\"mysterious_dust\",mysterious:1b},display:{Name:'{\"translate\":\"item.ttb.mysterious_dust\",\"italic\":false}'},CustomModelData:6830007}"
+                            "tag": "{ttb:{item:'mysterious_dust',mysterious:1b},display:{Name:'{\"translate\":\"item.ttb.mysterious_dust\",\"italic\":false}'},CustomModelData:6830007}"
                         }
                     ]
                 }
