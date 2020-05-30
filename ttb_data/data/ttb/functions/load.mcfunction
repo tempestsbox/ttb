@@ -1,7 +1,7 @@
 #called by #load
 
 #notify load
-tellraw @a [{"translate":"pack.ttb.name","color":"aqua","clickEvent":{"action":"open_url","value":"https://tempestsbox.github.io"}},{"text":": ","color":"aqua"},{"translate":"text.ttb.load","color":"dark_aqua"}]
+tellraw @a [{"text":"","clickEvent":{"action":"open_url","value":"https://tempestsbox.github.io"}},{"translate":"text.ttb.prefix","color":"#EE82EE","with":[{"translate":"text.ttb.load","color":"#D964D5"}]}]
 execute unless entity @a[limit=1] run say TTB: Loaded
 
 #build check
@@ -11,7 +11,6 @@ execute unless entity @a[limit=1] run say TTB: Loaded
 ## data
 scoreboard objectives add ttb_data dummy
 execute store result score seed ttb_data run seed
-scoreboard players set active_chunks_max ttb_data 24
 scoreboard objectives add ttb_biome dummy
 scoreboard objectives add ttb_model_cmd dummy
 ## custom crafting
@@ -73,5 +72,6 @@ data modify storage ttb:world structure.orientation set value [{id:""}]
 data modify storage ttb:world structure.dungeon.get_room_result set value [{}]
 
 #trigger clocks
+function ttb:clock2t
 function ttb:clock16t
 function ttb:clock2s

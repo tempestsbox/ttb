@@ -1,15 +1,24 @@
-#called by entity/area_effect_cloud/tick
+#called by world/generation/player
 
-#spawn structure markers
-execute if block ~ 3 ~ bedrock run function ttb:world/structure/function/check_spawn
-#try to spawn a structure before any chunk modifications have been done
-execute as @e[type=area_effect_cloud,tag=ttb_structure,distance=...1] run function ttb:world/generation/chunk/structure_check
+title @a actionbar {"translate":"text.ttb.prefix","color":"#94EE82","with":[{"translate":"text.ttb.world_generation.warn","color":"#81D964"}]}
 
-#mark the chunk as generated
+# get the biome type
+scoreboard players reset * ttb_biome
+execute positioned ~8 0 ~8 run function ttb:world/generation/chunk/scan
+# scan other parts of the chunk if a river has been detected
+execute if score border ttb_biome matches 1 run function ttb:world/generation/chunk/border
+
+# try to spawn a structure before any chunk modifications have been done
+execute if block ~ 4 ~ bedrock positioned 29999984 253 29999984 run function ttb:world/structure/chunk
+
+# mark the chunk as generated
+scoreboard players add chunk_count ttb_data 1
 fill ~ 0 ~ ~15 0 ~15 barrier replace bedrock
+execute if block ~ 0 ~ barrier run scoreboard players add loaded_chunks ttb_data 1
+tag @s add ttb_chunk_generated
 
-#spread outwards
-execute store result score active_chunks ttb_data if entity @e[type=area_effect_cloud,tag=ttb_chunk]
-execute if score active_chunks ttb_data < active_chunks_max ttb_data run function ttb:world/generation/chunk/spread
-
-kill @s[type=area_effect_cloud]
+# spread outwards
+execute positioned ~16 ~ ~ unless entity @e[type=area_effect_cloud,tag=ttb_chunk,distance=..1] run summon area_effect_cloud ~ ~ ~ {Tags:["ttb_chunk"],CustomName:'"ttb_chunk"',Duration:2000000000}
+execute positioned ~-16 ~ ~ unless entity @e[type=area_effect_cloud,tag=ttb_chunk,distance=..1] run summon area_effect_cloud ~ ~ ~ {Tags:["ttb_chunk"],CustomName:'"ttb_chunk"',Duration:2000000000}
+execute positioned ~ ~ ~16 unless entity @e[type=area_effect_cloud,tag=ttb_chunk,distance=..1] run summon area_effect_cloud ~ ~ ~ {Tags:["ttb_chunk"],CustomName:'"ttb_chunk"',Duration:2000000000}
+execute positioned ~ ~ ~-16 unless entity @e[type=area_effect_cloud,tag=ttb_chunk,distance=..1] run summon area_effect_cloud ~ ~ ~ {Tags:["ttb_chunk"],CustomName:'"ttb_chunk"',Duration:2000000000}

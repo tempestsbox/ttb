@@ -1,0 +1,85 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:empty",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{structure:{name:'ttb:amethyst_ore'}}}}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "ttb:height",
+                                    "attribute": "generic.armor",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 30
+                                    },
+                                    "operation": "addition",
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:empty",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{structure:{name:'ttb:vulcaanium_ore'}}}}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "ttb:height",
+                                    "attribute": "generic.armor",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 30
+                                    },
+                                    "operation": "addition",
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 8
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_attributes",
+                    "modifiers": [
+                        {
+                            "name": "ttb:integrity",
+                            "attribute": "generic.armor",
+                            "amount": {
+                                "min": 0.125,
+                                "max": 1
+                            },
+                            "operation": "addition",
+                            "slot": "mainhand"
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{ttb:{world:{structure:{modifiers:[{id:'replace_stone'}]}}}}"
+                }
+            ]
+        }
+    ]
+}

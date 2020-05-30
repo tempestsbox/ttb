@@ -2,7 +2,8 @@
 
 playsound block.stone.place block @a[distance=..16] ~ ~ ~ 1 1 1
 
-#kill creation entity
+#kill creation entity/block
+execute if block ~ ~ ~ #ttb:command_block run setblock ~ ~ ~ air
 kill @s[type=!player]
 
 #create

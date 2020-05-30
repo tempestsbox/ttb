@@ -1,4 +1,4 @@
-#called by world/structure/function/dungeon/get_room
+#called by world/structure/dungeon/get_room
 
 #pre
 execute in overworld run forceload add ~ ~

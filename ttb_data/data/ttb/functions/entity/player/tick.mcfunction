@@ -1,9 +1,5 @@
 #called by tick
 
-#world generation
-execute unless entity @s[tag=ttb_world_gen_disabled] if predicate ttb:entity/function/location_check/dimension/overworld if block ~ 0 ~ bedrock align xz run function ttb:world/generation/chunk/init
-# --> entity/area_effect_cloud/tick
-
 #usages
 execute if entity @s[scores={ttb_place_iframe=1..}] run function ttb:entity/player/placed_custom_block
 execute if entity @s[scores={ttb_use_crtstck=1..}] run function ttb:entity/player/used_item/carrot_on_a_stick

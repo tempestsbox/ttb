@@ -4,6 +4,7 @@
     "pack.ttb.name": "The Tempest's Box",
 
     "text.ttb.load": "Loaded",
+    "text.ttb.prefix": "[TTB] %s",
     "text.ttb.debug": "[TTB Debug] %s",
     "text.ttb.debug.entity_removal": "Removing entity: %s",
     "text.ttb.entity.from": "%s from %s",
