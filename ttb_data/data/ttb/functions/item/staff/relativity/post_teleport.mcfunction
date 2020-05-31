@@ -1,4 +1,4 @@
-#called by item/staff/relativity/use
+#called by item/staff/relativity/use_right
 
 #audiovisuals
 playsound entity.enderman.teleport player @a[distance=..16] ~ ~ ~ 2 .5 1

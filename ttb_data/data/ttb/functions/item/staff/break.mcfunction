@@ -1,4 +1,4 @@
-#called by item/staff/check_staff
+#called by item/staff/use_right
 
 replaceitem entity @s weapon.mainhand air
 

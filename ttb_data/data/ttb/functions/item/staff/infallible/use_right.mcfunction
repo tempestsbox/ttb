@@ -1,4 +1,4 @@
-#called by item/staff/check_staff
+#called by item/staff/use_right
 
 #audiovisuals
 playsound entity.iron_golem.hurt voice @a[distance=..16] ~ ~ ~ 2 0.5 1
@@ -11,6 +11,3 @@ effect give @s resistance 10 255
 effect give @s slowness 10 255
 effect give @s jump_boost 10 250 true
 effect give @s weakness 10 255 true
-
-#depletion
-execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

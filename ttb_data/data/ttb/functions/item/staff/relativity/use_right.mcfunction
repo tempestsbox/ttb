@@ -1,4 +1,4 @@
-#called by item/staff/check_staff
+#called by item/staff/use_right
 
 #audiovisuals
 playsound entity.enderman.teleport player @a[distance=..16] ~ ~ ~ 2 .5 1
@@ -11,6 +11,3 @@ tp @s @e[type=zombie,sort=random,distance=..32,limit=1]
 
 #post-effects
 execute at @s run function ttb:item/staff/relativity/post_teleport
-
-#depletion
-execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

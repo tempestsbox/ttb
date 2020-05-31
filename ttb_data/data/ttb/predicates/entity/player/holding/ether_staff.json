@@ -4,7 +4,7 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "nbt": "{ttb:{staff:{id:\"ether\"}}}"
+                "nbt": "{ttb:{staff:{id:'ether'}}}"
             }
         }
     }

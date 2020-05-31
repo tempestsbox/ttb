@@ -23,6 +23,7 @@ scoreboard objectives add ttb_raycast_iter dummy
 scoreboard objectives add ttb_blight_frze dummy
 ## gamerules/constants
 scoreboard objectives add ttb_gamerules dummy
+scoreboard players set #2 ttb_gamerules 2
 scoreboard players set #64 ttb_gamerules 64
 scoreboard players set #100 ttb_gamerules 100
 execute unless score entityRemovalDebugMessage ttb_gamerules matches 0..1 run scoreboard players set entityRemovalDebugMessage ttb_gamerules 0

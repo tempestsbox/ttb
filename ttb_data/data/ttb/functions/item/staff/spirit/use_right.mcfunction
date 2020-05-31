@@ -1,4 +1,4 @@
-#called by item/staff/check_staff
+#called by item/staff/use_right
 
 #audiovisuals
 playsound entity.zombie_villager.converted voice @a[distance=..16] ~ ~ ~ 2 2 1
@@ -40,6 +40,3 @@ particle totem_of_undying ~ ~1 ~ 2 0 2 0.01 1000 normal @a
 # execute at @e[name=Decree] run tellraw @a[distance=..50] {"text":"The Decree Screams.","color":"red"}
 
 # scoreboard players add @e[name=macContainer,distance=..4,sort=random,limit=1] power 15
-
-#depletion
-execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update

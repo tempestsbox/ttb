@@ -59,6 +59,7 @@
     "item.ttb.staff.shatter": "Shatter",
     "item.ttb.staff.temporal": "Temporal",
     "item.ttb.staff.temporal.sped_up_time": "%s sped up time",
+    "item.ttb.staff.temporal.displaced_entity": "Displaced %s in time",
     "item.ttb.staff.captive": "Captive",
     "item.ttb.staff.ether": "Ether",
     "item.ttb.staff.harvest": "Harvest",

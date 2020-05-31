@@ -1,4 +1,4 @@
-#called by item/staff/mage/use
+#called by item/staff/mage/use_right
 
 #audiovisuals
 particle flame ~ ~3 ~ 0 1 0 0.01 100 normal @a

@@ -2,10 +2,10 @@
 
 #audiovisuals
 playsound block.end_portal_frame.fill player @a[distance=..16] ~ ~ ~ 1 2 1
+playsound block.end_portal_frame.fill player @a[distance=..16] ~ ~ ~ 1 1.5 1
 playsound block.end_portal_frame.fill player @a[distance=..16] ~ ~ ~ 1 1 1
-playsound block.end_portal_frame.fill player @a[distance=..16] ~ ~ ~ 1 0 1
 
-playsound entity.ender_dragon.hurt player @a[distance=..16] ~ ~ ~ 2 0.5 1
+execute anchored eyes run particle ash ^ ^ ^ .5 .5 .5 0 700 normal @a
 
 #functionality
 gamemode survival @s[scores={ttb_ether_gamemo=0}]

@@ -1,0 +1,3 @@
+# called by item/staff/netherknight/use_...
+
+particle angry_villager ~ ~ ~ 1 1 1 0 50 normal @a

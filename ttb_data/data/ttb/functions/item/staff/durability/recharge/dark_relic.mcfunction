@@ -1,27 +1,21 @@
 #called by entity/player/holding/dark_relic
 
-#audiovisuals
+# audiovisuals
 particle effect ~ ~ ~ 1 1 1 0.01 200 normal @a
 playsound entity.wither.ambient player @a[distance=..16] ~ ~ ~ 2 0.5 1
 
-#functionality
-scoreboard players add @s[predicate=ttb:entity/player/holding/repulsion_staff] ttb_staff_dur 7
-scoreboard players add @s[predicate=ttb:entity/player/holding/relativity_staff] ttb_staff_dur 10
-scoreboard players add @s[predicate=ttb:entity/player/holding/extraction_staff] ttb_staff_dur 15
-scoreboard players add @s[predicate=ttb:entity/player/holding/refrigerant_staff] ttb_staff_dur 13
-scoreboard players add @s[predicate=ttb:entity/player/holding/infallible_staff] ttb_staff_dur 5
-scoreboard players add @s[predicate=ttb:entity/player/holding/shatter_staff] ttb_staff_dur 4
-scoreboard players add @s[predicate=ttb:entity/player/holding/temporal_staff] ttb_staff_dur 2
-scoreboard players add @s[predicate=ttb:entity/player/holding/captive_staff] ttb_staff_dur 3
-scoreboard players add @s[predicate=ttb:entity/player/holding/ether_staff] ttb_staff_dur 2
-scoreboard players add @s[predicate=ttb:entity/player/holding/harvest_staff] ttb_staff_dur 1
-scoreboard players add @s[predicate=ttb:entity/player/holding/saturation_staff] ttb_staff_dur 4
-scoreboard players add @s[predicate=ttb:entity/player/holding/mage_staff] ttb_staff_dur 8
-scoreboard players add @s[predicate=ttb:entity/player/holding/blight_staff] ttb_staff_dur 8
-scoreboard players add @s[predicate=ttb:entity/player/holding/skitter_staff] ttb_staff_dur 8
-scoreboard players add @s[predicate=ttb:entity/player/holding/netherknight_staff] ttb_staff_dur 8
-scoreboard players add @s[predicate=ttb:entity/player/holding/spirit_staff] ttb_staff_dur 50
+# add durability
+execute store result score @s ttb_staff_dur run data get entity @s SelectedItem.tag.ttb.staff.durability
+execute store result score $to_add ttb_staff_durmax run data get entity @s SelectedItem.tag.ttb.staff.max_durability
+
+scoreboard players operation $to_add ttb_staff_durmax /= #2 ttb_gamerules
+scoreboard players add $to_add ttb_staff_durmax 1
+
+scoreboard players operation @s ttb_staff_dur += $to_add ttb_staff_durmax
+scoreboard players reset $to_add ttb_staff_durmax
+
 execute in overworld positioned 29999984 255 29999984 run function ttb:item/staff/durability/update
 
+# remove dark relic
 replaceitem entity @s weapon.offhand air
 loot give @s[gamemode=!survival,gamemode=!adventure] loot ttb:items/dark_relic
