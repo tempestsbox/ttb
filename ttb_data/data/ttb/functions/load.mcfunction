@@ -24,7 +24,6 @@ scoreboard objectives add ttb_blight_frze dummy
 ## gamerules/constants
 scoreboard objectives add ttb_gamerules dummy
 scoreboard players set #2 ttb_gamerules 2
-scoreboard players set #3 ttb_gamerules 3
 scoreboard players set #64 ttb_gamerules 64
 scoreboard players set #100 ttb_gamerules 100
 execute unless score entityRemovalDebugMessage ttb_gamerules matches 0..1 run scoreboard players set entityRemovalDebugMessage ttb_gamerules 0
@@ -46,6 +45,8 @@ scoreboard players operation $max ttb_tempite_amnt = $amethyst ttb_tempite_amnt
 scoreboard players operation $max ttb_tempite_amnt *= #64 ttb_gamerules
 scoreboard players set $cost_tempite_stone ttb_tempite_amnt 4
 scoreboard players set $cost_breaker ttb_tempite_amnt 20
+scoreboard players set $cost_breaker_ascended ttb_tempite_amnt 4
+scoreboard players set $cost_breaker_reduced ttb_tempite_amnt 3
 scoreboard objectives add ttb_machine_cool dummy
 scoreboard players set $tempite_stone ttb_machine_cool 20
 scoreboard players set $breaker ttb_machine_cool 8
