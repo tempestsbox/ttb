@@ -116,31 +116,19 @@
             "predicate": {
                 "custom_model_data": 6830008
             },
-            "model": "ttb:item/tempest_pearl"
+            "model": "ttb:item/mysterious_crystal"
         },
         {
             "predicate": {
                 "custom_model_data": 6830009
             },
-            "model": "ttb:item/mysterious_pearl"
+            "model": "ttb:empty"
         },
         {
             "predicate": {
                 "custom_model_data": 6830010
             },
             "model": "ttb:item/restoration_tome"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830011
-            },
-            "model": "ttb:item/enchanted_tempest_pearl"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830012
-            },
-            "model": "ttb:item/cursed_tempest_pearl"
         }
     ]
 }

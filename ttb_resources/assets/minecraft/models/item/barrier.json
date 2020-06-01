@@ -92,19 +92,7 @@
             "predicate": {
                 "custom_model_data": 6830015
             },
-            "model": "ttb:gui/machine_row_one"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830016
-            },
-            "model": "ttb:gui/machine_row_two"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830017
-            },
-            "model": "ttb:gui/machine_row_three"
+            "model": "ttb:gui/machine"
         }
     ]
 }

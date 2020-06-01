@@ -24,12 +24,11 @@ execute if score @s ttb_slot_count matches 9 if score @s ttb_slot_size matches 1
 execute if score @s ttb_slot_count matches 3 if score @s ttb_slot_size matches ..64 if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{ttb:{crafting:{input:[{id:"minecraft:diamond",Slot:3b},{id:"minecraft:sea_lantern",Slot:4b},{id:"minecraft:diamond",Slot:5b}]}}}}]} run function ttb:item/bright_relic/craft
 execute if score @s ttb_slot_count matches 3 if score @s ttb_slot_size matches ..64 if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{ttb:{crafting:{input:[{id:"minecraft:diamond",Slot:3b},{id:"minecraft:ender_eye",Slot:4b},{id:"minecraft:diamond",Slot:5b}]}}}}]} run function ttb:item/dark_relic/craft
 
-#mysterious pearl
-execute if score @s ttb_slot_count matches 9 if score @s ttb_slot_size matches ..64 if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{ttb:{crafting:{input:[{tag:{ttb:{item:"mysterious_dust"}},Slot:0b},{tag:{ttb:{crystal:1b}},Slot:1b},{tag:{ttb:{item:"mysterious_dust"}},Slot:2b},{tag:{ttb:{crystal:1b}},Slot:3b},{tag:{ttb:{item:"tempest_pearl"}},Slot:4b},{tag:{ttb:{crystal:1b}},Slot:5b},{tag:{ttb:{item:"mysterious_dust"}},Slot:6b},{tag:{ttb:{crystal:1b}},Slot:7b},{tag:{ttb:{item:"mysterious_dust"}},Slot:8b}]}}}}]} run function ttb:item/mysterious_pearl/craft
-
 #crystals
 execute if score @s ttb_slot_count matches 5 if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{ttb:{crafting:{input:[{tag:{ttb:{item:"mysterious_dust"}},Slot:1b},{tag:{ttb:{item:"mysterious_dust"}},Slot:3b},{tag:{ttb:{item:"amethyst"}},Slot:4b},{tag:{ttb:{item:"mysterious_dust"}},Slot:5b},{tag:{ttb:{item:"mysterious_dust"}},Slot:7b}]}}}}]} run function ttb:item/amethyst_crystal/craft
 execute if score @s ttb_slot_count matches 5 if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{ttb:{crafting:{input:[{tag:{ttb:{item:"mysterious_dust"}},Slot:1b},{tag:{ttb:{item:"mysterious_dust"}},Slot:3b},{tag:{ttb:{item:"vulcaanium"}},Slot:4b},{tag:{ttb:{item:"mysterious_dust"}},Slot:5b},{tag:{ttb:{item:"mysterious_dust"}},Slot:7b}]}}}}]} run function ttb:item/vulcaanium_crystal/craft
+
+execute if score @s ttb_slot_count matches 9 if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{ttb:{crafting:{input:[{tag:{ttb:{item:"mysterious_dust"}},Slot:0b},{tag:{ttb:{crystal:1b}},Slot:1b},{tag:{ttb:{item:"mysterious_dust"}},Slot:2b},{tag:{ttb:{crystal:1b}},Slot:3b},{tag:{ttb:{item:"amethyst"}},Slot:4b},{tag:{ttb:{crystal:1b}},Slot:5b},{tag:{ttb:{item:"mysterious_dust"}},Slot:6b},{tag:{ttb:{crystal:1b}},Slot:7b},{tag:{ttb:{item:"mysterious_dust"}},Slot:8b}]}}}}]} run function ttb:item/mysterious_crystal/craft
 
 #restoration tome
 execute if score @s ttb_slot_count matches 2 if score @s ttb_slot_size matches 1 if data block ~ ~ ~ Items[{Slot:1b,tag:{ttb:{crafting:{input:[{tag:{ttb:{item:"restoration_tome"}}}]}}}}] if data block ~ ~ ~ Items[{Slot:1b}].tag.ttb.crafting.input[].tag.Damage unless data block ~ ~ ~ Items[{Slot:1b}].tag.ttb.crafting.input[].tag.ttb.staff run function ttb:item/restoration_tome/restore/item_check

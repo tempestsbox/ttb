@@ -5,11 +5,11 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "ttb:items/template/base",
+                    "name": "ttb:items/template/unstackable",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:'cursed_tempest_pearl'},display:{Name:'{\"translate\":\"item.ttb.cursed_tempest_pearl\",\"italic\":false}'},CustomModelData:6830012}"
+                            "tag": "{ttb:{item:'mysterious_crystal',crystal:1b,mysterious:1b},display:{Name:'{\"translate\":\"item.ttb.mysterious_crystal\",\"italic\":false}'},CustomModelData:6830008}"
                         }
                     ]
                 }
