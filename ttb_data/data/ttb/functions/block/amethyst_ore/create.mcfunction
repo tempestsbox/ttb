@@ -2,9 +2,8 @@
 
 playsound block.stone.place block @a[distance=..16] ~ ~ ~ 1 1 1
 
-#kill creation entity/block
+#replace command block if it exists
 execute if block ~ ~ ~ #ttb:command_block run setblock ~ ~ ~ air
-kill @s[type=!player]
 
 #create
 execute if block ~ ~ ~ spawner{SpawnData:{ArmorItems:[{tag:{ttb:{item:"amethyst_ore"}}}]}} run loot spawn ~ ~ ~ loot ttb:items/amethyst_ore

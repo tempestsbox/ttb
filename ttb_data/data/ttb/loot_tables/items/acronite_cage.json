@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/template/block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{EntityTag:{Tags:['ttb_create_entity','ttb_create_acronite_cage'],CustomName:'\"ttb_create_acronite_cage\"'},display:{Name:'{\"translate\":\"block.ttb.acronite_cage\",\"italic\":false}'},ttb:{item:'acronite_cage'},CustomModelData:6830009}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

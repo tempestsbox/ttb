@@ -19,6 +19,8 @@ execute if score @s ttb_slot_count matches 7 if block ~ ~ ~ barrel{Items:[{Slot:
 
 #breaker
 execute if score @s ttb_slot_count matches 9 if score @s ttb_slot_size matches 1 if block ~ ~ ~ barrel{Items:[{Slot:9b,tag:{ttb:{item:"vulcaanium"}},Count:4b} ,{Slot:1b,tag:{ttb:{crafting:{input:[{id:"minecraft:red_nether_bricks",Slot:0b},{id:"minecraft:red_nether_bricks",Slot:1b},{id:"minecraft:red_nether_bricks",Slot:2b},{id:"minecraft:iron_bars",Slot:3b},{id:"minecraft:lava_bucket",Slot:4b},{id:"minecraft:iron_bars",Slot:5b},{id:"minecraft:red_nether_bricks",Slot:6b},{id:"minecraft:red_nether_bricks",Slot:7b},{id:"minecraft:red_nether_bricks",Slot:8b}]}}}}]} run function ttb:block/breaker/craft
+#acronite cage
+execute if score @s ttb_slot_count matches 9 if score @s ttb_slot_size matches 1 if block ~ ~ ~ barrel{Items:[{Slot:9b,tag:{ttb:{item:"vulcaanium"}},Count:2b} ,{Slot:1b,tag:{ttb:{crafting:{input:[{id:"minecraft:blackstone",Slot:0b},{id:"minecraft:blackstone",Slot:1b},{id:"minecraft:blackstone",Slot:2b},{id:"minecraft:iron_bars",Slot:3b},{tag:{ttb:{item:"amethyst"}},Slot:4b},{id:"minecraft:iron_bars",Slot:5b},{id:"minecraft:blackstone",Slot:6b},{id:"minecraft:blackstone",Slot:7b},{id:"minecraft:blackstone",Slot:8b}]}}}}]} run function ttb:block/acronite_cage/craft
 
 #relics
 execute if score @s ttb_slot_count matches 3 if score @s ttb_slot_size matches ..64 if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{ttb:{crafting:{input:[{id:"minecraft:diamond",Slot:3b},{id:"minecraft:sea_lantern",Slot:4b},{id:"minecraft:diamond",Slot:5b}]}}}}]} run function ttb:item/bright_relic/craft

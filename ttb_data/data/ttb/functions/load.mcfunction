@@ -10,9 +10,11 @@ execute unless entity @a[limit=1] run say TTB: Loaded
 #initialise scoreboard data
 ## data
 scoreboard objectives add ttb_data dummy
+scoreboard players set acronite_cage_potion_motion ttb_data 2
 execute store result score seed ttb_data run seed
 scoreboard objectives add ttb_biome dummy
 scoreboard objectives add ttb_model_cmd dummy
+scoreboard objectives add ttb_age dummy
 ## custom crafting
 scoreboard objectives add ttb_slot_count dummy
 scoreboard objectives add ttb_slot_size dummy
@@ -47,10 +49,15 @@ scoreboard players set $cost_tempite_stone ttb_tempite_amnt 4
 scoreboard players set $cost_breaker ttb_tempite_amnt 20
 scoreboard players set $cost_breaker_ascended ttb_tempite_amnt 4
 scoreboard players set $cost_breaker_reduced ttb_tempite_amnt 3
+scoreboard players set $cost_acronite_cage ttb_tempite_amnt 40
+scoreboard players set $cost_acronite_cage_ascended ttb_tempite_amnt 5
+scoreboard players set $cost_acronite_cage_reduced ttb_tempite_amnt 6
+scoreboard objectives add ttb_machine_rot dummy
 scoreboard objectives add ttb_machine_cool dummy
 scoreboard players set $tempite_stone ttb_machine_cool 20
-scoreboard players set $breaker ttb_machine_cool 8
 scoreboard players set $hopper ttb_machine_cool 8
+scoreboard players set $breaker ttb_machine_cool 8
+scoreboard players set $acronite_cage ttb_machine_cool 8
 scoreboard objectives add ttb_tempite_deca dummy
 scoreboard players set $max ttb_tempite_deca 32
 scoreboard objectives add ttb_ascended dummy

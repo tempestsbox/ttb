@@ -48,6 +48,12 @@
                 "custom_model_data": 6830008
             },
             "model": "ttb:item/breaker"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830009
+            },
+            "model": "ttb:item/acronite_cage"
         }
     ]
 }
