@@ -1,16 +1,16 @@
-#called by block/breaker/cost
+# called by block/breaker/cost/check
 
 # audiovisuals
 playsound item.firecharge.use block @a[distance=..16] ~ ~ ~ 1 0.6 1
 
 # summon breaker markers
-summon area_effect_cloud ^ ^ ^1 {Tags:["ttb_entity","ttb_breaker_entity"],Duration:2}
-execute if score @s ttb_ascended matches 1.. run summon area_effect_cloud ^ ^ ^2 {Tags:["ttb_entity","ttb_breaker_entity"],Duration:2}
-execute if score @s ttb_ascended matches 2.. run summon area_effect_cloud ^ ^ ^3 {Tags:["ttb_entity","ttb_breaker_entity"],Duration:2}
-execute if score @s ttb_ascended matches 3.. run summon area_effect_cloud ^ ^ ^4 {Tags:["ttb_entity","ttb_breaker_entity"],Duration:2}
-execute if score @s ttb_ascended matches 4.. run summon area_effect_cloud ^ ^ ^5 {Tags:["ttb_entity","ttb_breaker_entity"],Duration:2}
-execute if score @s ttb_ascended matches 5.. run summon area_effect_cloud ^ ^ ^6 {Tags:["ttb_entity","ttb_breaker_entity"],Duration:2}
-execute if score @s ttb_ascended matches 6.. run summon area_effect_cloud ^ ^ ^7 {Tags:["ttb_entity","ttb_breaker_entity"],Duration:2}
+execute positioned ^ ^ ^1 unless block ~ ~ ~ #ttb:block/breaker/cannot_remove run function ttb:block/breaker/break_block
+execute if score @s ttb_ascended matches 1.. positioned ^ ^ ^2 unless block ~ ~ ~ #ttb:block/breaker/cannot_remove run function ttb:block/breaker/break_block
+execute if score @s ttb_ascended matches 2.. positioned ^ ^ ^3 unless block ~ ~ ~ #ttb:block/breaker/cannot_remove run function ttb:block/breaker/break_block
+execute if score @s ttb_ascended matches 3.. positioned ^ ^ ^4 unless block ~ ~ ~ #ttb:block/breaker/cannot_remove run function ttb:block/breaker/break_block
+execute if score @s ttb_ascended matches 4.. positioned ^ ^ ^5 unless block ~ ~ ~ #ttb:block/breaker/cannot_remove run function ttb:block/breaker/break_block
+execute if score @s ttb_ascended matches 5.. positioned ^ ^ ^6 unless block ~ ~ ~ #ttb:block/breaker/cannot_remove run function ttb:block/breaker/break_block
+execute if score @s ttb_ascended matches 6.. positioned ^ ^ ^7 unless block ~ ~ ~ #ttb:block/breaker/cannot_remove run function ttb:block/breaker/break_block
 
 # reset scores
 scoreboard players reset @s ttb_ascended
