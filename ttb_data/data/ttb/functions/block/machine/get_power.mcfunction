@@ -9,6 +9,5 @@ execute store result score @s ttb_reduced if data block ~ ~ ~ Items[{tag:{ttb:{i
 execute if score @s ttb_ascended matches 1.. run particle dust 0.4 1 0.3 1 ~ ~ ~ .25 .25 .25 0 100 normal @a
 execute if score @s ttb_reduced matches 1.. run particle dust 1 0.3 1 1 ~ ~ ~ .25 .25 .25 0 100 normal @a
 
-execute positioned ^ ^ ^-1 align xyz if entity @e[type=armor_stand,tag=ttb_tempite_wire,dx=0] run tag @s add ttb_tempite_wire_valid
-execute if entity @s[tag=ttb_tempite_wire_valid] if entity @e[type=armor_stand,tag=ttb_tempite_stone,distance=..16,scores={ttb_tempite_amnt=1..},sort=nearest,limit=1] run function ttb:block/machine/cost_check
-tag @s remove ttb_tempite_wire_valid
+# check if valid, then cost check
+execute positioned ^ ^ ^-1 align xyz if entity @e[type=armor_stand,tag=ttb_tempite_wire,dx=0,limit=1] at @s if entity @e[type=armor_stand,tag=ttb_tempite_stone,distance=..16,scores={ttb_tempite_amnt=1..},sort=nearest,limit=1] run function ttb:block/machine/cost_check
