@@ -5,11 +5,11 @@
         "terms": [
             {
                 "condition": "minecraft:reference",
-                "name": "ttb:entity/player/holding/staff"
+                "name": "ttb:entity/function/holding/staff"
             },
             {
                 "condition": "minecraft:reference",
-                "name": "ttb:entity/player/holding/bright_relic"
+                "name": "ttb:entity/function/holding/bright_relic"
             }
         ]
     }

@@ -10,6 +10,7 @@ execute unless entity @a[limit=1] run say TTB: Loaded
 # initialise scoreboard data
 ## data
 scoreboard objectives add ttb_data dummy
+scoreboard players set eckspei_rod_xp_per ttb_data 75
 scoreboard players set acronite_cage_potion_motion ttb_data 2
 execute store result score seed ttb_data run seed
 scoreboard objectives add ttb_biome dummy
@@ -30,9 +31,9 @@ scoreboard players set #64 ttb_gamerules 64
 scoreboard players set #100 ttb_gamerules 100
 execute unless score entityRemovalDebugMessage ttb_gamerules matches 0..1 run scoreboard players set entityRemovalDebugMessage ttb_gamerules 0
 ## staffs
-scoreboard objectives add ttb_staff_dur dummy
-scoreboard players set $carrot_on_a_stick_dur ttb_staff_dur 25
-scoreboard objectives add ttb_staff_durmax dummy
+scoreboard objectives add ttb_durab dummy
+scoreboard players set $carrot_on_a_stick_dur ttb_durab 25
+scoreboard objectives add ttb_durab_max dummy
 scoreboard objectives add ttb_ether_specmo dummy
 scoreboard objectives add ttb_ether_gamemo dummy
 ## player tracking
