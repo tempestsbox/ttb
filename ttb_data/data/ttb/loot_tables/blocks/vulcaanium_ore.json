@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:block",
+    "type": "minecraft:fishing",
     "pools": [
         {
             "rolls": 1,
@@ -9,6 +9,7 @@
                     "children": [
                         {
                             "type": "minecraft:loot_table",
+                            "name": "ttb:items/vulcaanium_ore",
                             "conditions": [
                                 {
                                     "condition": "minecraft:match_tool",
@@ -23,11 +24,11 @@
                                         ]
                                     }
                                 }
-                            ],
-                            "name": "ttb:items/vulcaanium_ore"
+                            ]
                         },
                         {
                             "type": "minecraft:loot_table",
+                            "name": "ttb:items/vulcaanium",
                             "functions": [
                                 {
                                     "function": "minecraft:apply_bonus",
@@ -37,8 +38,7 @@
                                 {
                                     "function": "minecraft:explosion_decay"
                                 }
-                            ],
-                            "name": "ttb:items/vulcaanium"
+                            ]
                         }
                     ]
                 }

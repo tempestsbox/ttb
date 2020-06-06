@@ -8,15 +8,17 @@
         {
             "condition": "minecraft:inverted",
             "term": {
-                "condition": "minecraft:reference",
-                "name": "ttb:block/check_spawner_item/block/amethyst_ore"
-            }
-        },
-        {
-            "condition": "minecraft:inverted",
-            "term": {
-                "condition": "minecraft:reference",
-                "name": "ttb:block/check_spawner_item/block/vulcaanium_ore"
+                "condition": "minecraft:alternative",
+                "terms": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ttb:block/check_spawner_item/block/amethyst_ore"
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ttb:block/check_spawner_item/block/vulcaanium_ore"
+                    }
+                ]
             }
         }
     ]
