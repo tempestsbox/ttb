@@ -12,3 +12,4 @@ execute if entity @s[tag=ttb_tempite_stone] run function ttb:block/tempite_stone
 execute if entity @s[tag=ttb_tempite_wire] run function ttb:block/tempite_wire/tick
 execute if entity @s[tag=ttb_breaker] run function ttb:block/breaker/tick
 execute if entity @s[tag=ttb_acronite_cage] run function ttb:block/acronite_cage/tick
+execute if entity @s[tag=ttb_eckspei_locker] run function ttb:block/eckspei_locker/tick

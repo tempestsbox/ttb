@@ -28,7 +28,7 @@ scoreboard players operation @s ttb_staff_durmax /= #100 ttb_gamerules
 execute store result block ~ ~-1 ~ Items[{Slot:0b}].tag.Damage int 1 run scoreboard players get @s ttb_staff_durmax
 
 #debug
-tellraw @s[tag=ttb_debug] ["Staff durability: ",[{"nbt":"SelectedItem.tag.ttb.staff.durability","entity":"@s"},"/",{"nbt":"SelectedItem.tag.ttb.staff.max_durability","entity":"@s"}]]
+tellraw @s[tag=ttb_debug] ["Durability: ",[{"nbt":"SelectedItem.tag.ttb.staff.durability","entity":"@s"},"/",{"nbt":"SelectedItem.tag.ttb.staff.max_durability","entity":"@s"}]]
 
 #post
 loot replace entity @s weapon.mainhand 1 mine ~ ~-1 ~ air{drop_contents:1b}

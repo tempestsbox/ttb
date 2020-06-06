@@ -54,6 +54,12 @@
                 "custom_model_data": 6830009
             },
             "model": "ttb:item/acronite_cage"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830010
+            },
+            "model": "ttb:item/eckspei_locker"
         }
     ]
 }

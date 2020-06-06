@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/template/block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{EntityTag:{Tags:['ttb_create_entity','ttb_create_eckspei_locker'],CustomName:'\"ttb_create_eckspei_locker\"'},display:{Name:'{\"translate\":\"block.ttb.eckspei_locker\",\"italic\":false}'},ttb:{item:'eckspei_locker'},CustomModelData:6830010}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

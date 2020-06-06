@@ -1,0 +1,9 @@
+{
+    "parent": "ttb:block/cube_orientable",
+    "textures": {
+        "front": "ttb:block/eckspei_locker_front",
+        "back": "ttb:block/eckspei_locker_back",
+        "side": "ttb:block/eckspei_locker_side",
+        "vertical": "ttb:block/eckspei_locker_vertical"
+    }
+}

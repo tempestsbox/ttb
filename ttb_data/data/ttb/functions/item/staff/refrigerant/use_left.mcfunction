@@ -10,4 +10,4 @@ fill ~ ~ ~ ~ ~1 ~ ice keep
 effect give @s slowness 3 10
 
 fill ~-1 ~ ~-1 ~1 ~ ~1 snow keep
-execute positioned ~1 ~ ~1 if block ~ ~ ~ snow if block ~ ~-1 ~ #ttb:block/replace_on_creation run setblock ~ ~ ~ air
+execute positioned ~1 ~ ~1 if block ~ ~ ~ snow if block ~ ~-1 ~ #ttb:replace_on_creation run setblock ~ ~ ~ air

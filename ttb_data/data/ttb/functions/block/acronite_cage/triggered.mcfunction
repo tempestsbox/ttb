@@ -1,4 +1,4 @@
-# called by block/acronite_cage/cost
+# called by block/acronite_cage/cost/check
 
 playsound entity.splash_potion.throw block @a[distance=..16] ~ ~ ~ 1 1 1
 

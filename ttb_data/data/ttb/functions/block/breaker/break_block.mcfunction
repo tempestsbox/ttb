@@ -1,4 +1,4 @@
-#called by entity/area_effect_cloud/tick
+#called by block/breaker/triggered
 
 setblock ~ ~ ~ air destroy
 particle flame ~ ~ ~ 0 0 0.25 0.025 10 normal @a

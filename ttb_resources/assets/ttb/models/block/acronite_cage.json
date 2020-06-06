@@ -4,7 +4,6 @@
         "front": "ttb:block/acronite_cage_front",
         "back": "ttb:block/acronite_cage_back",
         "side": "ttb:block/acronite_cage_side",
-        "up": "ttb:block/acronite_cage",
-        "down": "ttb:block/acronite_cage"
+        "vertical": "ttb:block/acronite_cage_vertical"
     }
 }

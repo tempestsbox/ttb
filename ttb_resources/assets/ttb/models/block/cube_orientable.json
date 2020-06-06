@@ -4,8 +4,8 @@
         "front": "#front",
         "side": "#side",
         "back": "#back",
-        "up": "#up",
-        "down": "#down"
+        "up": "#vertical",
+        "down": "#vertical"
     },
     "elements": [
         {

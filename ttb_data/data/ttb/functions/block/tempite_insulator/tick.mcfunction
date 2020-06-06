@@ -9,4 +9,4 @@ tag @s add ttb_block_placed
 
 #removal
 execute unless block ~ ~ ~ #ttb:air run function ttb:block/tempite_insulator/remove
-execute if block ^ ^ ^-1 #ttb:block/replace_on_creation run function ttb:block/tempite_insulator/remove
+execute if block ^ ^ ^-1 #ttb:replace_on_creation run function ttb:block/tempite_insulator/remove

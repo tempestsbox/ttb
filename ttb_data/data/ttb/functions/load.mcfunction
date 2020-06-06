@@ -1,13 +1,13 @@
-#called by #load
+# called by #load
 
-#notify load
+# notify load
 tellraw @a [{"text":"","clickEvent":{"action":"open_url","value":"https://tempestsbox.github.io"}},{"translate":"text.ttb.prefix","color":"#EE82EE","with":[{"translate":"text.ttb.load","color":"#D964D5"}]}]
 execute unless entity @a[limit=1] run say TTB: Loaded
 
-#build check
+# build check
 # function ttb:build/check
 
-#initialise scoreboard data
+# initialise scoreboard data
 ## data
 scoreboard objectives add ttb_data dummy
 scoreboard players set acronite_cage_potion_motion ttb_data 2
@@ -52,22 +52,28 @@ scoreboard players set $cost_breaker_reduced ttb_tempite_amnt 3
 scoreboard players set $cost_acronite_cage ttb_tempite_amnt 40
 scoreboard players set $cost_acronite_cage_ascended ttb_tempite_amnt 5
 scoreboard players set $cost_acronite_cage_reduced ttb_tempite_amnt 6
+scoreboard players set $cost_eckspei_locker ttb_tempite_amnt 10
+scoreboard players set $cost_eckspei_locker_ascended ttb_tempite_amnt 2
+scoreboard players set $cost_eckspei_locker_reduced ttb_tempite_amnt 1
 scoreboard objectives add ttb_machine_rot dummy
 scoreboard objectives add ttb_machine_cool dummy
 scoreboard players set $tempite_stone ttb_machine_cool 20
 scoreboard players set $hopper ttb_machine_cool 8
 scoreboard players set $breaker ttb_machine_cool 8
 scoreboard players set $acronite_cage ttb_machine_cool 8
+scoreboard players set $eckspei_locker ttb_machine_cool 8
 scoreboard objectives add ttb_tempite_deca dummy
 scoreboard players set $max ttb_tempite_deca 32
 scoreboard objectives add ttb_ascended dummy
 scoreboard objectives add ttb_reduced dummy
 
-#initialise teams
+scoreboard objectives add ttb_ecks_loc_exp dummy
+
+# initialise teams
 team add ttb_mob
 team modify ttb_mob nametagVisibility never
 
-#initialise datas
+# initialise datas
 data modify storage ttb:block tempite_stone.Command set value "execute as @e[type=armor_stand,tag=ttb_tempite_stone,scores={ttb_tempite_amnt=4..},distance=...1,limit=1] run function ttb:block/tempite_stone/triggered"
 
 data modify storage ttb:block tempest_crafter.Items set value [{Slot:0b},{Slot:1b},{Slot:5b},{Slot:6b},{Slot:7b},{Slot:8b},{Slot:10b},{Slot:14b},{Slot:15b},{Slot:17b},{Slot:18b},{Slot:19b},{Slot:23b},{Slot:24b},{Slot:25b},{Slot:26b}]
@@ -81,7 +87,7 @@ data modify storage ttb:block machine.Items[{Slot:1b}].tag.CustomModelData set v
 data modify storage ttb:world structure.orientation set value [{id:""}]
 data modify storage ttb:world structure.dungeon.get_room_result set value [{}]
 
-#trigger clocks
+# trigger clocks
 function ttb:clock2t
 function ttb:clock16t
 function ttb:clock2s
