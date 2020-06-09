@@ -93,6 +93,12 @@
                 "custom_model_data": 6830015
             },
             "model": "ttb:gui/machine"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830016
+            },
+            "model": "ttb:entity/pillar_explosion"
         }
     ]
 }

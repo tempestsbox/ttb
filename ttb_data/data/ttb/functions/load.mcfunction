@@ -1,9 +1,5 @@
 # called by #load
 
-# notify load
-tellraw @a [{"text":"","clickEvent":{"action":"open_url","value":"https://tempestsbox.github.io"}},{"translate":"text.ttb.prefix","color":"#EE82EE","with":[{"translate":"text.ttb.load","color":"#D964D5"}]}]
-execute unless entity @a[limit=1] run say TTB: Loaded
-
 # build check
 # function ttb:build/check
 
@@ -16,6 +12,9 @@ execute store result score seed ttb_data run seed
 scoreboard objectives add ttb_biome dummy
 scoreboard objectives add ttb_model_cmd dummy
 scoreboard objectives add ttb_age dummy
+## health
+scoreboard objectives add ttb_health dummy
+scoreboard objectives add ttb_health_max dummy
 ## custom crafting
 scoreboard objectives add ttb_slot_count dummy
 scoreboard objectives add ttb_slot_size dummy
@@ -92,3 +91,7 @@ data modify storage ttb:world structure.dungeon.get_room_result set value [{}]
 function ttb:clock2t
 function ttb:clock16t
 function ttb:clock2s
+
+# notify load
+tellraw @a [{"text":"","clickEvent":{"action":"open_url","value":"https://tempestsbox.github.io"}},{"translate":"text.ttb.prefix","color":"#EE82EE","with":[{"translate":"text.ttb.load","color":"#D964D5"}]}]
+execute unless entity @a[limit=1] run say TTB: Loaded

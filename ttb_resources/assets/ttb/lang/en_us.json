@@ -8,6 +8,7 @@
     "text.ttb.debug": "[TTB Debug] %s",
     "text.ttb.debug.entity_removal": "Removing entity: %s",
     "text.ttb.entity.from": "%s from %s",
+    "text.ttb.entity.health_bar": "[%s] %s/%shp",
     "text.ttb.entity.whilst_fighting": "%s whilst fighting %s",
     "text.ttb.mana.none": "Not enough mana",
     "text.ttb.world_generation.warn": "You may lag while terrain is being generated!",

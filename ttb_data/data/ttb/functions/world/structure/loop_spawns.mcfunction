@@ -1,6 +1,6 @@
 # called by world/structure/spawn
 
-execute if data storage ttb:world structure.spawns[0].modifiers[{id:'top_spread'}] run function ttb:world/structure/top_spread
+execute if data storage ttb:world structure.spawns[0].modifiers[{id:'top_spread'}] run function ttb:util/top_spread
 execute if data storage ttb:world structure.spawns[0].height run data modify entity @s Pos[1] set from storage ttb:world structure.spawns[0].height
 
 execute if data storage ttb:world structure.spawns[0].name at @s run function ttb:world/structure/spawn_default

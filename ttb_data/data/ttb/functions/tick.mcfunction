@@ -7,3 +7,4 @@ execute as @e at @s run function ttb:entity/tick
 
 #gamerules
 execute store result score mobGriefing ttb_gamerules run gamerule mobGriefing
+execute store result score doFireTick ttb_gamerules run gamerule doFireTick

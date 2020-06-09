@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:empty",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{random:{id:'flames'}}}"
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:empty",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{random:{id:'magic_ball'}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:empty"
+                }
+            ]
+        }
+    ]
+}
