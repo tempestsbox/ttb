@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/speed_gem"
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spruce_log",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_bricks",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cracked_stone_bricks",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:mossy_stone_bricks"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                }
+            ]
+        }
+    ]
+}

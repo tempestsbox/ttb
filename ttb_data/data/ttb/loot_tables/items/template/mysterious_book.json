@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{item:'mysterious_book'},display:{Name:'{\"translate\":\"item.minecraft.written_book\",\"italic\":false}'},title:'Written Book',author:'',resolved:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

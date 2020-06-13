@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/mysterious_book/leave_now"
+                }
+            ]
+        },
+        {
+            "rolls": 6,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:purple_stained_glass",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:purple_concrete"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:purple_concrete_powder"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:purple_carpet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:purple_glazed_terracotta"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

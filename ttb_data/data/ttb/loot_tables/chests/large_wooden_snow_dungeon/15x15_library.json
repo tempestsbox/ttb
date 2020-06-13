@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 4,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bookshelf",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:redstone_torch"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 6
+                    }
+                }
+            ]
+        }
+    ]
+}

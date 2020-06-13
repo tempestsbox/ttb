@@ -31,3 +31,6 @@ execute if entity @s[tag=ttb_remove] if score entityRemovalDebugMessage ttb_game
 ## remove entity
 data merge entity @s[tag=ttb_remove] {Health:0,DeathTime:19,Time:0,Duration:0,Size:0,Age:6000,DeathLootTable:"minecraft:empty"}
 kill @s[tag=ttb_remove]
+
+# remove entity init tag
+tag @s remove ttb_entity_init

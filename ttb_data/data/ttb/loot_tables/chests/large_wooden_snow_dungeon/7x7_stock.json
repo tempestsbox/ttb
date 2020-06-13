@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:melon_slice",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:melon"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_nugget"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_orchid"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:allium"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": {
+                "min": 3,
+                "max": 5
+            }
+        }
+    ]
+}

@@ -30,6 +30,9 @@
                         "min": 0.20,
                         "max": 0.35
                     }
+                },
+                {
+                    "function": "minecraft:enchant_randomly"
                 }
             ]
         }

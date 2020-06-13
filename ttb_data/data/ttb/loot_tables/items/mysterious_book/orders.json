@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/template/mysterious_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{mysterious_book:'orders'},display:{Name:'{\"translate\":\"item.ttb.mysterious_book.orders\",\"italic\":false}'},pages:['{\"translate\":\"item.ttb.mysterious_book.orders.page_0\"}','{\"translate\":\"item.ttb.mysterious_book.orders.page_1\"}'],title:'Orders',author:'Yale',resolved:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

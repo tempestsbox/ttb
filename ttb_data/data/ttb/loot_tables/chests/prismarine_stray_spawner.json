@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/strength_gem"
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ice",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:packed_ice",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:prismarine",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:dark_prismarine"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                }
+            ]
+        }
+    ]
+}

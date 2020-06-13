@@ -53,6 +53,7 @@
     "item.ttb.optimism": "Optimism",
     "item.ttb.levitation_arrow": "Levitation Arrow",
     "item.ttb.eckspei_rod": "Eckspei Rod",
+
     "item.ttb.staff": "%s Staff",
     "item.ttb.staff.repulsion": "Repulsion",
     "item.ttb.staff.relativity": "Relativity",
@@ -74,6 +75,18 @@
     "item.ttb.staff.skitter": "Skitter",
     "item.ttb.staff.netherknight": "Netherknight",
     "item.ttb.staff.spirit": "Spirit",
+    
+    "item.ttb.mysterious_book.leave_now.page_0": "if ANYONE is reading this - LEAVE NOW. Don't go into the red room NO MATTER WHAT YOU ARE TOLD.",
+    "item.ttb.mysterious_book.leave_now.page_9": "\n\n\n\n          ...and the master craftman's wife has the infection. Do not make any attempt to kill her. You're better off hiding in the desert. At least the Monarch is there to shelter you.",
+    "item.ttb.mysterious_book.orders": "Orders",
+    "item.ttb.mysterious_book.orders.page_0": "I can't tell you the purpose of this journey, but we must trust in the decisions of the Monarch\n\nYou are to find the Master Craftsman and kill him. Set up camp in the snow. If you ever encounter him, I wish you luck.",
+    "item.ttb.mysterious_book.orders.page_1": "Signed,\nYale\n\nPS: Please do not hurt the mother or the child. They had nothing to do with this.",
+    "item.ttb.mysterious_book.what_was_she_trying_to_build.page_0": "\n\n      what was\n\n\n\n\n     she trying\n\n\n\n\n              to build?",
+    "item.ttb.mysterious_book.where_am_i": "Where am I?",
+    "item.ttb.mysterious_book.where_am_i.page_0": "The days have lost me\n\nAnd I have lost days in here\n\nMary is no longer",
+    "item.ttb.mysterious_book.where_am_i.page_1": "Illness he spread here\n\nTainted by black manslaughter\n\nIf you call it that\n\n\",\"Goodbye family\n\nSomeone is following me\n\nIt's time to go, love",
+    "item.ttb.mysterious_book.where_am_i.page_2": "Love",
+    "item.ttb.mysterious_book.where_am_i.page_4": "\n\n\n\n\n              .....love.....",
 
     "entity.ttb.blight": "Blight",
     "entity.ttb.deadlock": "Deadlock",

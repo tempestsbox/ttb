@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:chests/generic/snow_uncommon"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:chests/generic/snow_common"
+                }
+            ]
+        }
+    ]
+}

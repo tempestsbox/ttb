@@ -29,6 +29,7 @@ scoreboard players set #2 ttb_gamerules 2
 scoreboard players set #64 ttb_gamerules 64
 scoreboard players set #100 ttb_gamerules 100
 execute unless score entityRemovalDebugMessage ttb_gamerules matches 0..1 run scoreboard players set entityRemovalDebugMessage ttb_gamerules 0
+gamerule commandBlockOutput false
 ## staffs
 scoreboard objectives add ttb_durab dummy
 scoreboard players set $carrot_on_a_stick_dur ttb_durab 25

@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:'slowness'}"
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 4
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:skeleton_skull"
+                }
+            ]
+        }
+    ]
+}

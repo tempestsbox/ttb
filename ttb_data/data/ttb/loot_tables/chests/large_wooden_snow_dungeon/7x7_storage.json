@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spruce_leaves",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spruce_log",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spruce_slab"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rail",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:powered_rail"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": {
+                "min": 3,
+                "max": 5
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/template/mysterious_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{mysterious_book:'what_was_she_trying_to_build'},pages:['{\"translate\":\"item.ttb.mysterious_book.what_was_she_trying_to_build.page_0\"}']}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

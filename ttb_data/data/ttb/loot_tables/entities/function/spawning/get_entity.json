@@ -555,8 +555,7 @@
                             ]
                         },
                         {
-                            "type": "minecraft:loot_table",
-                            "name": "minecraft:empty"
+                            "type": "minecraft:empty"
                         }
                     ]
                 }

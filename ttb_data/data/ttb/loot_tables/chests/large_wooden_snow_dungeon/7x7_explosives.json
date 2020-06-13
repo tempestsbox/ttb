@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tnt"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gunpowder"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/shatter_staff"
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 6
+                }
+            ]
+        }
+    ]
+}

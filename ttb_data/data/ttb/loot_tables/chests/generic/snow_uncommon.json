@@ -1,0 +1,105 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/staff/loot"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/attributed/any"
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/levitation_arrow"
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 2
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 3
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:redstone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_nugget"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gunpowder",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ice",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sugar"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:coal"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                }
+            ]
+        }
+    ]
+}
