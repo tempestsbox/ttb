@@ -14,4 +14,5 @@ loot replace block ~ ~ ~ container.16 1 mine 29999984 254 29999984 air{drop_cont
 setblock 29999984 255 29999984 air
 forceload remove 29999984 29999984
 
+data remove block ~ ~ ~ Items[{Slot:9b}]
 function ttb:block/tempest_crafter/gui/remove_items

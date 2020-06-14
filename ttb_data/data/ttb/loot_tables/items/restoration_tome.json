@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "ttb:items/template/base",
+                    "name": "ttb:items/template/unstackable",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",

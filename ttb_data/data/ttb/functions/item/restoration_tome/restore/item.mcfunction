@@ -11,4 +11,5 @@ execute if score restoration_tome_item_tag_count ttb_data matches ..1 run data r
 replaceitem block ~ ~ ~ container.16 barrier{CustomModelData:6830001}
 data modify block ~ ~ ~ Items[{Slot:16b}] set from block ~ ~ ~ Items[{Slot:1b}].tag.ttb.crafting.restoration_tome.repair_item
 
+data remove block ~ ~ ~ Items[{Slot:9b}]
 function ttb:block/tempest_crafter/gui/remove_items
