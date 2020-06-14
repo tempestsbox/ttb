@@ -1,6 +1,6 @@
 #called by world/generation/player
 
-title @a actionbar {"translate":"text.ttb.prefix","color":"#94EE82","with":[{"translate":"text.ttb.world_generation.warn","color":"#81D964"}]}
+execute if score worldGenerationWarnMessage ttb_gamerules matches 1 run title @a actionbar {"translate":"text.ttb.prefix","color":"#94EE82","with":[{"translate":"text.ttb.world_generation.warn","color":"#81D964"}]}
 
 # get the biome type
 scoreboard players reset * ttb_biome
