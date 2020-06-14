@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/spawn/snowy_top",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 98
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:world/structure/spawn/snowy_underground",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 99
+                }
+            ]
+        }
+    ]
+}

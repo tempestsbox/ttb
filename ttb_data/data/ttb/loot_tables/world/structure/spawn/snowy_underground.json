@@ -1,0 +1,60 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:empty",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{structure:{name:'ttb:snow_columns'}}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:empty",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{structure:{name:'ttb:snowy_glass_lab'}}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:empty",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{world:{structure:{name:'ttb:stray_dungeon'}}}}"
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_attributes",
+                    "modifiers": [
+                        {
+                            "name": "ttb:height",
+                            "attribute": "generic.armor",
+                            "amount": {
+                                "min": 16,
+                                "max": 25
+                            },
+                            "operation": "addition",
+                            "slot": "mainhand"
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{ttb:{world:{structure:{modifiers:[{id:'replace_stone'}]}}}}"
+                }
+            ]
+        }
+    ]
+}

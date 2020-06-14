@@ -5,13 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "ttb:empty",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{world:{structure:{name:'ttb:prismarine_stray_spawner'}}}}"
-                        }
-                    ]
+                    "name": "ttb:world/structure/spawn/cold"
                 },
                 {
                     "type": "minecraft:empty",

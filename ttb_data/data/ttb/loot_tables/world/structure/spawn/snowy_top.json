@@ -21,7 +21,8 @@
                             "function": "minecraft:set_nbt",
                             "tag": "{ttb:{world:{structure:{name:'ttb:deadlock_tower',shift_y:-6}}}}"
                         }
-                    ]
+                    ],
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -31,7 +32,8 @@
                             "function": "minecraft:set_nbt",
                             "tag": "{ttb:{world:{structure:{name:'ttb:snow_blight',shift_y:-4}}}}"
                         }
-                    ]
+                    ],
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -41,7 +43,8 @@
                             "function": "minecraft:set_nbt",
                             "tag": "{ttb:{world:{structure:{name:'ttb:snow_fort',shift_y:-5}}}}"
                         }
-                    ]
+                    ],
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -51,7 +54,8 @@
                             "function": "minecraft:set_nbt",
                             "tag": "{ttb:{world:{structure:{name:'ttb:snow_glacier',shift_y:-4}}}}"
                         }
-                    ]
+                    ],
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -61,7 +65,8 @@
                             "function": "minecraft:set_nbt",
                             "tag": "{ttb:{world:{structure:{name:'ttb:snow_house',shift_y:-7}}}}"
                         }
-                    ]
+                    ],
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -72,7 +77,7 @@
                             "tag": "{ttb:{world:{structure:{name:'ttb:snow_igloo',shift_y:-11}}}}"
                         }
                     ],
-                    "weight": 5
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -83,7 +88,7 @@
                             "tag": "{ttb:{world:{structure:{name:'ttb:snow_spikes',shift_y:-5}}}}"
                         }
                     ],
-                    "weight": 4
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -95,76 +100,12 @@
                         }
                     ],
                     "weight": 2
-                },
-                {
-                    "type": "minecraft:empty",
-                    "weight": 83
                 }
             ],
             "functions": [
                 {
                     "function": "minecraft:set_nbt",
                     "tag": "{ttb:{world:{structure:{modifiers:[{id:'top_spread'}]}}}}"
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "ttb:empty",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{world:{structure:{name:'ttb:snow_columns'}}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "ttb:empty",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{world:{structure:{name:'ttb:snowy_glass_lab'}}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "ttb:empty",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{world:{structure:{name:'ttb:stray_dungeon'}}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:empty",
-                    "weight": 97
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_attributes",
-                    "modifiers": [
-                        {
-                            "name": "ttb:height",
-                            "attribute": "generic.armor",
-                            "amount": {
-                                "min": 16,
-                                "max": 25
-                            },
-                            "operation": "addition",
-                            "slot": "mainhand"
-                        }
-                    ]
-                },
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{ttb:{world:{structure:{modifiers:[{id:'replace_stone'}]}}}}"
                 }
             ]
         }
