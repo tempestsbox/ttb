@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:logs",
+        "#ttb:broken_anvil",
+        "minecraft:iron_ore",
+        "minecraft:gold_ore",
+        "minecraft:cobblestone",
+        "minecraft:netherrack",
+        "minecraft:magma_block",
+        "minecraft:prismarine",
+        "minecraft:sandstone",
+        "minecraft:soul_sand"
+    ]
+}

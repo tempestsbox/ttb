@@ -8,6 +8,7 @@ execute if data block ~ ~ ~ Items[{tag:{ttb:{item:"mysterious_crystal"}}}] run f
 execute if entity @s[tag=ttb_breaker] run function ttb:block/breaker/cost/check
 execute if entity @s[tag=ttb_acronite_cage] run function ttb:block/acronite_cage/cost/check
 execute if entity @s[tag=ttb_eckspei_locker] run function ttb:block/eckspei_locker/cost/check
+execute if entity @s[tag=ttb_alchemy_chamber] run function ttb:block/alchemy_chamber/cost/check
 
 tag @e[type=armor_stand,tag=ttb_tempite_stone] remove ttb_tempite_stone_nearest
 tag @s remove ttb_machine_mysterious

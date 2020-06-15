@@ -60,6 +60,12 @@
                 "custom_model_data": 6830010
             },
             "model": "ttb:item/eckspei_locker"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830011
+            },
+            "model": "ttb:item/alchemy_chamber"
         }
     ]
 }

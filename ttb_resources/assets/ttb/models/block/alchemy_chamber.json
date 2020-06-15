@@ -1,0 +1,9 @@
+{
+    "parent": "ttb:block/cube_orientable",
+    "textures": {
+        "front": "ttb:block/alchemy_chamber_front",
+        "back": "ttb:block/alchemy_chamber_back",
+        "side": "ttb:block/alchemy_chamber_side",
+        "vertical": "ttb:block/alchemy_chamber_vertical"
+    }
+}
