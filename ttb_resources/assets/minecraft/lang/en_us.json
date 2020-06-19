@@ -7,5 +7,14 @@
     "subtitles.entity.item_frame.break": "Shelf breaks",
     "subtitles.entity.item_frame.place": "Shelf placed",
     "subtitles.entity.item_frame.remove_item": "Shelf empties",
-    "subtitles.entity.item_frame.rotate_item": "Shelf clicks"
+    "subtitles.entity.item_frame.rotate_item": "Shelf clicks",
+
+    "attribute.name.horse.jump_strength": "§f\uF341",
+    "attribute.name.generic.max_health": "§f\uF343",
+    "attribute.name.generic.movement_speed": "§f\uF340",
+    "attribute.name.generic.attack_damage": "§f\uF346",
+    "attribute.name.generic.attack_speed": "§f\uF347",
+    "attribute.name.generic.luck": "§f\uF342",
+    "attribute.name.generic.armor": "§f\uF344",
+    "attribute.name.generic.armor_toughness": "§f\uF345"
 }

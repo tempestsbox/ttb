@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "ttb:gui/attributes.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uF340\uF341\uF342\uF343\uF344\uF345\uF346\uF347"]
+        }
+    ]
+}
