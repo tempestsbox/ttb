@@ -1,14 +1,7 @@
-#called by entity/function/spawning/check
+# called by entity/function/spawning/check
 
-#get entity to spawn, if any
-loot spawn ~ ~ ~ loot ttb:entities/function/spawning/get_entity
-#retry globally if non-existent
-execute unless entity @e[type=item,nbt={Item:{tag:{ttb:{entity_spawning:{}}}}},distance=0,limit=1] run loot spawn ~ ~ ~ loot ttb:entities/function/spawning/global_get_entity
+execute if predicate ttb:entity/function/spawning/random_chance if entity @s[type=enderman] run function ttb:entity/function/spawning/entity/endermenace
 
-tag @e[type=item,nbt={Item:{tag:{ttb:{entity_spawning:{}}}}},distance=0,limit=1] add ttb_entity_spawning
+execute if predicate ttb:world/biome/cave run function ttb:entity/function/spawning/biome/cave
 
-#remove previous entity
-execute if entity @e[type=item,tag=ttb_entity_spawning,distance=0,limit=1] run tag @s[type=!player,type=!#ttb:sprite] add ttb_remove
-
-#summon entity
-execute as @e[type=item,tag=ttb_entity_spawning,distance=0] run function ttb:entity/function/spawning/summon_new_entity
+tag @s[tag=ttb_spawning_success] add ttb_remove

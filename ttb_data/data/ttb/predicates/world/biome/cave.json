@@ -1,0 +1,19 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "position": {
+                "y": {
+                    "max": 40
+                }
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:reference",
+            "name": "ttb:world/biome/deep_cave"
+        }
+    }
+]
