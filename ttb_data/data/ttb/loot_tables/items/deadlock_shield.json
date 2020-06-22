@@ -5,11 +5,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:tipped_arrow",
+                    "name": "minecraft:shield",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:'levitation_arrow'},display:{Name:'{\"translate\":\"item.ttb.levitation_arrow\",\"italic\":false}'},CustomPotionEffects:[{Id:25,Amplifier:0,Duration:400}],CustomPotionColor:5493990}"
+                            "tag": "{ttb:{item:'deadlock_shield'},display:{Name:'{\"translate\":\"item.ttb.deadlock_shield\",\"italic\":false,\"color\":\"green\"}'},BlockEntityTag:{Base:5,Patterns:[{Pattern:'dls',Color:13},{Pattern:'flo',Color:9},{Pattern:'mr',Color:13}]},CustomModelData:6830001}"
                         }
                     ]
                 }

@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow_pulling_1",
+    "textures": {
+        "layer0": "ttb:item/deadlock_sniper_bow_pulling_1"
+    }
+}

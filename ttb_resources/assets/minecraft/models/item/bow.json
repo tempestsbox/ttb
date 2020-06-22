@@ -75,6 +75,66 @@
                 "pull": 0.9
             },
             "model": "ttb:item/quick_bow_pulling_2"
+        },
+
+        {
+            "predicate": {
+                "custom_model_data": 6830002
+            },
+            "model": "ttb:item/deadlock_bow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830002,
+                "pulling": 1
+            },
+            "model": "ttb:item/deadlock_bow_pulling_0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830002,
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "ttb:item/deadlock_bow_pulling_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830002,
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "ttb:item/deadlock_bow_pulling_2"
+        },
+
+        {
+            "predicate": {
+                "custom_model_data": 6830003
+            },
+            "model": "ttb:item/deadlock_sniper_bow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830003,
+                "pulling": 1
+            },
+            "model": "ttb:item/deadlock_sniper_bow_pulling_0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830003,
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "ttb:item/deadlock_sniper_bow_pulling_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830003,
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "ttb:item/deadlock_sniper_bow_pulling_2"
         }
     ]
 }

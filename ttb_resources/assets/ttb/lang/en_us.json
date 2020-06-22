@@ -54,6 +54,11 @@
     "item.ttb.optimism": "Optimism",
     "item.ttb.levitation_arrow": "Levitation Arrow",
     "item.ttb.eckspei_rod": "Eckspei Rod",
+    "item.ttb.deadlock_axe": "Deadlock Axe",
+    "item.ttb.deadlock_sword": "Deadlock Sword",
+    "item.ttb.deadlock_shield": "Deadlock Shield",
+    "item.ttb.deadlock_bow": "Deadlock Bow",
+    "item.ttb.deadlock_sniper_bow": "Deadlock Sniper's Bow",
 
     "item.ttb.staff": "%s Staff",
     "item.ttb.staff.repulsion": "Repulsion",

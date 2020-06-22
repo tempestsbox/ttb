@@ -1,0 +1,64 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{item:'deadlock_axe'},display:{Name:'{\"translate\":\"item.ttb.deadlock_axe\",\"italic\":false,\"color\":\"green\"}'},Enchantments:[{}],CustomModelData:6830001}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "ttb:attack_damage",
+                                    "attribute": "generic.attack_damage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 6,
+                                        "max": 9
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "ttb:max_health",
+                                    "attribute": "generic.max_health",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 7
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "ttb:attack_speed",
+                                    "attribute": "generic.attack_speed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.7,
+                                        "max": -0.4
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "ttb:movement_speed",
+                                    "attribute": "generic.movement_speed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.27,
+                                        "max": -0.07
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

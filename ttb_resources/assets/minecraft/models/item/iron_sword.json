@@ -9,6 +9,12 @@
                 "custom_model_data": 6830001
             },
             "model": "ttb:item/quick_sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830002
+            },
+            "model": "ttb:item/deadlock_sword"
         }
     ]
 }
