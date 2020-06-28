@@ -4,8 +4,15 @@
         "condition": "minecraft:alternative",
         "terms": [
             {
-                "condition": "minecraft:reference",
-                "name": "ttb:entity/function/holding/staff"
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{ttb:{item:'staff'}}"
+                        }
+                    }
+                }
             },
             {
                 "condition": "minecraft:reference",

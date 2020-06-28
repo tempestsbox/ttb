@@ -5,8 +5,9 @@ forceload add ~ ~
 
 # get copy
 setblock ~ ~-1 ~ yellow_shulker_box{Items:[{Slot:0b,id:"barrier",Count:1b,tag:{CustomModelData:6830001}}]}
-data modify block ~ ~-1 ~ Items[0] set from entity @s SelectedItem
-execute unless data entity @s SelectedItem run data modify block ~ ~-1 ~ Items[0] set from entity @s HandItems[0]
+execute store result score #is_usage_offhand ttb_data run data remove storage ttb:temp item_durability_update.Slot
+data modify block ~ ~-1 ~ Items[0] set from storage ttb:temp item_durability_update
+execute unless data storage ttb:temp item_durability_update run data modify block ~ ~-1 ~ Items[0] set from entity @s HandItems[0]
 
 # pre
 execute store result score @s ttb_durab_max run data get block ~ ~-1 ~ Items[0].tag.ttb.max_durability
@@ -32,6 +33,7 @@ execute store result block ~ ~-1 ~ Items[0].tag.Damage int 1 run scoreboard play
 
 # post
 execute if score @s ttb_model_cmd matches 0.. run function ttb:item/carrot_on_a_stick/durability/set_custom_model_data
-loot replace entity @s weapon.mainhand 1 mine ~ ~-1 ~ air{drop_contents:1b}
+execute unless score #is_usage_offhand ttb_data matches 1 run loot replace entity @s weapon.mainhand 1 mine ~ ~-1 ~ air{drop_contents:1b}
+execute if score #is_usage_offhand ttb_data matches 1 run loot replace entity @s weapon.offhand 1 mine ~ ~-1 ~ air{drop_contents:1b}
 setblock ~ ~-1 ~ air
 forceload remove ~ ~
