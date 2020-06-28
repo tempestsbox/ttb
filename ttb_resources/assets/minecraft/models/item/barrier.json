@@ -99,6 +99,12 @@
                 "custom_model_data": 6830016
             },
             "model": "ttb:entity/pillar_explosion"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830017
+            },
+            "model": "ttb:entity/pillar_explosion_ignited"
         }
     ]
 }

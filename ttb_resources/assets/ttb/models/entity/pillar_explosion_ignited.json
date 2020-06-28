@@ -1,0 +1,6 @@
+{
+    "parent": "ttb:entity/pillar_explosion",
+	"textures": {
+		"texture": "ttb:entity/pillar_explosion_ignited"
+	}
+}
