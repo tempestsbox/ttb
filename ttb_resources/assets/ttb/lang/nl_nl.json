@@ -83,7 +83,7 @@
   "structure.ttb.stray_tower": "Verdwaalde Toren",
   "text.ttb.debug.entity_removal": "Entity verwijderen: %s",
   "text.ttb.entity.from": "%s van %s",
-  "text.ttb.entity.health_bar": "[%s] %s/%sgezondheidspunten",
+  "text.ttb.entity.health_bar": "[%s] %s/%shp",
   "text.ttb.entity.whilst_fighting": "%s tijdens het vechten %s",
   "text.ttb.load": "Geladen",
   "text.ttb.mana.none": "Niet genoeg mana",
