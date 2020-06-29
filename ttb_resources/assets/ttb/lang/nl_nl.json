@@ -1,5 +1,4 @@
 {
-  "%1$s%4346964$s": "%2$s",
   "block.ttb.acronite_cage": "Acronieten Kooi",
   "block.ttb.alchemy_chamber": "Alchemie Kamer",
   "block.ttb.amethyst_ore": "Amethist Erts",
@@ -69,7 +68,6 @@
   "item.ttb.staff.temporal.sped_up_time": "%s versnelde tijd",
   "item.ttb.vulcaanium": "Vulcaanium",
   "item.ttb.vulcaanium_crystal": "Vulcaanium Crystal",
-  "pack.ttb.name": "De Tempest's Doos",
   "structure.ttb.deadlock_tower": "Deadlock Toren",
   "structure.ttb.large_wooden_snow_dungeon": "Deadlock Kerker",
   "structure.ttb.prismarine_stray_spawner": "Verdwaalde Spawner",
@@ -83,14 +81,11 @@
   "structure.ttb.snowy_glass_lab": "Ondergronds Laboratorium",
   "structure.ttb.stray_dungeon": "Verdwaalde Kerker",
   "structure.ttb.stray_tower": "Verdwaalde Toren",
-  "text.ttb.debug": "[TTB Debug] %s",
   "text.ttb.debug.entity_removal": "Entity verwijderen: %s",
   "text.ttb.entity.from": "%s van %s",
   "text.ttb.entity.health_bar": "[%s] %s/%sgezondheidspunten",
   "text.ttb.entity.whilst_fighting": "%s tijdens het vechten %s",
   "text.ttb.load": "Geladen",
   "text.ttb.mana.none": "Niet genoeg mana",
-  "text.ttb.prefix": "[TTB] %s",
-  "text.ttb.world_generation.done": "Wereld genereren - klaar!",
   "text.ttb.world_generation.warn": "Het zou kunnen u vertraging oploopt tijdens het genereren van het terrijn."
 }
