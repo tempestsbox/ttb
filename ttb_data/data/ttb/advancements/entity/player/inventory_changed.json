@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "inventory_changed": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "ttb:entity/player/inventory_changed"
+    }
+}
