@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{staff:{id:'ether'},durability:4,max_durability:4},display:{Name:'{\"translate\":\"item.ttb.staff\",\"with\":[{\"translate\":\"item.ttb.staff.ether\"}],\"italic\":false}',Lore:['[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"},[{\"translate\":\"item.durability\",\"with\":[\"4\",\"4\"]}]]']},CustomModelData:6830009}"
+                            "tag": "{ttb:{staff:{id:'ether'},durability:4,max_durability:4},display:{Name:'{\"translate\":\"item.ttb.ether_staff\",\"italic\":false}',Lore:['[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"},[{\"translate\":\"item.durability\",\"with\":[\"4\",\"4\"]}]]']},CustomModelData:6830009}"
                         }
                     ]
                 }

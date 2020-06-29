@@ -5,7 +5,7 @@ playsound block.bell.resonate player @a[distance=..32] ~ ~ ~ 2 2 1
 particle enchant ~ ~ ~ .5 .5 .5 1 500 normal @a
 particle flame ~ ~ ~ .5 .5 .5 1 500 normal @a
 
-tellraw @a [{"translate":"item.ttb.staff.temporal.sped_up_time","with":[{"selector":"@s"}],"color":"yellow","italic":true}]
+tellraw @a [{"translate":"item.ttb.temporal_staff.sped_up_time","with":[{"selector":"@s"}],"color":"yellow","italic":true}]
 
 # add time
 time add 6000
