@@ -90,9 +90,6 @@ data modify storage ttb:block machine.Items set value [{Slot:0b},{Slot:1b},{Slot
 data modify storage ttb:block machine.Items[] merge value {tag:{ttb:{gui_item:1b},display:{Name:'""'},CustomModelData:6830001},id:barrier,Count:1b}
 data modify storage ttb:block machine.Items[{Slot:1b}].tag.CustomModelData set value 6830015
 
-data modify storage ttb:world structure.orientation set value [{id:""}]
-data modify storage ttb:world structure.dungeon.get_room_result set value [{}]
-
 # trigger clocks
 function ttb:clock2t
 function ttb:clock16t
