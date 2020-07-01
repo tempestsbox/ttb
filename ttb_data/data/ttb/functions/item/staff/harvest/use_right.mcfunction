@@ -8,4 +8,4 @@ tellraw @s[level=..4,gamemode=!creative,gamemode=!spectator] {"translate":"item.
 
 xp add @s[gamemode=!creative,gamemode=!spectator] -5 levels
 
-execute as @e[type=#ttb:item/staff/harvest/regress,distance=..6,sort=random,limit=3] at @s run function ttb:item/staff/harvest/regress
+execute as @e[type=#ttb:item/staff/harvest/regress,distance=..6,sort=random,limit=3] at @s run function ttb:item/staff/harvest/regress/get_entity
