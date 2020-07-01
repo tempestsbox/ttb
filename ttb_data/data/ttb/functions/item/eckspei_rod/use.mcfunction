@@ -8,5 +8,5 @@ scoreboard players operation #eckspei_rod_xp_loop ttb_data = eckspei_rod_xp_per 
 function ttb:item/eckspei_rod/add_experience
 
 # update item data
-execute if score @s ttb_durab matches 0 run scoreboard players set @s ttb_model_cmd 17
+execute if score #durability ttb_data matches 0 run scoreboard players set @s ttb_model_cmd 17
 execute in overworld positioned 29999984 255 29999984 run function ttb:item/carrot_on_a_stick/durability/update

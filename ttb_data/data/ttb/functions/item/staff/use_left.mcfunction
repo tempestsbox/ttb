@@ -2,7 +2,6 @@
 
 execute anchored eyes positioned ^ ^ ^ run function ttb:item/staff/get_hit_entity
 
-scoreboard players remove @s[gamemode=!creative,gamemode=!spectator] ttb_durab 1
 execute if data storage ttb:temp item_durability_update{tag:{ttb:{staff:{id:'repulsion'}}}} as @e[type=!player,type=!#ttb:sprite,tag=ttb_hit_entity,limit=1] at @s run function ttb:item/staff/repulsion/use_left
 # execute if data storage ttb:temp item_durability_update{tag:{ttb:{staff:{id:'relativity'}}}} as @e[type=!player,type=!#ttb:sprite,tag=ttb_hit_entity,limit=1] at @s run function ttb:item/staff/relativity/use_left
 # execute if data storage ttb:temp item_durability_update{tag:{ttb:{staff:{id:'extraction'}}}} as @e[type=!player,type=!#ttb:sprite,tag=ttb_hit_entity,limit=1] at @s run function ttb:item/staff/extraction/use_left

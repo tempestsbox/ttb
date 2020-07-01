@@ -7,7 +7,7 @@ tag @s add ttb_use_crtstck
 execute if data storage ttb:temp item_durability_update{tag:{ttb:{item:'staff'}}} run function ttb:item/staff/durability/check
 tag @s remove ttb_use_crtstck
 # eckspei rod?
-execute if data storage ttb:temp item_durability_update{tag:{ttb:{item:'eckspei_rod'}}} unless score @s ttb_durab matches 0 run function ttb:item/eckspei_rod/use
+execute if data storage ttb:temp item_durability_update{tag:{ttb:{item:'eckspei_rod'}}} unless score #durability ttb_data matches 0 run function ttb:item/eckspei_rod/use
 
 # post
 data remove storage ttb:temp item_durability_update

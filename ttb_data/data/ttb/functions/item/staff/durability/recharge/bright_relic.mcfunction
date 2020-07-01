@@ -6,8 +6,8 @@ particle soul_fire_flame ~ ~ ~ 0 0 0 0.25 50 normal @a
 particle end_rod ~ ~ ~ .25 1 .25 .1 100 normal @a
 
 #functionality
-execute store result score @s ttb_durab run data get storage ttb:temp item_durability_update.tag.ttb.durability
-scoreboard players add @s ttb_durab 3
+execute store result score #durability ttb_data run data get storage ttb:temp item_durability_update.tag.ttb.durability
+scoreboard players add #durability ttb_data 3
 
 execute in overworld positioned 29999984 255 29999984 run function ttb:item/carrot_on_a_stick/durability/update
 

@@ -4,4 +4,4 @@ data modify storage ttb:temp item_durability_update set from entity @s SelectedI
 execute unless data storage ttb:temp item_durability_update{id:'minecraft:carrot_on_a_stick'} run data modify storage ttb:temp item_durability_update set from entity @s Inventory[{Slot:-106b}]
 
 # get current durability
-execute store result score @s ttb_durab run data get storage ttb:temp item_durability_update.tag.ttb.durability
+execute store result score #durability ttb_data run data get storage ttb:temp item_durability_update.tag.ttb.durability

@@ -1,6 +1,5 @@
 #called by item/staff/durability/check
 
-scoreboard players remove @s[gamemode=!creative,gamemode=!spectator] ttb_durab 1
 execute if data storage ttb:temp item_durability_update{tag:{ttb:{staff:{id:'repulsion'}}}} run function ttb:item/staff/repulsion/use_right
 execute if data storage ttb:temp item_durability_update{tag:{ttb:{staff:{id:'relativity'}}}} run function ttb:item/staff/relativity/use_right
 execute if data storage ttb:temp item_durability_update{tag:{ttb:{staff:{id:'extraction'}}}} run function ttb:item/staff/extraction/use_right

@@ -8,6 +8,7 @@
 scoreboard objectives add ttb_data dummy
 scoreboard players set eckspei_rod_xp_per ttb_data 75
 scoreboard players set acronite_cage_potion_motion ttb_data 2
+scoreboard players set carrot_on_a_stick_durability ttb_data 25
 execute store result score seed ttb_data run seed
 scoreboard objectives add ttb_biome dummy
 scoreboard objectives add ttb_model_cmd dummy
@@ -32,9 +33,6 @@ execute unless score entityRemovalDebugMessage ttb_gamerules matches 0..1 run sc
 execute unless score worldGenerationWarnMessage ttb_gamerules matches 0..1 run scoreboard players set worldGenerationWarnMessage ttb_gamerules 1
 gamerule commandBlockOutput false
 ## staffs
-scoreboard objectives add ttb_durab dummy
-scoreboard players set $carrot_on_a_stick_dur ttb_durab 25
-scoreboard objectives add ttb_durab_max dummy
 scoreboard objectives add ttb_ether_specmo dummy
 scoreboard objectives add ttb_ether_gamemo dummy
 ## player tracking
