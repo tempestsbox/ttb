@@ -1,7 +1,7 @@
 # called by entity/armor_stand/tick
 
 # gui
-execute if block ~ ~ ~ barrel[facing=up]{CustomName:'{"translate":"block.ttb.eckspei_locker"}'} run function ttb:block/eckspei_locker/gui/verify_integrity
+execute if block ~ ~ ~ barrel[facing=up]{CustomName:'{"translate":"block.ttb.eckspei_locker"}'} run function ttb:block/machine/gui/verify_integrity_check
 
 # removal
 execute unless block ~ ~ ~ barrel[facing=up]{CustomName:'{"translate":"block.ttb.eckspei_locker"}'} run function ttb:block/eckspei_locker/remove
