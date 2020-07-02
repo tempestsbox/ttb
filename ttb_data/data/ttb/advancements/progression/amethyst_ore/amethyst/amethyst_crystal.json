@@ -2,7 +2,7 @@
     "parent": "ttb:progression/amethyst_ore/amethyst",
     "display": {
         "icon": {
-            "item": "minecraft:clock",
+            "item": "minecraft:carrot_on_a_stick",
             "nbt": "{CustomModelData:6830019}"
         },
         "title": {
