@@ -17,7 +17,7 @@ execute if entity @s[type=!#ttb:entity/function/spawning/no_check,tag=!ttb_entit
 
 # entity immersion
 execute if entity @s[tag=ttb_dynamic_model] unless entity @s[tag=ttb_remove] run function ttb:entity/function/model/check
-execute if entity @s[tag=ttb_sound] unless entity @s[tag=ttb_remove] run function ttb:entity/function/sound_events/check
+execute if entity @s[tag=ttb_sound] unless entity @s[tag=ttb_remove] run function ttb:entity/function/sound_event/check
 
 # immunities
 data remove entity @s[tag=ttb_fire_immune] Fire
