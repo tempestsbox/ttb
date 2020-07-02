@@ -1,0 +1,20 @@
+{
+    "parent": "ttb:progression/category/structures",
+    "display": {
+        "icon": {
+            "item": "minecraft:prismarine"
+        },
+        "title": {
+            "translate": "structure.ttb.prismarine_stray_spawner"
+        },
+        "description": "",
+        "frame": "goal",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "locate_prismarine_stray_spawner": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

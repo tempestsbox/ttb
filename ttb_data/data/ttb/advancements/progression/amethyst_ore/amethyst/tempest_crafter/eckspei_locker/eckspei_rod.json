@@ -1,0 +1,28 @@
+{
+    "parent": "ttb:progression/amethyst_ore/amethyst/tempest_crafter/eckspei_locker",
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:6830018}"
+        },
+        "title": {
+            "translate": "item.ttb.eckspei_rod"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "obtain_eckspei_rod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'eckspei_rod'}}"
+                    }
+                ]
+            }
+        }
+    }
+}

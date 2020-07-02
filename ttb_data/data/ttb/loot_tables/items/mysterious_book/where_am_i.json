@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{mysterious_book:'where_am_i'},display:{Name:'{\"translate\":\"item.ttb.mysterious_book.where_am_i\",\"italic\":false}'},pages:['{\"translate\":\"item.ttb.mysterious_book.where_am_i.page_0\"}','{\"translate\":\"item.ttb.mysterious_book.where_am_i.page_1\"}','{\"translate\":\"item.ttb.mysterious_book.where_am_i.page_2\"}','','{\"translate\":\"item.ttb.mysterious_book.where_am_i.page_4\"}'],title:'Where am I?',author:'Who cares?'}"
+                            "tag": "{ttb:{mysterious_book:'where_am_i'},display:{Name:'{\"translate\":\"item.ttb.mysterious_book.where_am_i\",\"italic\":false}'},pages:['{\"translate\":\"item.ttb.mysterious_book.where_am_i.page_0\"}','{\"translate\":\"item.ttb.mysterious_book.where_am_i.page_1\"}','{\"translate\":\"item.ttb.mysterious_book.where_am_i.page_2\"}','','{\"translate\":\"item.ttb.mysterious_book.where_am_i.page_4\"}'],title:'Where am I?',author:'Who cares?',CustomModelData:6830004}"
                         }
                     ]
                 }

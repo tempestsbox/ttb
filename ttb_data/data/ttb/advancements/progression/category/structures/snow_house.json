@@ -1,0 +1,20 @@
+{
+    "parent": "ttb:progression/category/structures",
+    "display": {
+        "icon": {
+            "item": "minecraft:wheat"
+        },
+        "title": {
+            "translate": "structure.ttb.snow_house"
+        },
+        "description": "",
+        "frame": "goal",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "locate_snow_house": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

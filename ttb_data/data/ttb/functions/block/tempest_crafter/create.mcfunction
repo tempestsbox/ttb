@@ -2,6 +2,8 @@
 
 playsound block.stone.place block @a[distance=..16] ~ ~ ~ 1 1 1
 
+advancement grant @a[distance=..5] only ttb:story/root
+
 #replace command block if it exists
 execute if block ~ ~ ~ #ttb:command_block run setblock ~ ~ ~ air
 

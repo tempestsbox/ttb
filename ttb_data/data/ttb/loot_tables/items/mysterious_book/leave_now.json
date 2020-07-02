@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{mysterious_book:'leave_now'},pages:['{\"translate\":\"item.ttb.mysterious_book.leave_now.page_0\"}','','','','','','','','','{\"translate\":\"item.ttb.mysterious_book.leave_now.page_9\"}']}"
+                            "tag": "{ttb:{mysterious_book:'leave_now'},pages:['{\"translate\":\"item.ttb.mysterious_book.leave_now.page_0\"}','','','','','','','','','{\"translate\":\"item.ttb.mysterious_book.leave_now.page_9\"}'],CustomModelData:6830001}"
                         }
                     ]
                 }

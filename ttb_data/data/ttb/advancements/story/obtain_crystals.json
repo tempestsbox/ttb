@@ -1,0 +1,40 @@
+{
+    "parent": "ttb:story/obtain_gems",
+    "display": {
+        "icon": {
+            "item": "minecraft:clock",
+            "nbt": "{CustomModelData:6830005}"
+        },
+        "title": {
+            "translate": "advancement.ttb.obtain_crystals.title"
+        },
+        "description": {
+            "translate": "advancement.ttb.obtain_crystals.description"
+        },
+        "frame": "goal",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "criteria": {
+        "obtain_amethyst": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'amethyst_crystal'}}"
+                    }
+                ]
+            }
+        },
+        "obtain_vulcaanium": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'vulcaanium_crystal'}}"
+                    }
+                ]
+            }
+        }
+    }
+}

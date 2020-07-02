@@ -1,0 +1,20 @@
+{
+    "parent": "ttb:progression/category/structures",
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {
+            "translate": "structure.ttb.deadlock_tower"
+        },
+        "description": "",
+        "frame": "goal",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "locate_deadlock_tower": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

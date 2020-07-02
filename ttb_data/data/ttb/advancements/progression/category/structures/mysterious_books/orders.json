@@ -1,0 +1,28 @@
+{
+    "parent": "ttb:progression/category/structures/mysterious_books",
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book",
+            "nbt": "{CustomModelData:6830002}"
+        },
+        "title": {
+            "translate": "item.ttb.mysterious_book.orders"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "obtain_orders": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{mysterious_book:'orders'}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "parent": "ttb:progression/category/structures/large_wooden_snow_dungeon/mage",
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:6830012,Enchantments:[{}]}"
+        },
+        "title": {
+            "translate": "item.ttb.mage_staff"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "obtain_mage_staff": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{staff:{id:'mage'}}}"
+                    }
+                ]
+            }
+        }
+    }
+}

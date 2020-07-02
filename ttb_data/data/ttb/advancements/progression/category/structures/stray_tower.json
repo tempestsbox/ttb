@@ -1,0 +1,20 @@
+{
+    "parent": "ttb:progression/category/structures",
+    "display": {
+        "icon": {
+            "item": "minecraft:orange_wool"
+        },
+        "title": {
+            "translate": "structure.ttb.stray_tower"
+        },
+        "description": "",
+        "frame": "goal",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "locate_stray_tower": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

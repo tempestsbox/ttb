@@ -1,0 +1,28 @@
+{
+    "parent": "ttb:progression/vulcaanium_ore/vulcaanium",
+    "display": {
+        "icon": {
+            "item": "minecraft:clock",
+            "nbt": "{CustomModelData:6830006}"
+        },
+        "title": {
+            "translate": "item.ttb.vulcaanium_crystal"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "obtain_vulcaanium_crystal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'vulcaanium_crystal'}}"
+                    }
+                ]
+            }
+        }
+    }
+}

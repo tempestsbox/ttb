@@ -1,0 +1,28 @@
+{
+    "parent": "ttb:progression/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:clock",
+            "nbt": "{CustomModelData:6830007}"
+        },
+        "title": {
+            "translate": "item.ttb.mysterious_dust"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "obtain_mysterious_dust": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'mysterious_dust'}}"
+                    }
+                ]
+            }
+        }
+    }
+}

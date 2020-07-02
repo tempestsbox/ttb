@@ -1,0 +1,28 @@
+{
+    "parent": "ttb:progression/amethyst_ore/amethyst/tempest_crafter",
+    "display": {
+        "icon": {
+            "item": "minecraft:clock",
+            "nbt": "{CustomModelData:6830003}"
+        },
+        "title": {
+            "translate": "item.ttb.bright_relic"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "obtain_bright_relic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'bright_relic'}}"
+                    }
+                ]
+            }
+        }
+    }
+}

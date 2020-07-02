@@ -1,0 +1,28 @@
+{
+    "parent": "ttb:progression/amethyst_ore/amethyst/tempest_crafter",
+    "display": {
+        "icon": {
+            "item": "minecraft:clock",
+            "nbt": "{CustomModelData:6830004}"
+        },
+        "title": {
+            "translate": "item.ttb.dark_relic"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "obtain_dark_relic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'dark_relic'}}"
+                    }
+                ]
+            }
+        }
+    }
+}

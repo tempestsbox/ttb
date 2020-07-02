@@ -1,0 +1,28 @@
+{
+    "parent": "ttb:progression/amethyst_ore",
+    "display": {
+        "icon": {
+            "item": "minecraft:clock",
+            "nbt": "{CustomModelData:6830001}"
+        },
+        "title": {
+            "translate": "item.ttb.amethyst"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "obtain_amethyst": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'amethyst'}}"
+                    }
+                ]
+            }
+        }
+    }
+}

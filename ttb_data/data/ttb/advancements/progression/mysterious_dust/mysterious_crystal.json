@@ -1,0 +1,28 @@
+{
+    "parent": "ttb:progression/mysterious_dust",
+    "display": {
+        "icon": {
+            "item": "minecraft:clock",
+            "nbt": "{CustomModelData:6830008}"
+        },
+        "title": {
+            "translate": "item.ttb.mysterious_crystal"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "obtain_mysterious_crystal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'mysterious_crystal'}}"
+                    }
+                ]
+            }
+        }
+    }
+}

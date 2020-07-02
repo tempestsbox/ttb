@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:purple_terracotta"
+        },
+        "title": {
+            "translate": "advancements.ttb.progression.title",
+            "color": "white"
+        },
+        "description": "",
+        "background": "minecraft:textures/block/green_concrete.png",
+        "frame": "challenge",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

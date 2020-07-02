@@ -1,4 +1,5 @@
 {
+    "parent": "ttb:entity/template",
     "textures": {
         "texture": "ttb:entity/ore_dweller_moving"
     },
@@ -232,39 +233,9 @@
         }
     ],
     "display": {
-        "thirdperson_righthand": {
-            "rotation": [57, 82, -30],
-            "translation": [0, 0, 1],
-            "scale": [0.35, 0.35, 0.35]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [57, 82, -30],
-            "translation": [0, 0, 1],
-            "scale": [0.35, 0.35, 0.35]
-        },
-        "firstperson_righthand": {
-            "translation": [3, 0, 0],
-            "scale": [0.29, 0.29, 0.29]
-        },
-        "firstperson_lefthand": {
-            "translation": [3, 0, 0],
-            "scale": [0.29, 0.29, 0.29]
-        },
-        "ground": {
-            "translation": [0, 0.25, 0],
-            "scale": [0.43, 0.43, 0.43]
-        },
-        "gui": {
-            "rotation": [0, -180, 0],
-            "translation": [0, -3, 0],
-            "scale": [0.46, 0.45, 0.45]
-        },
         "head": {
             "translation": [0, -23, 0],
             "scale": [2.75, 2.75, 2.75]
-        },
-        "fixed": {
-            "translation": [0, -6.5, -3.75]
         }
     },
     "groups": [

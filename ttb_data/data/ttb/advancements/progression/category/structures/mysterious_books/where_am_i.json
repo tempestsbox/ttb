@@ -1,0 +1,28 @@
+{
+    "parent": "ttb:progression/category/structures/mysterious_books",
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book",
+            "nbt": "{CustomModelData:6830004}"
+        },
+        "title": {
+            "translate": "item.ttb.mysterious_book.where_am_i"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "obtain_where_am_i": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{mysterious_book:'where_am_i'}}"
+                    }
+                ]
+            }
+        }
+    }
+}

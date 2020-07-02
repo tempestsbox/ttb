@@ -1,0 +1,57 @@
+{
+    "parent": "ttb:progression/category/structures",
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "title": {
+            "translate": "advancements.ttb.progression.category.structures.attributed_items"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "obtain_optimism": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'optimism'}}"
+                    }
+                ]
+            }
+        },
+        "obtain_quick_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'quick_boots'}}"
+                    }
+                ]
+            }
+        },
+        "obtain_quick_bow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'quick_bow'}}"
+                    }
+                ]
+            }
+        },
+        "obtain_quick_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'quick_sword'}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "parent": "ttb:story/obtain_crystals",
+    "display": {
+        "icon": {
+            "item": "minecraft:clock",
+            "nbt": "{CustomModelData:6830008}"
+        },
+        "title": {
+            "translate": "advancement.ttb.obtain_mysterious_crystal.title"
+        },
+        "description": {
+            "translate": "advancement.ttb.obtain_mysterious_crystal.description"
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "criteria": {
+        "obtain_mysterious_crystal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{ttb:{item:'mysterious_crystal'}}"
+                    }
+                ]
+            }
+        }
+    }
+}

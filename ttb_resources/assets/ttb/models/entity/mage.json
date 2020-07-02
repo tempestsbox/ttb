@@ -1,4 +1,5 @@
 {
+    "parent": "ttb:entity/template",
     "textures": {
         "texture": "ttb:entity/mage"
     },
