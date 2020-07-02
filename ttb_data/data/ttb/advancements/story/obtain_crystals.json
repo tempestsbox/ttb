@@ -2,8 +2,8 @@
     "parent": "ttb:story/obtain_gems",
     "display": {
         "icon": {
-            "item": "minecraft:clock",
-            "nbt": "{CustomModelData:6830005}"
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:6830019}"
         },
         "title": {
             "translate": "advancement.ttb.obtain_crystals.title"

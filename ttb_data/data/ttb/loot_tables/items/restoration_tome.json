@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:'restoration_tome'},display:{Name:'{\"translate\":\"item.ttb.restoration_tome\",\"italic\":false}'},CustomModelData:6830010}"
+                            "tag": "{ttb:{item:'restoration_tome'},display:{Name:'{\"translate\":\"item.ttb.restoration_tome\",\"italic\":false}'},CustomModelData:6830022}"
                         }
                     ]
                 }

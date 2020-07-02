@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:clock",
-            "nbt": "{CustomModelData:6830005}"
+            "nbt": "{CustomModelData:6830019}"
         },
         "title": {
             "translate": "item.ttb.amethyst_crystal"

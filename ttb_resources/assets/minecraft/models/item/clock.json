@@ -86,25 +86,25 @@
             "predicate": {
                 "custom_model_data": 6830003
             },
-            "model": "ttb:item/bright_relic"
+            "model": "item/clock"
         },
         {
             "predicate": {
                 "custom_model_data": 6830004
             },
-            "model": "ttb:item/dark_relic"
+            "model": "item/clock"
         },
         {
             "predicate": {
                 "custom_model_data": 6830005
             },
-            "model": "ttb:item/amethyst_crystal"
+            "model": "item/clock"
         },
         {
             "predicate": {
                 "custom_model_data": 6830006
             },
-            "model": "ttb:item/vulcaanium_crystal"
+            "model": "item/clock"
         },
         {
             "predicate": {
@@ -116,19 +116,19 @@
             "predicate": {
                 "custom_model_data": 6830008
             },
-            "model": "ttb:item/mysterious_crystal"
+            "model": "item/clock"
         },
         {
             "predicate": {
                 "custom_model_data": 6830009
             },
-            "model": "ttb:empty"
+            "model": "item/clock"
         },
         {
             "predicate": {
                 "custom_model_data": 6830010
             },
-            "model": "ttb:item/restoration_tome"
+            "model": "item/clock"
         }
     ]
 }

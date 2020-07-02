@@ -2,8 +2,8 @@
     "parent": "ttb:story/obtain_crystals",
     "display": {
         "icon": {
-            "item": "minecraft:clock",
-            "nbt": "{CustomModelData:6830008}"
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:6830021}"
         },
         "title": {
             "translate": "advancement.ttb.obtain_mysterious_crystal.title"
