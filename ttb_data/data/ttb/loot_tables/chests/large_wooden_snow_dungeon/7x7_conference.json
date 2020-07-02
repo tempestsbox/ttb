@@ -5,13 +5,8 @@
             "rolls": 3,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_sword",
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
-                    ]
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/deadlock_sword"
                 }
             ]
         },
@@ -19,13 +14,8 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:stone_axe",
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
-                    ]
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/deadlock_axe"
                 }
             ]
         },
@@ -36,17 +26,8 @@
             },
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:shield",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{BlockEntityTag:{Base:5,Patterns:[{Pattern:'dls',Color:13},{Pattern:'flo',Color:9},{Pattern:'mr',Color:13}]}}"
-                        },
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
-                    ]
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/deadlock_shield"
                 },
                 {
                     "type": "minecraft:item",
