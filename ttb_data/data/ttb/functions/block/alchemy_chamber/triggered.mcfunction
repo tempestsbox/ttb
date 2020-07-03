@@ -13,3 +13,6 @@ scoreboard players reset @s ttb_ascended
 scoreboard players reset @s ttb_reduced
 # trigger cooldown
 scoreboard players operation @s ttb_machine_cool = $alchemy_chamber ttb_machine_cool
+
+# generic triggered functions
+function ttb:block/machine/triggered
