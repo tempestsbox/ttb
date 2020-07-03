@@ -1,12 +1,12 @@
 {
-    "parent": "ttb:progression/mysterious_dust",
+    "parent": "ttb:progression/category/structures/snow_blight/blight",
     "display": {
         "icon": {
             "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:6830019}"
+            "nbt": "{CustomModelData:6830013}"
         },
         "title": {
-            "translate": "item.ttb.amethyst_crystal"
+            "translate": "item.ttb.blight_staff"
         },
         "description": "",
         "frame": "task",
@@ -14,12 +14,12 @@
         "show_toast": false
     },
     "criteria": {
-        "obtain_amethyst_crystal": {
+        "obtain_blight_staff": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{ttb:{item:'amethyst_crystal'}}"
+                        "nbt": "{ttb:{staff:{id:'blight'}}}"
                     }
                 ]
             }

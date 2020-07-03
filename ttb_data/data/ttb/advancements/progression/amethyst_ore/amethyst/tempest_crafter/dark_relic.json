@@ -2,8 +2,8 @@
     "parent": "ttb:progression/amethyst_ore/amethyst/tempest_crafter",
     "display": {
         "icon": {
-            "item": "minecraft:clock",
-            "nbt": "{CustomModelData:6830004}"
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:6830024}"
         },
         "title": {
             "translate": "item.ttb.dark_relic"

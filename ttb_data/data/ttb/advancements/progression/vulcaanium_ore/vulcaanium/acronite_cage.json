@@ -1,12 +1,12 @@
 {
-    "parent": "ttb:progression/mysterious_dust",
+    "parent": "ttb:progression/vulcaanium_ore/vulcaanium",
     "display": {
         "icon": {
-            "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:6830019}"
+            "item": "minecraft:item_frame",
+            "nbt": "{CustomModelData:6830009}"
         },
         "title": {
-            "translate": "item.ttb.amethyst_crystal"
+            "translate": "block.ttb.acronite_cage"
         },
         "description": "",
         "frame": "task",
@@ -14,12 +14,12 @@
         "show_toast": false
     },
     "criteria": {
-        "obtain_amethyst_crystal": {
+        "obtain_acronite_cage": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{ttb:{item:'amethyst_crystal'}}"
+                        "nbt": "{ttb:{item:'acronite_cage'}}"
                     }
                 ]
             }

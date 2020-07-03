@@ -2,8 +2,8 @@
     "parent": "ttb:progression/mysterious_dust",
     "display": {
         "icon": {
-            "item": "minecraft:clock",
-            "nbt": "{CustomModelData:6830006}"
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:6830020}"
         },
         "title": {
             "translate": "item.ttb.vulcaanium_crystal"

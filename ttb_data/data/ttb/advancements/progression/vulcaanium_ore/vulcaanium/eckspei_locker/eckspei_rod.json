@@ -1,12 +1,12 @@
 {
-    "parent": "ttb:progression/mysterious_dust",
+    "parent": "ttb:progression/vulcaanium_ore/vulcaanium/eckspei_locker",
     "display": {
         "icon": {
             "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:6830019}"
+            "nbt": "{CustomModelData:6830018}"
         },
         "title": {
-            "translate": "item.ttb.amethyst_crystal"
+            "translate": "item.ttb.eckspei_rod"
         },
         "description": "",
         "frame": "task",
@@ -14,12 +14,12 @@
         "show_toast": false
     },
     "criteria": {
-        "obtain_amethyst_crystal": {
+        "obtain_eckspei_rod": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{ttb:{item:'amethyst_crystal'}}"
+                        "nbt": "{ttb:{item:'eckspei_rod'}}"
                     }
                 ]
             }

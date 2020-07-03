@@ -1,5 +1,5 @@
 {
-    "parent": "ttb:progression/mysterious_dust",
+    "parent": "ttb:progression/amethyst_ore/amethyst/tempest_crafter",
     "display": {
         "icon": {
             "item": "minecraft:carrot_on_a_stick",
