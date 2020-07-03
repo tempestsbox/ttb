@@ -31,6 +31,19 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "name": "ttb:items/mysterious_dust",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "name": "ttb:items/levitation_arrow"
                 },
                 {

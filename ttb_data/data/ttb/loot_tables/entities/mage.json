@@ -29,14 +29,27 @@
         },
         {
             "rolls": {
-                "min": 3,
-                "max": 5
+                "min": 5,
+                "max": 7
             },
             "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:lapis_lazuli",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/mysterious_dust",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
