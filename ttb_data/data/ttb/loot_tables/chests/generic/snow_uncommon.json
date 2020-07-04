@@ -13,6 +13,10 @@
                     "name": "ttb:items/attributed/any"
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/restoration_tome"
+                },
+                {
                     "type": "minecraft:empty",
                     "weight": 2
                 }
