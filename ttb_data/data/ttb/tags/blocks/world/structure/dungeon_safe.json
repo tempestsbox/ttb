@@ -1,8 +1,10 @@
 {
     "replace": false,
     "values": [
+        "#minecraft:ice",
         "minecraft:stone",
         "minecraft:dirt",
+        "minecraft:snow_block",
         "minecraft:andesite",
         "minecraft:diorite",
         "minecraft:granite",
