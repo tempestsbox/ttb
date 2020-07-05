@@ -1,0 +1,17 @@
+summon falling_block ~ ~ ~ {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~1 ~ ~ {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~-1 ~ ~ {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~ ~ ~1 {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~ ~ ~-1 {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~1 ~ ~1 {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~1 ~ ~-1 {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~-1 ~ ~1 {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~-1 ~ ~-1 {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~2 ~ ~ {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~-2 ~ ~ {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~ ~ ~2 {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~ ~ ~-2 {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~2 ~ ~2 {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~2 ~ ~-2 {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~-2 ~ ~2 {Time:1,BlockState:{Name:"fire"}}
+summon falling_block ~-2 ~ ~-2 {Time:1,BlockState:{Name:"fire"}}
