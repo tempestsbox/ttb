@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "ttb:items/staff/attributed/mage_staff"
+                    "name": "ttb:items/staff/attributed/blight_staff"
                 }
             ]
         },
@@ -19,7 +19,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:lapis_lazuli",
+                    "name": "minecraft:snowball",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -45,7 +45,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:experience_bottle",
+                    "name": "minecraft:ice",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -53,17 +53,6 @@
                                 "min": 1,
                                 "max": 3
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:book",
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 30,
-                            "treasure": true
                         }
                     ]
                 }

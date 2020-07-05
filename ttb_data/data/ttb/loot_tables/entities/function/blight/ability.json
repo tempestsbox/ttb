@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:empty",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{random:{id:'dodge'}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:empty",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{random:{id:'freeze'}}}"
+                        }
+                    ],
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}
