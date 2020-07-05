@@ -17,7 +17,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Potion:'slowness'}"
+                            "tag": "{Potion:'minecraft:slowness'}"
                         }
                     ]
                 }
