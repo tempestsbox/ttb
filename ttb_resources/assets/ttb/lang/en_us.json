@@ -46,7 +46,7 @@
     "advancement.ttb.obtain_mysterious_crystal.title": "Not Quite What I Expected?",
     "advancement.ttb.obtain_mysterious_crystal.description": "Acquire a mysterious crystal",
     "advancement.ttb.levitate_pig_with_repulsion_staff.title": "When Pigs Fly",
-    "advancement.ttb.levitate_pig_with_repulsion_staff.description": "Wait a minute...",
+    "advancement.ttb.levitate_pig_with_repulsion_staff.description": "Levitate a pig with a repulsion staff",
     
     "block.ttb.amethyst_ore": "Amethyst Ore",
     "block.ttb.vulcaanium_ore": "Vulcaanium Ore",
@@ -79,7 +79,7 @@
     "item.ttb.deadlock_shield": "Deadlock Shield",
     "item.ttb.deadlock_bow": "Deadlock Bow",
     "item.ttb.deadlock_sniper_bow": "Deadlock Sniper's Bow",
-    
+
     "item.ttb.repulsion_staff": "Repulsion Staff",
     "item.ttb.relativity_staff": "Relativity Staff",
     "item.ttb.extraction_staff": "Extraction Staff",

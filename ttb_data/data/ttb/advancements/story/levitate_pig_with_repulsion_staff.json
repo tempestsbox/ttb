@@ -1,38 +1,32 @@
 {
     "parent": "ttb:story/root",
     "display": {
-      "icon": {
-        "item": "minecraft:carrot_on_a_stick",
-        "nbt": "{CustomModelData:6830001}"
-      },
-      "title": {
-        "translate": "advancement.ttb.levitate_pig_with_repulsion_staff.title"
-      },
-      "description": {
-        "translate": "advancement.ttb.levitate_pig_with_repulsion_staff.description"
-      },
-      "frame": "task",
-      "announce_to_chat": true,
-      "show_toast": true
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:6830001}"
+        },
+        "title": {
+            "translate": "advancement.ttb.staff_levitate_pig.title"
+        },
+        "description": {
+            "translate": "advancement.ttb.staff_levitate_pig.description"
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true
     },
     "criteria": {
-        "requirement": {
+        "levitate_pig_with_repulsion_staff": {
             "trigger": "minecraft:player_hurt_entity",
-                "conditions": {
-                    "damage": {
-                        "type": {
-                            "source_entity": {
-                                "type": "minecraft:player",
-                                "equipment": {
-                                    "mainhand": {
-                                        "item": "minecraft:carrot_on_a_stick",
-                                        "nbt": "{ttb:{staff:{id:'repulsion'}}}"
-                                    }
-                                }
-                            }
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{ttb:{item:{staff:{id:'repulsion'}}}"
                         }
-                    },
-                    "entity": {
+                    }
+                },
+                "entity": {
                     "type": "minecraft:pig"
                 }
             }
