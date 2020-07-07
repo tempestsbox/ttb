@@ -1,3 +1,54 @@
 {
-    "parent": "block/iron_block"
+    "parent": "block/thin_block",
+    "textures": {
+        "blue": "block/light_blue_concrete",
+        "black": "block/black_concrete"
+    },
+    "elements": [
+        {
+            "from": [1, 0, 1],
+            "to": [15, 1, 15],
+            "faces": {
+                "north": {"uv": [0, 0, 16, 1], "texture": "#blue"},
+                "east": {"uv": [0, 0, 16, 1], "texture": "#blue"},
+                "south": {"uv": [0, 0, 16, 1], "texture": "#blue"},
+                "west": {"uv": [0, 0, 16, 1], "texture": "#blue"},
+                "up": {"uv": [0, 0, 16, 16], "texture": "#blue"},
+                "down": {"uv": [0, 0, 16, 16], "texture": "#blue"}
+            }
+        },
+        {
+            "from": [5.5, -1, 5.5],
+            "to": [10.5, 0, 10.5],
+            "rotation": {"angle": 0, "axis": "y", "origin": [14, 8, 14]},
+            "faces": {
+                "north": {"uv": [0, 0, 2, 1], "texture": "#black"},
+                "east": {"uv": [0, 0, 2, 1], "texture": "#black"},
+                "south": {"uv": [0, 0, 2, 1], "texture": "#black"},
+                "west": {"uv": [0, 0, 2, 1], "texture": "#black"},
+                "up": {"uv": [0, 0, 2, 2], "texture": "#black"},
+                "down": {"uv": [0, 0, 2, 2], "texture": "#black"}
+            }
+        },
+        {
+            "from": [7, -2, 7],
+            "to": [9, -1, 9],
+            "rotation": {"angle": 0, "axis": "y", "origin": [14, 8, 14]},
+            "faces": {
+                "north": {"uv": [0, 0, 2, 1], "texture": "#black"},
+                "east": {"uv": [0, 0, 2, 1], "texture": "#black"},
+                "south": {"uv": [0, 0, 2, 1], "texture": "#black"},
+                "west": {"uv": [0, 0, 2, 1], "texture": "#black"},
+                "up": {"uv": [0, 0, 2, 2], "texture": "#black"},
+                "down": {"uv": [0, 0, 2, 2], "texture": "#black"}
+            }
+        }
+    ],
+    "display": {
+        "fixed": {
+            "rotation": [-90, 0, 0],
+            "translation": [0, 0, -16],
+            "scale": [2, 2, 2]
+        }
+    }
 }
