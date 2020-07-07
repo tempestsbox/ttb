@@ -1,0 +1,41 @@
+{
+    "parent": "ttb:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:6830001}"
+      },
+      "title": {
+        "translate": "advancement.ttb.levitate_pig_with_repulsion_staff.title"
+      },
+      "description": {
+        "translate": "advancement.ttb.levitate_pig_with_repulsion_staff.description"
+      },
+      "frame": "task",
+      "announce_to_chat": true,
+      "show_toast": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+                "conditions": {
+                    "damage": {
+                        "type": {
+                            "source_entity": {
+                                "type": "minecraft:player",
+                                "equipment": {
+                                    "mainhand": {
+                                        "item": "minecraft:carrot_on_a_stick",
+                                        "nbt": "{ttb:{staff:{id:'repulsion'}}}"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "entity": {
+                    "type": "minecraft:pig"
+                }
+            }
+        }
+    }
+}
