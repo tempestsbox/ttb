@@ -45,6 +45,8 @@
     "advancement.ttb.obtain_crystals.description": "Acquire both amethyst and vulcaanium crystals",
     "advancement.ttb.obtain_mysterious_crystal.title": "Not Quite What I Expected?",
     "advancement.ttb.obtain_mysterious_crystal.description": "Acquire a mysterious crystal",
+    "advancement.ttb.levitate_pig_with_repulsion_staff.title": "When Pigs Fly",
+    "advancement.ttb.levitate_pig_with_repulsion_staff.description": "Levitate a pig with a repulsion staff",
 
     "block.ttb.amethyst_ore": "Amethyst Ore",
     "block.ttb.vulcaanium_ore": "Vulcaanium Ore",
