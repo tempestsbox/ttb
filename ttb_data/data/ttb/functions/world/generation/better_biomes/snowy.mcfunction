@@ -1,4 +1,4 @@
-# called by world/structure/cave/check_biome
+# called by world/generation/better_biomes/check_biome
 
 fill ~ 0 ~ ~15 127 ~15 snow[layers=2] replace grass
 fill ~ 0 ~ ~15 127 ~15 snow[layers=3] replace #small_flowers

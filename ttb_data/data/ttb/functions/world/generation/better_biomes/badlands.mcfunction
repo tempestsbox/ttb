@@ -1,4 +1,4 @@
-# called by world/structure/cave/check_biome
+# called by world/generation/better_biomes/check_biome
 
 fill ~ 0 ~ ~15 11 ~15 brown_terracotta replace stone
 fill ~ 0 ~ ~15 11 ~15 brown_terracotta replace granite

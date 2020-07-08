@@ -1,4 +1,4 @@
-# called by world/structure/cave/check_biome
+# called by world/generation/better_biomes/check_biome
 
 fill ~ 0 ~ ~15 127 ~15 dirt replace stone
 fill ~ 0 ~ ~15 127 ~15 grass_block replace granite

@@ -11,7 +11,7 @@ execute if score border ttb_biome matches 1 run function ttb:world/generation/ch
 # try to spawn a structure before any chunk modifications have been done
 execute if block ~ 4 ~ bedrock positioned 29999984 253 29999984 run function ttb:world/structure/chunk
 # biome-based caves
-function ttb:world/structure/cave/check_biome
+function ttb:world/generation/better_biomes/check_biome
 
 # mark the chunk as generated
 scoreboard players add chunk_count ttb_data 1
