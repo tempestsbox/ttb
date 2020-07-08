@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Features
-    url: https://tempestsbox.github.io/features
-    about: A list of currently implemented features
-  - name: Features Roadmap
-    url: https://tempestsbox.github.io/features#roadmap
-    about: A list of features to come in the future - check here if you're making a feature request!
+  - name: Wiki
+    url: https://tempestsbox.github.io/wiki
+    about: A detailed list of TTB features
+  - name: Features Roadmap (Trello)
+    url: https://trello.com/b/lsQB6Bue
+    about: A list of features and plans for the future - check here if you're making a feature request!
