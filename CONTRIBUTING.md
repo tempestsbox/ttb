@@ -17,7 +17,7 @@
 
 ## Naming and Tagging Formatting
 - NBT and entity tags should be prefixed with `ttb`
-    - `stick{ttb:{my_fancy_stick:1b}}`
+    - `stick{ttb:{item:'my_fancy_stick'}}`
     - `@a[tag=ttb_epic_players]`
 - Similarly, all files should be in the `ttb` namespace, such that they can be called by, for example, `ttb:function` or `ttb:advancement`
 - Any 'technical' entity (meaning the name will never be seen by the player, such as machines) should have its `CustomName` set as its major tag. For example: `ttb_tempest_crafter`
@@ -26,10 +26,9 @@
     - `{"translate":"item.ttb.amethyst"}`
 - Any custom entity (e.g. custom crafters, mobs & area effect clouds) should have the `ttb_entity` tag
 - Tags themselves should be as verbose as possible
-    - Take the staff durability update function, for example, with the tag `ttb_staff_durability_modification`
 
 ## Custom Item Loot Table Format
-TTB adopts the format of using loot tables to register custom items. This means that they can be called upon from one source, registered at `ttb:items/<item>`.  
+TTB adopts the format of using loot tables to register custom items. This means that they can be called upon from one source, registered at `ttb:items/<item>`. See `ttb_data/data/ttb/loot_tables/items` for examples.  
 To clarify, `ttb:blocks/<block>` holds custom block loot tables, called by their `remove` or `drop` function. These, most often, call upon [loot table items](#Other-loot-tables).
 ### Accessing loot table items
 You can access a loot table item through:
