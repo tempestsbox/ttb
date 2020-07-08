@@ -22,7 +22,7 @@
                 "player": {
                     "equipment": {
                         "mainhand": {
-                            "nbt": "{ttb:{item:{staff:{id:'repulsion'}}}}"
+                            "nbt": "{ttb:{staff:{id:'repulsion'}}}"
                         }
                     }
                 },
