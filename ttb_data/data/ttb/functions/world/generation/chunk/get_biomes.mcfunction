@@ -11,6 +11,7 @@ execute if entity @s[nbt={Item:{tag:{ttb:{biome:{forest:1b}}}}}] run scoreboard 
 execute if entity @s[nbt={Item:{tag:{ttb:{biome:{plains:1b}}}}}] run scoreboard players set plains ttb_biome 1
 execute if entity @s[nbt={Item:{tag:{ttb:{biome:{river:1b}}}}}] run scoreboard players set river ttb_biome 1
 execute if entity @s[nbt={Item:{tag:{ttb:{biome:{beach:1b}}}}}] run scoreboard players set beach ttb_biome 1
+execute if entity @s[nbt={Item:{tag:{ttb:{biome:{swamp:1b}}}}}] run scoreboard players set swamp ttb_biome 1
 execute if entity @s[nbt={Item:{tag:{ttb:{biome:{border:1b}}}}}] run scoreboard players set border ttb_biome 1
 
 kill @s

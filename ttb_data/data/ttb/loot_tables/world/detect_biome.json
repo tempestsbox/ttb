@@ -68,6 +68,29 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{biome:{swamp:1b}}}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:swamp"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:swamp_hills"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
                             "tag": "{ttb:{biome:{cold:1b}}}",
                             "conditions": [
                                 {
