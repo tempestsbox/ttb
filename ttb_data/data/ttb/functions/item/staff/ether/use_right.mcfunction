@@ -7,7 +7,5 @@ playsound block.end_portal_frame.fill player @a[distance=..16] ~ ~ ~ 1 0 1
 execute anchored eyes run particle ash ^ ^ ^ .5 .5 .5 0 700 normal @a
 effect give @s invisibility 10
 
-# set to spectator
-execute store result score @s ttb_ether_gamemo run data get entity @s playerGameType
-gamemode spectator @s
-scoreboard players set @s ttb_ether_specmo 200
+# start ticker
+scoreboard players set @s ttb_ether_specmo 0

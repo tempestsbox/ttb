@@ -35,7 +35,6 @@ execute unless score worldGenerationWarnMessage ttb_gamerules matches 0..1 run s
 gamerule commandBlockOutput false
 ## staffs
 scoreboard objectives add ttb_ether_specmo dummy
-scoreboard objectives add ttb_ether_gamemo dummy
 ## player tracking
 scoreboard objectives add ttb_place_iframe minecraft.used:minecraft.item_frame
 scoreboard objectives add ttb_use_crtstck minecraft.used:minecraft.carrot_on_a_stick
