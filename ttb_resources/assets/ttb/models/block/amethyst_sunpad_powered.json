@@ -1,0 +1,7 @@
+{
+    "parent": "ttb:block/amethyst_sunpad",
+    "textures": {
+        "side": "ttb:block/amethyst_sunpad_side_powered",
+        "up": "ttb:block/amethyst_sunpad_top_powered"
+    }
+}

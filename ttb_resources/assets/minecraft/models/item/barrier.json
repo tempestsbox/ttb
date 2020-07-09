@@ -105,6 +105,12 @@
                 "custom_model_data": 6830017
             },
             "model": "ttb:entity/pillar_explosion_ignited"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830018
+            },
+            "model": "ttb:gui/amethyst_sunpad"
         }
     ]
 }

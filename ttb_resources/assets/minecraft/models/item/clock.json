@@ -86,13 +86,13 @@
             "predicate": {
                 "custom_model_data": 6830003
             },
-            "model": "item/clock"
+            "model": "ttb:item/tempite_sludge"
         },
         {
             "predicate": {
                 "custom_model_data": 6830004
             },
-            "model": "item/clock"
+            "model": "ttb:item/tempite_gel"
         },
         {
             "predicate": {

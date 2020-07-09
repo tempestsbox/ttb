@@ -69,6 +69,18 @@
                 "custom_model_data": 6830011
             },
             "model": "ttb:item/alchemy_chamber"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830012
+            },
+            "model": "ttb:item/amethyst_sunpad"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830013
+            },
+            "model": "ttb:block/amethyst_sunpad_powered"
         }
     ]
 }

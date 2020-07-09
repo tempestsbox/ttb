@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 8
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/tempite_sludge",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/tempite_gel"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/template/base",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{item:'tempite_sludge'},display:{Name:'{\"translate\":\"item.ttb.tempite_sludge\",\"italic\":false}',Lore:['{\"translate\":\"item.ttb.tempite_sludge.lore.0\"}','{\"translate\":\"item.ttb.tempite_sludge.lore.1\"}']},CustomModelData:6830003}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

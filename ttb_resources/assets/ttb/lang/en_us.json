@@ -58,6 +58,7 @@
     "block.ttb.acronite_cage": "Acronite Cage",
     "block.ttb.eckspei_locker": "Eckspei Locker",
     "block.ttb.alchemy_chamber": "Alchemy Chamber",
+    "block.ttb.amethyst_sunpad": "Amethyst Sunpad",
 
     "item.ttb.amethyst": "Amethyst",
     "item.ttb.amethyst_crystal": "Amethyst Crystal",
@@ -79,6 +80,11 @@
     "item.ttb.deadlock_shield": "Deadlock Shield",
     "item.ttb.deadlock_bow": "Deadlock Bow",
     "item.ttb.deadlock_sniper_bow": "Deadlock Sniper's Bow",
+    "item.ttb.tempite_sludge": "Tempite Sludge",
+    "item.ttb.tempite_sludge.lore.0": "Sludge too inefficient",
+    "item.ttb.tempite_sludge.lore.1": "to power anything",
+    "item.ttb.tempite_gel": "Tempite Gel",
+    "item.ttb.tempite_gel.lore.0": "Cannot be touched by human hands",
 
     "item.ttb.repulsion_staff": "Repulsion Staff",
     "item.ttb.relativity_staff": "Relativity Staff",

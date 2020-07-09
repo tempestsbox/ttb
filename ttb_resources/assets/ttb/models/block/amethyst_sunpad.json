@@ -1,0 +1,8 @@
+{
+    "parent": "ttb:block/cube_all_side",
+    "textures": {
+        "side": "ttb:block/amethyst_sunpad_side",
+        "up": "ttb:block/amethyst_sunpad_top",
+        "down": "block/amethyst_sunpad_bottom"
+    }
+}
