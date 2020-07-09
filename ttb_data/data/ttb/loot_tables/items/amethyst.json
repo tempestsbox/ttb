@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:'amethyst'},display:{Name:'{\"translate\":\"item.ttb.amethyst\",\"italic\":false}'},CustomModelData:6830001}"
+                            "tag": "{ttb:{item:'amethyst',tempite_energy:{amount:1000}},display:{Name:'{\"translate\":\"item.ttb.amethyst\",\"italic\":false}'},CustomModelData:6830001}"
                         }
                     ]
                 }

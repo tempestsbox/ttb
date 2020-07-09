@@ -1,7 +1,8 @@
-#called by block/tempite_stone/remove
+# called by block/tempite_stone/remove
 
 loot spawn ~ ~ ~ loot ttb:blocks/tempite_stone
 
 scoreboard players operation @s ttb_tempite_amnt /= $amethyst ttb_tempite_amnt
 loot spawn ~ ~ ~ loot ttb:items/amethyst
-execute store result entity @e[type=item,nbt={Item:{tag:{ttb:{item:"amethyst"}}}},distance=0,limit=1] Item.Count byte 1 run scoreboard players get @s ttb_tempite_amnt
+scoreboard players operation #temp ttb_tempite_amnt = @s ttb_tempite_amnt
+execute as @e[type=item,distance=0,nbt={Item:{tag:{ttb:{item:"amethyst"}}}},limit=1] run function ttb:block/tempite_stone/reimburse_items_data

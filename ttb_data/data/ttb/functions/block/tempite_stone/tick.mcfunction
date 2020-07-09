@@ -1,7 +1,7 @@
 #called by entity/armor_stand/tick
 
 #amethyst
-execute unless score @s ttb_machine_cool matches 1.. unless score @s ttb_tempite_amnt >= $max ttb_tempite_amnt run function ttb:block/tempite_stone/extract_amethyst/check_adjacent
+execute unless score @s ttb_machine_cool matches 1.. unless score @s ttb_tempite_amnt >= $max ttb_tempite_amnt run function ttb:block/tempite_stone/extract_energy_item/check_adjacent
 
 #removal
 execute unless block ~ ~ ~ command_block[facing=up]{CustomName:'{"translate":"block.ttb.tempite_stone"}'} run function ttb:block/tempite_stone/remove

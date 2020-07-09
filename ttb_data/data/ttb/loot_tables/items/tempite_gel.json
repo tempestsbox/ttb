@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:'tempite_gel'},display:{Name:'{\"translate\":\"item.ttb.tempite_gel\",\"italic\":false}',Lore:['{\"translate\":\"item.ttb.tempite_gel.lore.0\"}']},CustomModelData:6830004}"
+                            "tag": "{ttb:{item:'tempite_gel',tempite_energy:{amount:100,unstable:1b}},display:{Name:'{\"translate\":\"item.ttb.tempite_gel\",\"italic\":false}',Lore:['{\"translate\":\"item.ttb.tempite_gel.lore.0\"}']},CustomModelData:6830004}"
                         }
                     ]
                 }
