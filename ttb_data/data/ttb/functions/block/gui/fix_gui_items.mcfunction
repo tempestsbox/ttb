@@ -7,7 +7,7 @@ execute in overworld run forceload add 29999984 29999984
 setblock 29999984 253 29999984 yellow_shulker_box
 data modify block 29999984 253 29999984 Items set from block ~ ~ ~ Items
 data remove block 29999984 253 29999984 Items[{tag:{ttb:{gui_item:1b}}}]
-execute if block ~ ~-1 ~ hopper run data remove block ~ ~-1 ~ Items[{tag:{ttb:{gui_item:1b}}}]
+function ttb:block/gui/clear_gui_items
 execute if block ~ ~-1 ~ hopper run loot insert ~ ~-1 ~ mine 29999984 253 29999984 air{drop_contents:1b}
 execute unless block ~ ~-1 ~ hopper run loot spawn ~ ~1 ~ mine 29999984 253 29999984 air{drop_contents:1b}
 
