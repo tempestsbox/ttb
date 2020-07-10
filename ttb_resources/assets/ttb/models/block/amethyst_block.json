@@ -1,0 +1,6 @@
+{
+    "parent": "ttb:block/cube_spawner_all",
+    "textures": {
+        "all": "ttb:block/amethyst_block"
+    }
+}

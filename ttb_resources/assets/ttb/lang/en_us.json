@@ -49,7 +49,9 @@
     "advancement.ttb.levitate_pig_with_repulsion_staff.description": "Levitate a pig with a repulsion staff",
 
     "block.ttb.amethyst_ore": "Amethyst Ore",
+    "block.ttb.amethyst_block": "Amethyst Block",
     "block.ttb.vulcaanium_ore": "Vulcaanium Ore",
+    "block.ttb.vulcaanium_block": "Vulcaanium Block",
     "block.ttb.tempest_crafter": "Tempest Crafter",
     "block.ttb.tempite_stone": "Tempite Stone",
     "block.ttb.tempite_stone.tempite": "%s has %s Tempite energy",

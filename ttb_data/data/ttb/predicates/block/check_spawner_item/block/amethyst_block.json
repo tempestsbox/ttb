@@ -9,7 +9,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "nbt": "{Item:{tag:{ttb:{spawner:{item:'amethyst_ore'}}}}}"
+                        "nbt": "{Item:{tag:{ttb:{spawner:{item:'amethyst_block'}}}}}"
                     }
                 }
             },
