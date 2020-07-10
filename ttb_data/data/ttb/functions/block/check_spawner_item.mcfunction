@@ -2,6 +2,7 @@
 
 # drop
 summon armor_stand ~ ~ ~ {Tags:["ttb_entity","ttb_spawner_drop"],CustomName:'"ttb_spawner_drop"',Invisible:1b,Invulnerable:1b,Small:1b,Marker:1b,Silent:1b}
+execute unless data entity @s Item.tag.ttb.spawner.tool.id run data modify entity @s Item.tag.ttb.spawner.tool.id set value 'minecraft:netherite_pickaxe'
 data modify entity @e[type=armor_stand,tag=ttb_spawner_drop,distance=...1,limit=1] HandItems[0] set from entity @s Item.tag.ttb.spawner.tool
 
 execute if entity @s[predicate=ttb:block/check_spawner_item/block/amethyst_ore] run function ttb:block/amethyst_ore/drop
