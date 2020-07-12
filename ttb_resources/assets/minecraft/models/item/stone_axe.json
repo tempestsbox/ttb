@@ -4,11 +4,6 @@
         "layer0": "minecraft:item/stone_axe"
     },
     "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 6830001
-            },
-            "model": "ttb:item/deadlock_axe"
-        }
+        { "predicate": { "custom_model_data": 6830001 }, "model": "ttb:item/deadlock_axe" }
     ]
 }

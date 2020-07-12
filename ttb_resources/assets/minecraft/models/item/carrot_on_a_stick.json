@@ -4,149 +4,29 @@
         "layer0": "minecraft:item/carrot_on_a_stick"
     },
     "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 6830001
-            },
-            "model": "ttb:item/repulsion_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830002
-            },
-            "model": "ttb:item/relativity_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830003
-            },
-            "model": "ttb:item/extraction_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830004
-            },
-            "model": "ttb:item/refrigerant_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830005
-            },
-            "model": "ttb:item/infallible_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830006
-            },
-            "model": "ttb:item/shatter_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830007
-            },
-            "model": "ttb:item/temporal_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830008
-            },
-            "model": "ttb:item/captive_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830009
-            },
-            "model": "ttb:item/ether_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830010
-            },
-            "model": "ttb:item/harvest_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830011
-            },
-            "model": "ttb:item/saturation_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830012
-            },
-            "model": "ttb:item/mage_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830013
-            },
-            "model": "ttb:item/blight_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830014
-            },
-            "model": "ttb:item/skitter_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830015
-            },
-            "model": "ttb:item/netherknight_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830016
-            },
-            "model": "ttb:item/spirit_staff"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830017
-            },
-            "model": "ttb:item/eckspei_rod"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830018
-            },
-            "model": "ttb:item/eckspei_rod_full"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830019
-            },
-            "model": "ttb:item/amethyst_crystal"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830020
-            },
-            "model": "ttb:item/vulcaanium_crystal"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830021
-            },
-            "model": "ttb:item/mysterious_crystal"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830022
-            },
-            "model": "ttb:item/restoration_tome"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830023
-            },
-            "model": "ttb:item/bright_relic"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830024
-            },
-            "model": "ttb:item/dark_relic"
-        }
+        { "predicate": { "custom_model_data": 6830001 }, "model": "ttb:item/repulsion_staff" },
+        { "predicate": { "custom_model_data": 6830002 }, "model": "ttb:item/relativity_staff" },
+        { "predicate": { "custom_model_data": 6830003 }, "model": "ttb:item/extraction_staff" },
+        { "predicate": { "custom_model_data": 6830004 }, "model": "ttb:item/refrigerant_staff" },
+        { "predicate": { "custom_model_data": 6830005 }, "model": "ttb:item/infallible_staff" },
+        { "predicate": { "custom_model_data": 6830006 }, "model": "ttb:item/shatter_staff" },
+        { "predicate": { "custom_model_data": 6830007 }, "model": "ttb:item/temporal_staff" },
+        { "predicate": { "custom_model_data": 6830008 }, "model": "ttb:item/captive_staff" },
+        { "predicate": { "custom_model_data": 6830009 }, "model": "ttb:item/ether_staff" },
+        { "predicate": { "custom_model_data": 6830010 }, "model": "ttb:item/harvest_staff" },
+        { "predicate": { "custom_model_data": 6830011 }, "model": "ttb:item/saturation_staff" },
+        { "predicate": { "custom_model_data": 6830012 }, "model": "ttb:item/mage_staff" },
+        { "predicate": { "custom_model_data": 6830013 }, "model": "ttb:item/blight_staff" },
+        { "predicate": { "custom_model_data": 6830014 }, "model": "ttb:item/skitter_staff" },
+        { "predicate": { "custom_model_data": 6830015 }, "model": "ttb:item/netherknight_staff" },
+        { "predicate": { "custom_model_data": 6830016 }, "model": "ttb:item/spirit_staff" },
+        { "predicate": { "custom_model_data": 6830017 }, "model": "ttb:item/eckspei_rod" },
+        { "predicate": { "custom_model_data": 6830018 }, "model": "ttb:item/eckspei_rod_full" },
+        { "predicate": { "custom_model_data": 6830019 }, "model": "ttb:item/amethyst_crystal" },
+        { "predicate": { "custom_model_data": 6830020 }, "model": "ttb:item/vulcaanium_crystal" },
+        { "predicate": { "custom_model_data": 6830021 }, "model": "ttb:item/mysterious_crystal" },
+        { "predicate": { "custom_model_data": 6830022 }, "model": "ttb:item/restoration_tome" },
+        { "predicate": { "custom_model_data": 6830023 }, "model": "ttb:item/bright_relic" },
+        { "predicate": { "custom_model_data": 6830024 }, "model": "ttb:item/dark_relic" }
     ]
 }

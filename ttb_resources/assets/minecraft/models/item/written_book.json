@@ -4,29 +4,9 @@
         "layer0": "minecraft:item/written_book"
     },
     "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 6830001
-            },
-            "model": "ttb:item/mysterious_book/leave_now"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830002
-            },
-            "model": "ttb:item/mysterious_book/orders"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830003
-            },
-            "model": "ttb:item/mysterious_book/what_was_she_trying_to_build"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830004
-            },
-            "model": "ttb:item/mysterious_book/where_am_i"
-        }
+        { "predicate": { "custom_model_data": 6830001 }, "model": "ttb:item/mysterious_book/leave_now" },
+        { "predicate": { "custom_model_data": 6830002 }, "model": "ttb:item/mysterious_book/orders" },
+        { "predicate": { "custom_model_data": 6830003 }, "model": "ttb:item/mysterious_book/what_was_she_trying_to_build" },
+        { "predicate": { "custom_model_data": 6830004 }, "model": "ttb:item/mysterious_book/where_am_i" }
     ]
 }

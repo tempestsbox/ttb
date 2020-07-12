@@ -1,29 +1,9 @@
 {
     "parent": "minecraft:block/spawner",
     "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 6830001
-            },
-            "model": "ttb:block/amethyst_ore"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830002
-            },
-            "model": "ttb:block/vulcaanium_ore"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830014
-            },
-            "model": "ttb:block/amethyst_block"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830015
-            },
-            "model": "ttb:block/vulcaanium_block"
-        }
+        { "predicate": { "custom_model_data": 6830001 }, "model": "ttb:block/amethyst_ore" },
+        { "predicate": { "custom_model_data": 6830002 }, "model": "ttb:block/vulcaanium_ore" },
+        { "predicate": { "custom_model_data": 6830014 }, "model": "ttb:block/amethyst_block" },
+        { "predicate": { "custom_model_data": 6830015 }, "model": "ttb:block/vulcaanium_block" }
     ]
 }

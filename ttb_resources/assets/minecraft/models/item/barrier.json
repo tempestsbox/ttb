@@ -4,161 +4,31 @@
         "layer0": "minecraft:item/barrier"
     },
     "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 6830001
-            },
-            "model": "ttb:empty"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830002
-            },
-            "model": "ttb:entity/mage"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830003
-            },
-            "model": "ttb:entity/mage_hurt"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830004
-            },
-            "model": "ttb:entity/ore_dweller"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830005
-            },
-            "model": "ttb:entity/ore_dweller_hurt"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830006
-            },
-            "model": "ttb:entity/ore_dweller_moving"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830007
-            },
-            "model": "ttb:entity/ore_dweller_moving_hurt"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830008
-            },
-            "model": "ttb:entity/blight"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830009
-            },
-            "model": "ttb:entity/blight_hurt"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830010
-            },
-            "model": "ttb:entity/blight_moving"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830011
-            },
-            "model": "ttb:entity/blight_moving_hurt"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830012
-            },
-            "model": "ttb:gui/tempest_crafter"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830013
-            },
-            "model": "ttb:block/tempite_wire"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830014
-            },
-            "model": "ttb:block/tempite_wire_glass"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830015
-            },
-            "model": "ttb:gui/machine"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830016
-            },
-            "model": "ttb:entity/pillar_explosion"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830017
-            },
-            "model": "ttb:entity/pillar_explosion_ignited"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830018
-            },
-            "model": "ttb:gui/amethyst_sunpad"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830019
-            },
-            "model": "ttb:entity/bullant"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830020
-            },
-            "model": "ttb:entity/bullant_hurt"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830021
-            },
-            "model": "ttb:entity/bullant_moving"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830022
-            },
-            "model": "ttb:entity/bullant_moving_hurt"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830023
-            },
-            "model": "ttb:entity/ratch"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830024
-            },
-            "model": "ttb:entity/ratch_hurt"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830025
-            },
-            "model": "ttb:entity/ratch"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 6830026
-            },
-            "model": "ttb:entity/ratch_hurt"
-        }
+        { "predicate": { "custom_model_data": 6830001 }, "model": "ttb:empty" },
+        { "predicate": { "custom_model_data": 6830002 }, "model": "ttb:entity/mage" },
+        { "predicate": { "custom_model_data": 6830003 }, "model": "ttb:entity/mage_hurt" },
+        { "predicate": { "custom_model_data": 6830004 }, "model": "ttb:entity/ore_dweller" },
+        { "predicate": { "custom_model_data": 6830005 }, "model": "ttb:entity/ore_dweller_hurt" },
+        { "predicate": { "custom_model_data": 6830006 }, "model": "ttb:entity/ore_dweller_moving" },
+        { "predicate": { "custom_model_data": 6830007 }, "model": "ttb:entity/ore_dweller_moving_hurt" },
+        { "predicate": { "custom_model_data": 6830008 }, "model": "ttb:entity/blight" },
+        { "predicate": { "custom_model_data": 6830009 }, "model": "ttb:entity/blight_hurt" },
+        { "predicate": { "custom_model_data": 6830010 }, "model": "ttb:entity/blight_moving" },
+        { "predicate": { "custom_model_data": 6830011 }, "model": "ttb:entity/blight_moving_hurt" },
+        { "predicate": { "custom_model_data": 6830012 }, "model": "ttb:gui/tempest_crafter" },
+        { "predicate": { "custom_model_data": 6830013 }, "model": "ttb:block/tempite_wire" },
+        { "predicate": { "custom_model_data": 6830014 }, "model": "ttb:block/tempite_wire_glass" },
+        { "predicate": { "custom_model_data": 6830015 }, "model": "ttb:gui/machine" },
+        { "predicate": { "custom_model_data": 6830016 }, "model": "ttb:entity/pillar_explosion" },
+        { "predicate": { "custom_model_data": 6830017 }, "model": "ttb:entity/pillar_explosion_ignited" },
+        { "predicate": { "custom_model_data": 6830018 }, "model": "ttb:gui/amethyst_sunpad" },
+        { "predicate": { "custom_model_data": 6830019 }, "model": "ttb:entity/bullant" },
+        { "predicate": { "custom_model_data": 6830020 }, "model": "ttb:entity/bullant_hurt" },
+        { "predicate": { "custom_model_data": 6830021 }, "model": "ttb:entity/bullant_moving" },
+        { "predicate": { "custom_model_data": 6830022 }, "model": "ttb:entity/bullant_moving_hurt" },
+        { "predicate": { "custom_model_data": 6830023 }, "model": "ttb:entity/ratch" },
+        { "predicate": { "custom_model_data": 6830024 }, "model": "ttb:entity/ratch_hurt" },
+        { "predicate": { "custom_model_data": 6830025 }, "model": "ttb:entity/ratch" },
+        { "predicate": { "custom_model_data": 6830026 }, "model": "ttb:entity/ratch_hurt" }
     ]
 }

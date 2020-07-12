@@ -4,11 +4,6 @@
         "layer0": "minecraft:item/golden_sword"
     },
     "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 6830001
-            },
-            "model": "ttb:item/optimism"
-        }
+        { "predicate": { "custom_model_data": 6830001 }, "model": "ttb:item/optimism" }
     ]
 }
