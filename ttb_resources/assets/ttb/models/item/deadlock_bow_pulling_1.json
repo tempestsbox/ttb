@@ -1,5 +1,5 @@
 {
-    "parent": "item/bow_pulling_1",
+    "parent": "minecraft:item/bow_pulling_1",
     "textures": {
         "layer0": "ttb:item/deadlock_bow_pulling_1"
     }

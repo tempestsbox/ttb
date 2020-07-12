@@ -1,8 +1,8 @@
 {
-    "parent": "block/thin_block",
+    "parent": "minecraft:block/thin_block",
     "textures": {
-        "blue": "block/light_blue_concrete",
-        "black": "block/black_concrete"
+        "blue": "minecraft:block/light_blue_concrete",
+        "black": "minecraft:block/black_concrete"
     },
     "elements": [
         {

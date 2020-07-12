@@ -3,6 +3,6 @@
     "textures": {
         "side": "ttb:block/tempest_crafter_side",
         "up": "ttb:block/tempest_crafter_top",
-        "down": "block/gold_block"
+        "down": "minecraft:block/gold_block"
     }
 }

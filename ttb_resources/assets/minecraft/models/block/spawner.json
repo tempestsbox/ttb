@@ -1,7 +1,7 @@
 {
-    "parent": "block/cube_all",
+    "parent": "minecraft:block/cube_all",
     "textures": {
-        "all": "block/spawner",
+        "all": "minecraft:block/spawner",
         "particle": "ttb:empty"
     }
 }

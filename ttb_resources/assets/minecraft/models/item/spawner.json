@@ -1,5 +1,5 @@
 {
-    "parent": "block/spawner",
+    "parent": "minecraft:block/spawner",
     "overrides": [
         {
             "predicate": {
