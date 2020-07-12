@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "ttb:item/mysterious_book/what_was_she_trying_to_build"
+    }
+}
