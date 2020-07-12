@@ -111,6 +111,54 @@
                 "custom_model_data": 6830018
             },
             "model": "ttb:gui/amethyst_sunpad"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830019
+            },
+            "model": "ttb:entity/bullant"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830020
+            },
+            "model": "ttb:entity/bullant_hurt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830021
+            },
+            "model": "ttb:entity/bullant_moving"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830022
+            },
+            "model": "ttb:entity/bullant_moving_hurt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830023
+            },
+            "model": "ttb:entity/ratch"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830024
+            },
+            "model": "ttb:entity/ratch_hurt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830025
+            },
+            "model": "ttb:entity/ratch"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6830026
+            },
+            "model": "ttb:entity/ratch_hurt"
         }
     ]
 }

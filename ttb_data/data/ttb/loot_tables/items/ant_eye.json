@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spider_eye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{item:'ant_eye'},display:{Name:'{\"translate\":\"item.ttb.ant_eye\",\"italic\":false}'},CustomModelData:6830001}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

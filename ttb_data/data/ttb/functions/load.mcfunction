@@ -12,8 +12,9 @@ scoreboard players set carrot_on_a_stick_durability ttb_data 25
 execute store result score seed ttb_data run seed
 scoreboard objectives add ttb_biome dummy
 scoreboard objectives add ttb_attack dummy
-scoreboard objectives add ttb_model_cmd dummy
 scoreboard objectives add ttb_age dummy
+scoreboard objectives add ttb_model_cmd dummy
+scoreboard objectives add ttb_model_cmd_in dummy
 ## health
 scoreboard objectives add ttb_health dummy
 scoreboard objectives add ttb_health_max dummy

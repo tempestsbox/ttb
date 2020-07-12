@@ -131,5 +131,7 @@
     "entity.ttb.mage": "Mage",
     "entity.ttb.mage.magic_ball": "Magic Ball",
     "entity.ttb.mage.flame": "Flame",
-    "entity.ttb.ore_dweller": "Ore Dweller"
+    "entity.ttb.ore_dweller": "Ore Dweller",
+    "entity.ttb.ratch": "Ratch",
+    "entity.ttb.bullant": "Bullant"
 }

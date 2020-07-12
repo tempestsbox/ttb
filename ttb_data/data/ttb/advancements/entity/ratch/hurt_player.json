@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "ratch_hurt_player": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{Tags:['ttb_ratch']}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ttb:entity/ratch/hurt_player"
+    }
+}

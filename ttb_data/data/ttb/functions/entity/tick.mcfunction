@@ -17,7 +17,7 @@ execute if entity @s[type=skeleton,tag=ttb_blight] run function ttb:entity/bligh
 execute if entity @s[type=!#ttb:entity/function/spawning/no_check,tag=!ttb_entity,tag=!ttb_no_check] run function ttb:entity/function/spawning/check
 
 # entity immersion
-execute if entity @s[tag=ttb_dynamic_model] unless entity @s[tag=ttb_remove] run function ttb:entity/function/model/check
+execute if entity @s[tag=ttb_dynamic_model] unless entity @s[tag=ttb_remove] run function ttb:entity/function/model_check
 execute if entity @s[tag=ttb_sound] unless entity @s[tag=ttb_remove] run function ttb:entity/function/sound_event/check
 
 # immunities
