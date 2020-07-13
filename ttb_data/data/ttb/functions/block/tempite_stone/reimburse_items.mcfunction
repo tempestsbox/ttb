@@ -1,7 +1,5 @@
 # called by block/tempite_stone/remove
 
-loot spawn ~ ~ ~ loot ttb:blocks/tempite_stone
-
 scoreboard players operation @s ttb_tempite_amnt /= $amethyst ttb_tempite_amnt
 loot spawn ~ ~ ~ loot ttb:items/amethyst
 scoreboard players operation #temp ttb_tempite_amnt = @s ttb_tempite_amnt
