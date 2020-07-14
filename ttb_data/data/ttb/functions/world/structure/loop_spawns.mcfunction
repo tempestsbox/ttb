@@ -6,7 +6,5 @@ execute if data storage ttb:temp world.structure.spawns[0].height run data modif
 execute if data storage ttb:temp world.structure.spawns[0].name at @s run function ttb:world/structure/spawn_default
 execute if data storage ttb:temp world.structure.spawns[0].id at @s run function ttb:world/structure/spawn_id
 
-tellraw @a[tag=ttb_debug] [{"nbt":"Pos","entity":"@s"}," ",{"nbt":"structure.spawns[0].name","storage":"ttb:world"},{"nbt":"structure.spawns[0].id","storage":"ttb:world"}]
-
 data remove storage ttb:temp world.structure.spawns[0]
 execute if data storage ttb:temp world.structure.spawns[0] run function ttb:world/structure/loop_spawns

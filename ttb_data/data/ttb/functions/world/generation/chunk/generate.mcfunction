@@ -9,7 +9,7 @@ execute positioned ~8 0 ~8 run function ttb:world/generation/chunk/scan
 execute if score border ttb_biome matches 1 run function ttb:world/generation/chunk/border
 
 # try to spawn a structure before any chunk modifications have been done
-execute if block ~ 4 ~ bedrock positioned 29999984 253 29999984 run function ttb:world/structure/chunk
+execute if block ~ 4 ~ bedrock run function ttb:world/structure/chunk
 # biome-based caves
 function ttb:world/generation/better_biomes/check_biome
 

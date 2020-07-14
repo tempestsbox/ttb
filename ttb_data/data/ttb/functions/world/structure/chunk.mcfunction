@@ -1,7 +1,6 @@
 # called by world/generation/chunk/generate
 
 #pre
-execute in overworld run forceload add ~ ~
 data modify storage ttb:temp world.structure.spawns set value []
 
 #run checks
@@ -19,8 +18,4 @@ execute if score cold ttb_biome matches 1 run function ttb:world/structure/check
 # execute if score border ttb_biome matches 1 run function ttb:world/structure/check_spawn/border
 function ttb:world/structure/check_spawn/ore
 
-execute if data storage ttb:temp world.structure.spawns[0] at @s run function ttb:world/structure/spawn
-
-#post
-setblock ~ ~ ~ air
-execute in overworld run forceload remove ~ ~
+execute if data storage ttb:temp world.structure.spawns[0] run function ttb:world/structure/spawn

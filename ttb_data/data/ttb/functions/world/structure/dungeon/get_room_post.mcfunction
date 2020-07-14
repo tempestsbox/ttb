@@ -1,7 +1,7 @@
 #called by world/structure/dungeon/get_room
 
 #pre
-execute in overworld run forceload add ~ ~
+forceload add ~ ~
 
 #run checks
 setblock ~ ~ ~ yellow_shulker_box
@@ -14,5 +14,5 @@ data modify storage ttb:temp world.structure.dungeon.room_result set from block 
 
 #post
 setblock ~ ~ ~ air
-execute in overworld run forceload remove ~ ~
+forceload remove ~ ~
 kill @s[type=area_effect_cloud]
