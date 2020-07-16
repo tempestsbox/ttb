@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "#ttb:replace_on_creation",
+        "#ttb:air",
         "#ttb:torch",
         "#minecraft:signs",
         "#minecraft:banners",
@@ -13,6 +13,13 @@
         "#minecraft:saplings",
         "#minecraft:flowers",
         "#minecraft:rails",
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:grass",
+        "minecraft:tall_grass",
+        "minecraft:seagrass",
+        "minecraft:dead_bush",
+        "minecraft:fern",
         "minecraft:cobweb",
         "minecraft:brown_mushroom",
         "minecraft:red_mushroom",

@@ -1,6 +1,8 @@
 {
     "replace": false,
     "values": [
-        "#ttb:passthrough"
+        "#ttb:passthrough",
+        "#ttb:glass",
+        "minecraft:end_rod"
     ]
 }
