@@ -1,3 +1,1 @@
 summon skeleton ~ ~ ~ {CustomName:'{"translate":"entity.ttb.blight"}',Tags:["ttb_entity","ttb_mob","ttb_blight","ttb_sound","ttb_dynamic_model"],ArmorItems:[{},{},{},{id:"barrier",Count:1b,tag:{CustomModelData:6830008}}],ArmorDropChances:[-500F,-500F,-500F,-500F],HandDropChances:[-500F,-500F],Attributes:[{Name:"generic.max_health",Base:750d},{Name:"generic.attack_damage",Base:8d},{Name:"generic.knockback_resistance",Base:1d}],Health:750.0f,Silent:1b,ActiveEffects:[{Id:2b,Amplifier:3b,Duration:999999},{Id:14b,Amplifier:0b,Duration:999999}],DeathLootTable:"ttb:entities/blight"}
-
-# "mobFreeze" "mobSnow"
