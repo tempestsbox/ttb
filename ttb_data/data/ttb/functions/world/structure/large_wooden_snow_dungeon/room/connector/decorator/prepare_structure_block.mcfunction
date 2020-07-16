@@ -3,4 +3,3 @@ function ttb:world/structure/dungeon/get_room
 
 function ttb:world/structure/prepare_structure_block
 data modify block ~ ~ ~ name set from storage ttb:temp world.structure.dungeon.room_result.id
-# tellraw @a {"nbt":"structure.dungeon.room_result.id","storage": "ttb:world"}

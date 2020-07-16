@@ -15,5 +15,3 @@ scoreboard players operation #seed_pos_x ttb_data /= #seed_pos_z ttb_data
 execute unless data block ~ ~ ~ LootTable run data modify block ~ ~ ~ LootTable set value "minecraft:empty"
 execute store result block ~ ~ ~ LootTableSeed long 1 run scoreboard players get #seed_pos_x ttb_data
 execute store result block ~ ~ ~ seed long 1 run scoreboard players get #seed_pos_x ttb_data
-
-tellraw @a [{"nbt":"Pos","entity":"@s"},"\n",{"nbt":"x","block":"~ ~ ~"},"\n",{"score":{"objective":"ttb_data","name":"#seed_pos_x"}},"\n",{"nbt":"LootTableSeed","block":"~ ~ ~"}]
