@@ -41,6 +41,6 @@
         { "predicate": { "custom_model_data": 6830026 }, "model": "ttb:entity/ratch" },
         { "predicate": { "custom_model_data": 6830027 }, "model": "ttb:entity/ratch_hurt" },
 
-        { "predicate": { "custom_model_data": 6830030 }, "model": "ttb:entity/sandskull" }
+        { "predicate": { "custom_model_data": 6830028 }, "model": "ttb:entity/sandskull" }
     ]
 }
