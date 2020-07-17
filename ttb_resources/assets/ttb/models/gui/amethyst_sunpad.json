@@ -1,6 +1,0 @@
-{
-    "parent": "ttb:gui/upper_section",
-    "textures": {
-        "texture": "ttb:gui/amethyst_sunpad"
-    }
-}
