@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:planks",
+        "#minecraft:leaves",
+        "#minecraft:logs",
+        "minecraft:cobblestone",
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:grass_block"
+    ]
+}

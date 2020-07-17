@@ -1,0 +1,6 @@
+{
+    "parent": "ttb:entity/ogre",
+    "textures": {
+        "texture": "ttb:entity/ogre_hurt"
+    }
+}

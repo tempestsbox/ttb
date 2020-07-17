@@ -7,3 +7,5 @@ execute if entity @s[type=armor_stand,tag=ttb_health_bar_passenger] run function
 execute if entity @s[type=item] run function ttb:entity/item/clock16t
 execute if entity @s[type=armor_stand] run function ttb:entity/armor_stand/clock16t
 execute if entity @s[type=bat] run function ttb:entity/bat/clock16t
+
+execute if entity @s[type=zombie,tag=ttb_ogre] run function ttb:entity/ogre/clock16t

@@ -135,5 +135,6 @@
     "entity.ttb.ore_dweller": "Ore Dweller",
     "entity.ttb.ratch": "Ratch",
     "entity.ttb.bullant": "Bullant",
-    "entity.ttb.sandskull": "Sandskull"
+    "entity.ttb.sandskull": "Sandskull",
+    "entity.ttb.ogre": "Ogre"
 }

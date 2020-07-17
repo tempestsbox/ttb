@@ -1,0 +1,3 @@
+summon zombie ~ ~ ~ {CustomName:'{"translate":"entity.ttb.ogre"}',CustomNameVisible:0,Tags:["ttb_entity","ttb_mob","ttb_ogre","ttb_dynamic_model","ttb_sound"],Attributes:[{Name:"generic.attack_damage",Base:10d},{Name:"generic.max_health",Base:100d},{Name:"zombie.spawn_reinforcements",Base:1d},{Name:"generic.follow_range",Base:40d},{Name:"generic.knockback_resistance",Base:1d},{Name:"generic.armor",Base:10d}],Silent:1,ActiveEffects:[{Id:8b,Amplifier:4b,Duration:999999,ShowParticles:0b},{Id:14b,Amplifier:0b,Duration:999999,ShowParticles:0b}],Health:100f,DeathLootTable:"ttb:entities/ogre",ArmorItems:[{},{},{},{id:"barrier",Count:1b,tag:{CustomModelData:6830029}}],ArmorDropChances:[-500F,-500F,-500F,-500F],HandDropChances:[-500F,-500F]}
+
+# mobClimb mobBreak

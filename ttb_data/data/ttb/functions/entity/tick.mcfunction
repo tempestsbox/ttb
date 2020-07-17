@@ -12,6 +12,7 @@ execute if entity @s[type=item_frame] run function ttb:entity/item_frame/tick
 execute if entity @s[type=potion,tag=ttb_acronite_cage_potion] run function ttb:block/acronite_cage/potion_tick
 execute if entity @s[type=tnt,tag=ttb_shatter_staff_tnt,nbt={Fuse:2s}] run function ttb:util/explosion_simulation
 execute if entity @s[type=zombie,tag=ttb_mage] run function ttb:entity/mage/tick
+execute if entity @s[type=zombie,tag=ttb_ogre] run function ttb:entity/ogre/tick
 execute if entity @s[type=skeleton,tag=ttb_blight] run function ttb:entity/blight/tick
 
 execute if entity @s[type=!#ttb:entity/function/spawning/no_check,tag=!ttb_entity,tag=!ttb_no_check] run function ttb:entity/function/spawning/check
