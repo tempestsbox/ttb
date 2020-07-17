@@ -3,6 +3,7 @@
     "values": [
         "#ttb:passthrough",
         "#ttb:glass",
+        "#ttb:glass_pane",
         "minecraft:end_rod"
     ]
 }

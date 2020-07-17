@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#ttb:stained_glass_pane",
+        "minecraft:glass_pane"
+    ]
+}
