@@ -6,7 +6,14 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "ttb:items/deadlock_sword"
+                    "name": "ttb:items/deadlock_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 10,
+                            "treasure": true
+                        }
+                    ]
                 }
             ]
         },
@@ -15,7 +22,14 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "ttb:items/deadlock_axe"
+                    "name": "ttb:items/deadlock_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 10,
+                            "treasure": true
+                        }
+                    ]
                 }
             ]
         },

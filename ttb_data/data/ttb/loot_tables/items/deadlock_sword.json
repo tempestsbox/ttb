@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:'deadlock_sword'},display:{Name:'{\"translate\":\"item.ttb.deadlock_sword\",\"italic\":false,\"color\":\"green\"}'},Enchantments:[{id:'knockback',lvl:1}],CustomModelData:6830002}"
+                            "tag": "{ttb:{item:'deadlock_sword'},display:{Name:'{\"translate\":\"item.ttb.deadlock_sword\",\"italic\":false,\"color\":\"green\"}'},CustomModelData:6830002}"
                         },
                         {
                             "function": "minecraft:set_attributes",

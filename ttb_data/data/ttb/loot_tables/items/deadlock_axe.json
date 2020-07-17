@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:'deadlock_axe'},display:{Name:'{\"translate\":\"item.ttb.deadlock_axe\",\"italic\":false,\"color\":\"green\"}'},Enchantments:[{}],CustomModelData:6830001}"
+                            "tag": "{ttb:{item:'deadlock_axe'},display:{Name:'{\"translate\":\"item.ttb.deadlock_axe\",\"italic\":false,\"color\":\"green\"}'},CustomModelData:6830001}"
                         },
                         {
                             "function": "minecraft:set_attributes",
