@@ -5,6 +5,3 @@ execute if block ~ ~ ~ barrel run function ttb:block/tempest_crafter/gui/verify_
 
 # removal
 execute unless block ~ ~ ~ barrel[facing=up]{CustomName:'{"translate":"block.ttb.tempest_crafter"}'} run function ttb:block/tempest_crafter/remove
-
-# recipes
-execute unless data block ~ ~ ~ Items[{Slot:16b}] run function ttb:block/tempest_crafter/recipe_validity_check
