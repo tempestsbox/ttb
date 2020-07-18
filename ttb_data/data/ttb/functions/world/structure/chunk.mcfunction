@@ -1,9 +1,9 @@
 # called by world/generation/chunk/generate
 
-#pre
+# pre
 data modify storage ttb:temp world.structure.spawns set value []
 
-#run checks
+# run checks
 execute if score snowy ttb_biome matches 1 run function ttb:world/structure/check_spawn/snowy
 execute if score cold ttb_biome matches 1 run function ttb:world/structure/check_spawn/cold
 # execute if score lush ttb_biome matches 1 run function ttb:world/structure/check_spawn/lush
@@ -17,5 +17,8 @@ execute if score cold ttb_biome matches 1 run function ttb:world/structure/check
 # execute if score beach ttb_biome matches 1 run function ttb:world/structure/check_spawn/beach
 # execute if score border ttb_biome matches 1 run function ttb:world/structure/check_spawn/border
 function ttb:world/structure/check_spawn/ore
+
+# hook
+function #ttb:world/structure/chunk
 
 execute if data storage ttb:temp world.structure.spawns[0] run function ttb:world/structure/spawn
