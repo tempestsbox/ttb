@@ -1,4 +1,4 @@
-# called by block/eckspei_locker/tick
+# called by block/eckspei_locker/output_experience/check_types
 
 execute store result score #durability ttb_data run data get block ~ ~ ~ Items[{Slot:12b}].tag.ttb.durability
 execute store result score #durability_max ttb_data run data get block ~ ~ ~ Items[{Slot:12b}].tag.ttb.max_durability
