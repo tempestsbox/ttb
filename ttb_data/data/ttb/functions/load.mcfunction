@@ -33,6 +33,7 @@ scoreboard players set #64 ttb_gamerules 64
 scoreboard players set #100 ttb_gamerules 100
 execute unless score entityRemovalDebugMessage ttb_gamerules matches 0..1 run scoreboard players set entityRemovalDebugMessage ttb_gamerules 0
 execute unless score worldGenerationWarnMessage ttb_gamerules matches 0..1 run scoreboard players set worldGenerationWarnMessage ttb_gamerules 1
+execute unless score ogresDestroyBlocks ttb_gamerules matches 0..1 run scoreboard players set ogresDestroyBlocks ttb_gamerules 1
 gamerule commandBlockOutput false
 ## staffs
 scoreboard objectives add ttb_ether_specmo dummy
