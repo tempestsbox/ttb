@@ -1,4 +1,4 @@
-#called by item/restoration_tome/restore/item || item/restoration_tome/restore/staff
+# called by item/restoration_tome/restore/item || item/restoration_tome/restore/staff
 
 playsound entity.zombie_villager.converted block @a[distance=..16] ~ ~ ~ 2 2 1
 playsound entity.zombie_villager.converted block @a[distance=..16] ~ ~ ~ 2 0.5 1

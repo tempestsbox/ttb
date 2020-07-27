@@ -1,4 +1,4 @@
-#called by entity/player/clock16t
+# called by entity/player/clock16t
 
 execute positioned ^ ^ ^.5 if block ~ ~ ~ command_block{CustomName:'{"translate":"block.ttb.tempite_stone"}'} align xyz run title @s actionbar {"translate":"block.ttb.tempite_stone.tempite","with":[{"selector":"@e[type=armor_stand,tag=ttb_tempite_stone,dx=0,limit=1]","color":"aqua"},{"score":{"name":"@e[type=armor_stand,tag=ttb_tempite_stone,dx=0,limit=1]","objective":"ttb_tempite_amnt"},"color":"aqua"}],"color":"dark_aqua"}
 execute positioned ^ ^ ^1.5 if block ~ ~ ~ command_block{CustomName:'{"translate":"block.ttb.tempite_stone"}'} align xyz run title @s actionbar {"translate":"block.ttb.tempite_stone.tempite","with":[{"selector":"@e[type=armor_stand,tag=ttb_tempite_stone,dx=0,limit=1]","color":"aqua"},{"score":{"name":"@e[type=armor_stand,tag=ttb_tempite_stone,dx=0,limit=1]","objective":"ttb_tempite_amnt"},"color":"aqua"}],"color":"dark_aqua"}

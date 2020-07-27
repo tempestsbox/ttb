@@ -1,4 +1,4 @@
-#called by block/tempite_wire/check_adjacent
+# called by block/tempite_wire/check_adjacent
 
 particle explosion ~ ~ ~
 playsound entity.generic.explode block @a[distance=..16] ~ ~ ~ 1 1 1

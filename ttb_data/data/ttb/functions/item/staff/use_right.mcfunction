@@ -1,4 +1,4 @@
-#called by item/staff/durability/check
+# called by item/staff/durability/check
 
 execute if data storage ttb:temp item_durability_update{tag:{ttb:{staff:{id:'repulsion'}}}} run function ttb:item/staff/repulsion/use_right
 execute if data storage ttb:temp item_durability_update{tag:{ttb:{staff:{id:'relativity'}}}} run function ttb:item/staff/relativity/use_right

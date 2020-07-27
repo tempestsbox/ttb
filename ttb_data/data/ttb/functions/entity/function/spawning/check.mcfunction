@@ -1,4 +1,4 @@
-#called by entity/tick
+# called by entity/tick
 
 execute store success score mob_spawning_spawner ttb_data run clone ~-3 ~-3 ~-3 ~3 ~3 ~3 ~-3 ~-3 ~-3 filtered spawner force
 

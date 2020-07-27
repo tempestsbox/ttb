@@ -1,4 +1,4 @@
-#called by world/structure/large_wooden_snow_dungeon/room/connector/decorator/connect
+# called by world/structure/large_wooden_snow_dungeon/room/connector/decorator/connect
 
 execute positioned ~ ~ ~1 run function ttb:world/structure/large_wooden_snow_dungeon/room/connector/decorator/box_north
 

@@ -1,4 +1,4 @@
-#called by world/generation/player
+# called by world/generation/player
 
 # summon a chunk marker and align it to the chunk grid
 summon area_effect_cloud ~ 0 ~ {Tags:["ttb_chunk","init"],CustomName:'"ttb_chunk"',Duration:2000000000}

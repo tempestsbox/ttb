@@ -1,4 +1,4 @@
-#called by item/restoration_tome/restore/item_check
+# called by item/restoration_tome/restore/item_check
 
 function ttb:item/restoration_tome/restore/effects
 

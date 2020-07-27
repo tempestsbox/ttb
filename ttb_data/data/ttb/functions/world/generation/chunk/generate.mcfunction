@@ -1,4 +1,4 @@
-#called by world/generation/player
+# called by world/generation/player
 
 execute if score worldGenerationWarnMessage ttb_gamerules matches 1 run title @a actionbar {"translate":"text.ttb.prefix","color":"#94EE82","with":[{"translate":"text.ttb.world_generation.warn","color":"#81D964"}]}
 

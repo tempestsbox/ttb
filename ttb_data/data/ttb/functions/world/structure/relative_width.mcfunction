@@ -1,4 +1,4 @@
-#called by world/structure/prepare_structure_block
+# called by world/structure/prepare_structure_block
 
 execute store result score relative_width ttb_data run data get storage ttb:temp world.structure.dungeon.room_result.relative_width .5
 

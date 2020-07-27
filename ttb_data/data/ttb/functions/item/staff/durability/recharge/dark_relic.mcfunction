@@ -1,4 +1,4 @@
-#called by entity/function/holding/dark_relic
+# called by entity/function/holding/dark_relic
 
 # audiovisuals
 particle effect ~ ~ ~ 1 1 1 0.01 200 normal @a

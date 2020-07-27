@@ -7,7 +7,7 @@ scoreboard players reset @s ttb_place_iframe
 scoreboard players reset @s ttb_use_crtstck
 
 # staffs
-## ether
+# # ether
 execute if entity @s[scores={ttb_ether_specmo=0..}] run function ttb:item/staff/ether/spectator_effects
 
 # debug

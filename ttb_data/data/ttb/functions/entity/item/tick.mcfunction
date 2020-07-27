@@ -1,5 +1,5 @@
-#called by tick
+# called by tick
 
-#custom blocks
-## spawner drops
+# custom blocks
+# # spawner drops
 execute if entity @s[nbt={Item:{tag:{ttb:{spawner:{}}}}}] run function ttb:block/check_spawner_item

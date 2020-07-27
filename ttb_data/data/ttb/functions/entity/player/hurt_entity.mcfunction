@@ -1,4 +1,4 @@
-#called by advancement entity/player/hurt_entity
+# called by advancement entity/player/hurt_entity
 
 function ttb:item/carrot_on_a_stick/get_hand
 

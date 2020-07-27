@@ -1,4 +1,4 @@
-#called by block/alchemy_chamber/check_block
+# called by block/alchemy_chamber/check_block
 
 # audiovisuals
 particle block gold_block ~ ~ ~ .5 .5 .5 .1 20 normal @a

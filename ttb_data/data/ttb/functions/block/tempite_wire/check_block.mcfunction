@@ -1,4 +1,4 @@
-#called by block/tempite_wire/spread
+# called by block/tempite_wire/spread
 
 execute if block ~ ~ ~ white_stained_glass run tag @s add ttb_tempite_wire_white
 execute if block ~ ~ ~ orange_stained_glass run tag @s add ttb_tempite_wire_orange

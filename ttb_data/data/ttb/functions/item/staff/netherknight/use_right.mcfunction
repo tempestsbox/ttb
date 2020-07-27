@@ -1,4 +1,4 @@
-#called by item/staff/use_right
+# called by item/staff/use_right
 
 function ttb:item/staff/netherknight/audiovisuals
 

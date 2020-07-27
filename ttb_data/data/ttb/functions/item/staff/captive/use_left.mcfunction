@@ -1,7 +1,7 @@
-#called by item/staff/use_left
+# called by item/staff/use_left
 
-#audiovisuals
+# audiovisuals
 function ttb:item/staff/captive/audiovisuals
 
-#functionality
+# functionality
 function ttb:item/staff/captive/create_box

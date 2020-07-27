@@ -25,12 +25,12 @@ execute if entity @s[tag=ttb_sound] unless entity @s[tag=ttb_remove] run functio
 data remove entity @s[tag=ttb_fire_immune] Fire
 
 # removal
-## generic checks
+# # generic checks
 execute if entity @s[tag=ttb_passenger] unless entity @e[tag=ttb_vehicle,dx=0,limit=1] run tag @s add ttb_remove
 execute if entity @s[tag=ttb_vehicle] unless data entity @s Passengers run tag @s add ttb_remove
-## debug message
+# # debug message
 execute if entity @s[tag=ttb_remove] if score entityRemovalDebugMessage ttb_gamerules matches 1 run tellraw @a[tag=ttb_debug] {"translate":"text.ttb.debug","with":[{"translate":"text.ttb.debug.entity_removal","with":[{"selector":"@s","underlined":true}]}],"color":"gray","italic":true}
-## remove entity
+# # remove entity
 data merge entity @s[tag=ttb_remove] {Health:0,DeathTime:19,Time:0,Duration:0,Size:0,Age:6000,DeathLootTable:"minecraft:empty"}
 kill @s[tag=ttb_remove]
 

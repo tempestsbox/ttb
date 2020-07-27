@@ -1,4 +1,4 @@
-#called by block/tempite_wire/power_adjacent
+# called by block/tempite_wire/power_adjacent
 
 execute if block ~ ~ ~ glass if entity @s[tag=!ttb_tempite_wire_insulated,tag=!ttb_tempite_wire_glass_new] run function ttb:block/tempite_wire/glass
 

@@ -1,7 +1,7 @@
-#called by item/restoration_tome/restore/staff
+# called by item/restoration_tome/restore/staff
 
-#update copy
-## custom durability
+# update copy
+# # custom durability
 ### item data
 scoreboard players operation #durability ttb_data = #durability_max ttb_data
 execute store result block ~ ~-1 ~ Items[{Slot:0b}].tag.ttb.durability int 1 run scoreboard players get #durability ttb_data
@@ -18,5 +18,5 @@ scoreboard players operation #durability_max ttb_data *= carrot_on_a_stick_durab
 scoreboard players operation #durability_max ttb_data /= #100 ttb_gamerules
 execute store result block ~ ~-1 ~ Items[{Slot:0b}].tag.Damage int 1 run scoreboard players get #durability_max ttb_data
 
-#debug
+# debug
 tellraw @a[tag=ttb_debug,distance=..6] ["Staff durability: ",[{"nbt":"Items[{Slot:0b}].tag.ttb.durability","entity":"@s"},"/",{"nbt":"Items[{Slot:0b}].tag.ttb.max_durability","entity":"@s"}]]

@@ -1,4 +1,4 @@
-#called by entity/item_frame/clock2s
+# called by entity/item_frame/clock2s
 
 scoreboard players add @s ttb_tempite_insu 1
 

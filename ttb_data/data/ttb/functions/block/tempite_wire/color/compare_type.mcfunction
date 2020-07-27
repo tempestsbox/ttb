@@ -1,4 +1,4 @@
-#called by block/tempite_wire/power_adjacent
+# called by block/tempite_wire/power_adjacent
 
 execute if block ~ ~ ~ white_stained_glass if entity @s[tag=ttb_tempite_wire_white] run function ttb:block/tempite_wire/color/white
 execute if block ~ ~ ~ orange_stained_glass if entity @s[tag=ttb_tempite_wire_orange] run function ttb:block/tempite_wire/color/orange

@@ -1,4 +1,4 @@
-#called by block/breaker/cost/check
+# called by block/breaker/cost/check
 
 particle dust 0.0862 0.8509 0.8117 1 ~ ~ ~ .25 .25 .25 0 100 normal @a
 

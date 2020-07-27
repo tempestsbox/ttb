@@ -1,4 +1,4 @@
-#called by entity/player/tick
+# called by entity/player/tick
 
 execute if entity @s[y_rotation=135.00001..-135] run scoreboard players set custom_block_rotation ttb_data 0
 execute if entity @s[y_rotation=-135.0001..-44.99999] run scoreboard players set custom_block_rotation ttb_data 90

@@ -1,16 +1,16 @@
-#called by block/tempest_crafter/tick
+# called by block/tempest_crafter/tick
 
-#get dropper-like recipe and store number of full slots
+# get dropper-like recipe and store number of full slots
 data modify storage ttb:temp block.tempest_crafter.input set from block ~ ~ ~ Items
 data remove storage ttb:temp block.tempest_crafter.input[{tag:{ttb:{gui_item:1b}}}]
 data remove storage ttb:temp block.tempest_crafter.input[{Slot:9b}]
 
 execute store result score @s ttb_slot_count run data get storage ttb:temp block.tempest_crafter.input
 
-#get number of items from first array element
+# get number of items from first array element
 execute store result score first_stack_count ttb_slot_size run data get storage ttb:temp block.tempest_crafter.input[0].Count
 
-#check if each slot with an item in it has the same stack size
+# check if each slot with an item in it has the same stack size
 execute if score @s ttb_slot_count matches 2.. store result score @s ttb_slot_size run data get storage ttb:temp block.tempest_crafter.input[0].Count
 execute if score @s ttb_slot_count matches 2.. unless score @s ttb_slot_size = first_stack_count ttb_slot_size run scoreboard players set first_stack_count ttb_slot_size 0
 
@@ -37,8 +37,8 @@ execute if score @s ttb_slot_count matches 9.. unless score @s ttb_slot_size = f
 
 scoreboard players operation @s ttb_slot_size = first_stack_count ttb_slot_size
 
-#tell crafters with valid contents to run recipe checks
+# tell crafters with valid contents to run recipe checks
 execute if score @s ttb_slot_size matches 1.. run function ttb:block/tempest_crafter/recipe_check
 
-#check if one of the recipes succeeded
+# check if one of the recipes succeeded
 execute if score @s ttb_slot_size matches 1.. if data block ~ ~ ~ Items[].tag.ttb.crafting.multiplier run function ttb:block/tempest_crafter/apply_multiplier

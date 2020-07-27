@@ -1,4 +1,4 @@
-#called by item/staff/craft
+# called by item/staff/craft
 
 execute if data block ~ ~ ~ Items[{Slot:9b,id:"minecraft:netherite_pickaxe"}] run loot replace block ~ ~ ~ container.16 loot ttb:items/extraction_staff
 execute if data block ~ ~ ~ Items[{Slot:9b,id:"minecraft:ender_eye"}] run loot replace block ~ ~ ~ container.16 loot ttb:items/ether_staff

@@ -1,4 +1,4 @@
-#called by world/structure/large_wooden_snow_dungeon/room/connector/stairs_down/connect
+# called by world/structure/large_wooden_snow_dungeon/room/connector/stairs_down/connect
 
 data modify storage ttb:temp world.structure.orientation set value 'north'
 function ttb:world/structure/large_wooden_snow_dungeon/room/connector/stairs_down/prepare_structure_block

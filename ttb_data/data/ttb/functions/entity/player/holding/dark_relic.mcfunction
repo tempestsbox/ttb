@@ -1,6 +1,6 @@
-#called by entity/player/clock16t
+# called by entity/player/clock16t
 
-#recharge
+# recharge
 data modify storage ttb:temp item_durability_update set from entity @s SelectedItem
 execute store result score #durability ttb_data run data get storage ttb:temp item_durability_update.tag.ttb.durability
 execute store result score #durability_max ttb_data run data get storage ttb:temp item_durability_update.tag.ttb.max_durability

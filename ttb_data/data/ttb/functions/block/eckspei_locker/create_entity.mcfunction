@@ -1,4 +1,4 @@
-#called by block/eckspei_locker/create
+# called by block/eckspei_locker/create
 
 execute if score custom_block_rotation ttb_data matches 0 run summon armor_stand ~ ~ ~ {Tags:["ttb_entity","ttb_block","ttb_machine","ttb_eckspei_locker","ttb_machine_powerable_tempite","ttb_block_directional","ttb_fire_stand"],NoGravity:1b,Silent:1b,Small:1b,Marker:1b,Invisible:1b,CustomName:'{"translate":"block.ttb.eckspei_locker"}',Fire:17s}
 execute if score custom_block_rotation ttb_data matches 90 run summon armor_stand ~ ~ ~ {Tags:["ttb_entity","ttb_block","ttb_machine","ttb_eckspei_locker","ttb_machine_powerable_tempite","ttb_block_directional","ttb_fire_stand"],NoGravity:1b,Silent:1b,Small:1b,Marker:1b,Invisible:1b,CustomName:'{"translate":"block.ttb.eckspei_locker"}',Fire:17s,Rotation:[90f,0f]}

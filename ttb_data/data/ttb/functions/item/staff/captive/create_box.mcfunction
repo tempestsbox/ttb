@@ -1,6 +1,6 @@
-#called by item/staff/captive/raycast
+# called by item/staff/captive/raycast
 
-#functionality
+# functionality
 execute align xyz run tp @s ~.5 ~ ~.5
 
 execute positioned ~ ~1 ~ unless entity @s[dx=0] positioned ~ ~1 ~ unless entity @s[dx=0] at @s run function ttb:item/staff/captive/box/tiny

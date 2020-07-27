@@ -1,4 +1,4 @@
-#called by item/staff/durability/check
+# called by item/staff/durability/check
 
 execute anchored eyes positioned ^ ^ ^ run function ttb:item/staff/get_hit_entity
 

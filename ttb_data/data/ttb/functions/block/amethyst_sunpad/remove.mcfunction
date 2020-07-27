@@ -1,10 +1,10 @@
-#called by block/amethyst_sunpad/tick
+# called by block/amethyst_sunpad/tick
 
-#reimburse items
+# reimburse items
 execute align xyz if entity @e[type=item,dx=0,nbt={Item:{id:"minecraft:pink_terracotta"}}] run loot spawn ~.5 ~ ~.5 loot ttb:blocks/amethyst_sunpad
 
 function ttb:block/gui/clear_gui_items
 
-#kill entities
+# kill entities
 kill @s[type=!player]
 execute align xyz run kill @e[type=item,dx=0,nbt={Item:{id:"minecraft:pink_terracotta"}}]

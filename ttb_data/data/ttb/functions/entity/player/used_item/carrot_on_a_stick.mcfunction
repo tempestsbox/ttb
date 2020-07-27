@@ -1,4 +1,4 @@
-#called by entity/player/tick
+# called by entity/player/tick
 
 function ttb:item/carrot_on_a_stick/get_hand
 

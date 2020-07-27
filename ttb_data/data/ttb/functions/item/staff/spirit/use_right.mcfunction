@@ -1,6 +1,6 @@
-#called by item/staff/use_right
+# called by item/staff/use_right
 
-#audiovisuals
+# audiovisuals
 playsound entity.zombie_villager.converted voice @a[distance=..16] ~ ~ ~ 2 2 1
 playsound entity.zombie_villager.converted voice @a[distance=..16] ~ ~ ~ 2 1.8 1
 playsound entity.zombie_villager.converted voice @a[distance=..16] ~ ~ ~ 2 1.6 1
@@ -15,7 +15,7 @@ particle totem_of_undying ~ ~1 ~ 2 0 2 0.01 1000 normal @a
 # execute at @e[name=Decree] run tellraw @a[distance=50..100] {"text":"The Decree Shouts.","color":"red"}
 # execute at @e[name=Decree] run tellraw @a[distance=..50] {"text":"The Decree Screams.","color":"red"}
 
-#functionality
+# functionality
 # execute at @e[tag=purpleTome] run scoreboard players set @p[distance=..5] MANA_1 0
 # execute at @e[tag=purpleTome] run scoreboard players set @p[distance=..5] MANA_2 0
 # execute at @e[tag=purpleTome] run scoreboard players set @p[distance=..5] MANA_3 0

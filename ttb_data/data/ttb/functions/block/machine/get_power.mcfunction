@@ -1,4 +1,4 @@
-#called by block/machine/color_check
+# called by block/machine/color_check
 
 scoreboard players set @s ttb_ascended 0
 scoreboard players set @s ttb_reduced 0

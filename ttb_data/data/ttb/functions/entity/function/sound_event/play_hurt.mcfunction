@@ -1,4 +1,4 @@
-#called by entity/function/sound_event/check
+# called by entity/function/sound_event/check
 
 execute if entity @s[type=zombie,tag=ttb_mage] run function ttb:entity/mage/sound_event/hurt
 execute if entity @s[type=zombie,tag=ttb_ore_dweller] run function ttb:entity/ore_dweller/sound_event/hurt

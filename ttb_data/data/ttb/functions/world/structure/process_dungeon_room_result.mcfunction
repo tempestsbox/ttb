@@ -1,4 +1,4 @@
-#called by world/structure/prepare_structure_block
+# called by world/structure/prepare_structure_block
 
 execute if data storage ttb:temp world.structure.dungeon.room_result.relative_width run function ttb:world/structure/relative_width
 

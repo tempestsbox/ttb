@@ -1,6 +1,6 @@
-#called by entity/player/clock16t
+# called by entity/player/clock16t
 
-#recharge
+# recharge
 execute if score @s ttb_relic_damage >= $threshold ttb_relic_damage run particle soul_fire_flame ~ ~ ~ 0 0 0 0.1 50 normal @a
 
 data modify storage ttb:temp item_durability_update set from entity @s SelectedItem

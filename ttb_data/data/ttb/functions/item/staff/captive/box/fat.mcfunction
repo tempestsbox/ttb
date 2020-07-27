@@ -1,6 +1,6 @@
-#called by item/staff/captive/create_box
+# called by item/staff/captive/create_box
 
-#functionality
+# functionality
 fill ~2 ~2 ~2 ~-2 ~ ~-2 oak_slab[type=double,waterlogged=true] keep
 
 fill ~2 ~2 ~2 ~2 ~2 ~2 air replace oak_slab[type=double,waterlogged=true]

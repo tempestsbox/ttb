@@ -1,6 +1,6 @@
-#called by entity/armor_stand/tick
+# called by entity/armor_stand/tick
 
-#checking adjacent
+# checking adjacent
 execute if entity @s[tag=!ttb_tempite_wire_checked] run function ttb:block/tempite_wire/check_adjacent
 
 scoreboard players add @s ttb_tempite_tick 1

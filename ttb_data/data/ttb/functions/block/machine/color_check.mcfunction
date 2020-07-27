@@ -1,4 +1,4 @@
-#called by block/tempite_wire/power_adjacent
+# called by block/tempite_wire/power_adjacent
 
 execute if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:white_stained_glass_pane"}] if block ^ ^ ^-1 white_stained_glass run function ttb:block/machine/get_power
 execute if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:orange_stained_glass_pane"}] if block ^ ^ ^-1 orange_stained_glass run function ttb:block/machine/get_power

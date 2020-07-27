@@ -1,6 +1,6 @@
-#called by entity/blight/tick
+# called by entity/blight/tick
 
-#functionality
+# functionality
 effect give @s instant_health 5 5
 data modify entity @s Motion set value [0.0,0.5,0.0]
 

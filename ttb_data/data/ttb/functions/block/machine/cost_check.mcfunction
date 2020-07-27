@@ -1,4 +1,4 @@
-#called by block/machine/get_power
+# called by block/machine/get_power
 
 particle dust 0.0862 0.8509 0.8117 1 ~ ~ ~ .25 .25 .25 0 100 normal @a
 
