@@ -10,7 +10,6 @@
     "text.ttb.entity.from": "%s from %s",
     "text.ttb.entity.health_bar": "[%s] %s/%shp",
     "text.ttb.entity.whilst_fighting": "%s whilst fighting %s",
-    "text.ttb.mana.none": "Not enough mana",
     "text.ttb.world_generation.warn": "You may lag while terrain is being generated!",
 
     "structure.ttb.large_wooden_snow_dungeon": "Deadlock Dungeon",
@@ -27,12 +26,6 @@
     "structure.ttb.stray_dungeon": "Stray Dungeon",
     "structure.ttb.stray_tower": "Stray Tower",
 
-    "advancements.ttb.progression.title": "TTB Progression",
-    "advancements.ttb.progression.category.structures": "Structures",
-    "advancements.ttb.progression.category.structures.attributed_items": "Attributed Items",
-    "advancements.ttb.progression.category.structures.large_wooden_snow_dungeon": "%s",
-    "advancements.ttb.progression.category.structures.mysterious_books": "%ss",
-    "advancements.ttb.progression.category.structures.snow_blight": "%s",
     "advancement.ttb.root.title": "%s",
     "advancement.ttb.root.description": "Prepare for bouts of exploration, combat, and magic!",
     "advancement.ttb.obtain_gems.title": "Pretty Gems",
