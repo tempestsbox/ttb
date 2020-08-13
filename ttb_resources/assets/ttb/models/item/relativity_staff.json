@@ -1,3 +1,64 @@
 {
-    "parent": "minecraft:item/carrot_on_a_stick"
+    "parent": "ttb:item/template_staff",
+    "textures": {
+        "texture": "ttb:item/relativity_staff"
+    },
+    "elements": [
+        {
+            "from": [7, 0, 7],
+            "to": [9, 18, 9],
+            "faces": {
+                "north": {"uv": [1, 7, 2, 16], "texture": "#texture"},
+                "east": {"uv": [0, 7, 1, 16], "texture": "#texture"},
+                "south": {"uv": [3, 7, 4, 16], "texture": "#texture"},
+                "west": {"uv": [2, 7, 3, 16], "texture": "#texture"},
+                "up": {"uv": [2, 7, 1, 6], "texture": "#texture"},
+                "down": {"uv": [3, 6, 2, 7], "texture": "#texture"}
+            }
+        },
+        {
+            "from": [3.5, 18, 3.5],
+            "to": [12.5, 27, 12.5],
+            "rotation": {"angle": 0, "axis": "x", "origin": [11, 26, 11]},
+            "faces": {
+                "north": {"uv": [0, 0, 4.5, 4.5], "texture": "#texture"},
+                "east": {"uv": [0, 0, 4.5, 4.5], "texture": "#texture"},
+                "south": {"uv": [0, 0, 4.5, 4.5], "texture": "#texture"},
+                "west": {"uv": [0, 0, 4.5, 4.5], "texture": "#texture"},
+                "up": {"uv": [0, 0, 4.5, 4.5], "texture": "#texture"},
+                "down": {"uv": [0, 0, 4.5, 4.5], "texture": "#texture"}
+            }
+        },
+        {
+            "from": [5, 19.5, 5],
+            "to": [11, 25.5, 11],
+            "rotation": {"angle": 0, "axis": "y", "origin": [13, 27, 13]},
+            "faces": {
+                "north": {"uv": [4.5, 0, 7.5, 3], "texture": "#texture"},
+                "east": {"uv": [4.5, 0, 7.5, 3], "texture": "#texture"},
+                "south": {"uv": [4.5, 0, 7.5, 3], "texture": "#texture"},
+                "west": {"uv": [4.5, 0, 7.5, 3], "texture": "#texture"},
+                "up": {"uv": [4.5, 0, 7.5, 3], "texture": "#texture"},
+                "down": {"uv": [4.5, 0, 7.5, 3], "texture": "#texture"}
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "translation": [0, 0, 1.5]
+        },
+        "thirdperson_lefthand": {
+            "translation": [0, 0, 1.5]
+        },
+        "firstperson_righthand": {
+            "rotation": [-10, 20, 11],
+            "translation": [1.25, 4, 1.75],
+            "scale": [0.5, 0.5, 0.5]
+        },
+        "firstperson_lefthand": {
+            "rotation": [-10, 20, 11],
+            "translation": [1.25, 4, 1.75],
+            "scale": [0.5, 0.5, 0.5]
+        }
+    }
 }

@@ -1,4 +1,5 @@
 {
+    "parent": "ttb:item/template_staff",
     "textures": {
         "texture": "ttb:item/repulsion_staff",
         "repulse": "ttb:item/repulsion_staff_repulse"
@@ -204,10 +205,6 @@
             "rotation": [-10, 20, 11],
             "translation": [1.25, 4, 1.75],
             "scale": [0.5, 0.5, 0.5]
-        },
-        "ground": {
-            "rotation": [35, 0, 0],
-            "scale": [0.75, 0.75, 0.75]
         },
         "gui": {
             "rotation": [18, 33, -13],
