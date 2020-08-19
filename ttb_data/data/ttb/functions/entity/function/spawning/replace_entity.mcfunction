@@ -1,4 +1,4 @@
-# called by entity/function/spawning/check
+# called by entity/function/spawning/generic_mob_check
 
 # global
 execute if entity @s[type=enderman] run function ttb:entity/function/spawning/global/enderman
