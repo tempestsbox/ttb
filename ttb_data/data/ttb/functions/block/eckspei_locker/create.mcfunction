@@ -13,3 +13,4 @@ scoreboard players set @e[type=armor_stand,tag=ttb_eckspei_locker,distance=...1,
 execute if block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.eckspei_locker"}'} run loot spawn ~ ~ ~ loot ttb:items/eckspei_locker
 fill ~ ~ ~ ~ ~ ~ barrel[facing=up]{CustomName:'{"translate":"block.ttb.eckspei_locker"}'} replace #ttb:replace_on_creation
 execute unless block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.eckspei_locker"}'} run loot spawn ~ ~ ~ loot ttb:items/eckspei_locker
+execute if block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.eckspei_locker"}'} run data modify block ~ ~ ~ Items set from storage ttb:block machine.Items

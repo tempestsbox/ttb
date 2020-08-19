@@ -14,3 +14,4 @@ loot replace entity @e[type=armor_stand,tag=ttb_tempest_crafter,distance=...1,li
 execute if block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.tempest_crafter"}'} run loot spawn ~ ~ ~ loot ttb:items/tempest_crafter
 fill ~ ~ ~ ~ ~ ~ barrel[facing=up]{CustomName:'{"translate":"block.ttb.tempest_crafter"}'} replace #ttb:replace_on_creation
 execute unless block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.tempest_crafter"}'} run loot spawn ~ ~ ~ loot ttb:items/tempest_crafter
+execute if block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.tempest_crafter"}'} run data modify block ~ ~ ~ Items set from storage ttb:block tempest_crafter.Items

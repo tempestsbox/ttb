@@ -12,3 +12,4 @@ loot replace entity @e[type=armor_stand,tag=ttb_alchemy_chamber,distance=...1,li
 execute if block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.alchemy_chamber"}'} run loot spawn ~ ~ ~ loot ttb:items/alchemy_chamber
 fill ~ ~ ~ ~ ~ ~ barrel[facing=up]{CustomName:'{"translate":"block.ttb.alchemy_chamber"}'} replace #ttb:replace_on_creation
 execute unless block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.alchemy_chamber"}'} run loot spawn ~ ~ ~ loot ttb:items/alchemy_chamber
+execute if block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.alchemy_chamber"}'} run data modify block ~ ~ ~ Items set from storage ttb:block machine.Items

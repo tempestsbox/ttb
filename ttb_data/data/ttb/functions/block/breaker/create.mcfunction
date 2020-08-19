@@ -12,3 +12,4 @@ loot replace entity @e[type=armor_stand,tag=ttb_breaker,distance=...1,limit=1] a
 execute if block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.breaker"}'} run loot spawn ~ ~ ~ loot ttb:items/breaker
 fill ~ ~ ~ ~ ~ ~ barrel[facing=up]{CustomName:'{"translate":"block.ttb.breaker"}'} replace #ttb:replace_on_creation
 execute unless block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.breaker"}'} run loot spawn ~ ~ ~ loot ttb:items/breaker
+execute if block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.breaker"}'} run data modify block ~ ~ ~ Items set from storage ttb:block machine.Items

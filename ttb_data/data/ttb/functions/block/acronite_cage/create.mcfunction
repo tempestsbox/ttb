@@ -12,3 +12,4 @@ loot replace entity @e[type=armor_stand,tag=ttb_acronite_cage,distance=...1,limi
 execute if block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.acronite_cage"}'} run loot spawn ~ ~ ~ loot ttb:items/acronite_cage
 fill ~ ~ ~ ~ ~ ~ barrel[facing=up]{CustomName:'{"translate":"block.ttb.acronite_cage"}'} replace #ttb:replace_on_creation
 execute unless block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.acronite_cage"}'} run loot spawn ~ ~ ~ loot ttb:items/acronite_cage
+execute if block ~ ~ ~ barrel{CustomName:'{"translate":"block.ttb.acronite_cage"}'} run data modify block ~ ~ ~ Items set from storage ttb:block machine.Items
