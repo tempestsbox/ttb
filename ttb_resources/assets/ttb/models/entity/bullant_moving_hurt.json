@@ -1,0 +1,6 @@
+{
+    "parent": "ttb:entity/bullant_moving",
+    "textures": {
+        "texture": "ttb:entity/bullant_moving_hurt"
+    }
+}
