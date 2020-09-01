@@ -9,3 +9,6 @@ scoreboard players operation @s ttb_ecks_loc_exp += #eckspei_locker_orb_value_to
 
 scoreboard players reset #eckspei_locker_orb_value ttb_data
 scoreboard players reset #eckspei_locker_orb_value_total ttb_data
+
+# highest value
+execute if score @s ttb_ecks_loc_exp > @s ttb_ecks_loc_hi run scoreboard players operation @s ttb_ecks_loc_hi = @s ttb_ecks_loc_exp

@@ -1,0 +1,6 @@
+{
+    "parent": "ttb:block/eckspei_locker",
+    "textures": {
+        "front": "ttb:block/eckspei_locker_front_three"
+    }
+}

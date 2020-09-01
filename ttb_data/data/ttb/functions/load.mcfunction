@@ -74,6 +74,7 @@ scoreboard objectives add ttb_ascended dummy
 scoreboard objectives add ttb_reduced dummy
 
 scoreboard objectives add ttb_ecks_loc_exp dummy
+scoreboard objectives add ttb_ecks_loc_hi dummy
 
 # initialise teams
 team add ttb_mob
