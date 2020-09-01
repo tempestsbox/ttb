@@ -9,4 +9,6 @@ data modify block ~ ~ ~ posY set from storage ttb:temp world.structure.spawns[0]
 data modify block ~ ~ ~ seed set value 1L
 
 function ttb:world/structure/activate_structure_block
+
 execute if data storage ttb:temp world.structure.spawns[0].modifiers[{id:'replace_stone'}] run fill ~ ~ ~ ~ ~1 ~ stone keep
+data remove storage ttb:temp world.structure.spawns[0]

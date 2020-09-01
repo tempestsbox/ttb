@@ -8,4 +8,4 @@ tellraw @a[tag=ttb_debug] [[{"text":"","color":"gray","italic":true}],[{"transla
 setblock ~ ~1 ~ redstone_block
 fill ~ ~ ~ ~ ~1 ~ air replace #ttb:structure_artifact
 
-data remove storage ttb:temp world.structure
+data remove storage ttb:temp world.structure.orientation
