@@ -9,6 +9,6 @@ execute unless entity @s[tag=ttb_spawning_success] if predicate ttb:world/biome/
 execute unless entity @s[tag=ttb_spawning_success] if predicate ttb:world/biome/desert run function ttb:entity/function/spawning/biome/desert
 
 # specific
-execute unless entity @s[tag=ttb_spawning_success] unless predicate ttb:world/biome/cave unless predicate ttb:world/biome/deep_cave if predicate ttb:world/biome/plains run function ttb:entity/function/spawning/specific/cave_or_deep_cave_and_plains
+execute unless entity @s[tag=ttb_spawning_success] unless predicate ttb:world/biome/cave unless predicate ttb:world/biome/deep_cave if predicate ttb:world/biome/plains run function ttb:entity/function/spawning/specific/plains_and_not_cave_or_deep_cave
 
 tag @s[tag=ttb_spawning_success] add ttb_remove
