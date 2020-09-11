@@ -1,7 +1,7 @@
 # called by item/restoration_tome/restore/staff
 
 # update copy
-# # custom durability
+# custom durability
 ### item data
 scoreboard players operation #durability ttb_data = #durability_max ttb_data
 execute store result block ~ ~-1 ~ Items[{Slot:0b}].tag.ttb.durability int 1 run scoreboard players get #durability ttb_data

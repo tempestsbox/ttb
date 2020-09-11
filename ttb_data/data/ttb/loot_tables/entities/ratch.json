@@ -4,8 +4,8 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:orange_dye",
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/ratch_putty",
                     "conditions": [
                         {
                             "condition": "minecraft:random_chance",

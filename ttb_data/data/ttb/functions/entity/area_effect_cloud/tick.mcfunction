@@ -4,7 +4,7 @@
 execute if entity @s[tag=ttb_shatter_staff_raycast] run function ttb:item/staff/shatter/raycast_loop
 
 # world generation
-# # spawn structures
+# spawn structures
 execute if entity @s[tag=ttb_structure,tag=!ttb_structure_invalid] run function ttb:world/structure/check_structure
 
 # traps

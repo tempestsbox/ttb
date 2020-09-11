@@ -28,6 +28,8 @@
         { "predicate": { "custom_model_data": 6830017 }, "model": "ttb:block/eckspei_locker_two" },
         { "predicate": { "custom_model_data": 6830018 }, "model": "ttb:block/eckspei_locker_three" },
         { "predicate": { "custom_model_data": 6830019 }, "model": "ttb:block/eckspei_locker_four" },
-        { "predicate": { "custom_model_data": 6830020 }, "model": "ttb:block/eckspei_locker_five" }
+        { "predicate": { "custom_model_data": 6830020 }, "model": "ttb:block/eckspei_locker_five" },
+
+        { "predicate": { "custom_model_data": 6830021 }, "model": "ttb:item/ratch_putty" }
     ]
 }
