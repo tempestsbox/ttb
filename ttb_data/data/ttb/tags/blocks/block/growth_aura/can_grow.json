@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "#ttb:plant",
+        "minecraft:cobblestone",
+        "minecraft:stone_bricks",
+        "minecraft:cobblestone_wall",
+        "minecraft:dirt",
+        "minecraft:coarse_dirt",
+        "minecraft:podzol",
+        "minecraft:nether_bricks"
+    ]
+}

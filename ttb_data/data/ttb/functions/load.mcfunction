@@ -54,6 +54,9 @@ scoreboard players set $cost_tempite_stone ttb_tempite_amnt 4
 scoreboard players set $cost_breaker ttb_tempite_amnt 20
 scoreboard players set $cost_breaker_ascended ttb_tempite_amnt 4
 scoreboard players set $cost_breaker_reduced ttb_tempite_amnt 3
+scoreboard players set $cost_growth_aura ttb_tempite_amnt 20
+scoreboard players set $cost_growth_aura_ascended ttb_tempite_amnt 4
+scoreboard players set $cost_growth_aura_reduced ttb_tempite_amnt 3
 scoreboard players set $cost_acronite_cage ttb_tempite_amnt 40
 scoreboard players set $cost_acronite_cage_ascended ttb_tempite_amnt 5
 scoreboard players set $cost_acronite_cage_reduced ttb_tempite_amnt 6
@@ -68,6 +71,7 @@ scoreboard objectives add ttb_machine_cool dummy
 scoreboard players set $tempite_stone ttb_machine_cool 20
 scoreboard players set $hopper ttb_machine_cool 8
 scoreboard players set $breaker ttb_machine_cool 8
+scoreboard players set $growth_aura ttb_machine_cool 8
 scoreboard players set $acronite_cage ttb_machine_cool 8
 scoreboard players set $eckspei_locker ttb_machine_cool 8
 scoreboard players set $alchemy_chamber ttb_machine_cool 8

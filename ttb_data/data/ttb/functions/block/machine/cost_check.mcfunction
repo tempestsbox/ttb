@@ -6,6 +6,7 @@ tag @e[type=armor_stand,tag=ttb_tempite_stone,distance=..16,scores={ttb_tempite_
 execute if data block ~ ~ ~ Items[{tag:{ttb:{item:"mysterious_crystal"}}}] run function ttb:block/machine/mysterious
 
 execute if entity @s[tag=ttb_breaker] run function ttb:block/breaker/cost/check
+execute if entity @s[tag=ttb_growth_aura] run function ttb:block/growth_aura/cost/check
 execute if entity @s[tag=ttb_acronite_cage] run function ttb:block/acronite_cage/cost/check
 execute if entity @s[tag=ttb_eckspei_locker] run function ttb:block/eckspei_locker/cost/check
 execute if entity @s[tag=ttb_alchemy_chamber] run function ttb:block/alchemy_chamber/cost/check

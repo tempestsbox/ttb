@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/template/block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{EntityTag:{Tags:['ttb_create_entity','ttb_create_growth_aura'],CustomName:'\"ttb_create_growth_aura\"'},display:{Name:'{\"translate\":\"block.ttb.growth_aura\",\"italic\":false}'},ttb:{item:'growth_aura'},CustomModelData:6830022}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
