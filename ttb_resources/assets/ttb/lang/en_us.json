@@ -131,5 +131,6 @@
     "entity.ttb.ratch": "Ratch",
     "entity.ttb.bullant": "Bullant",
     "entity.ttb.sandskull": "Sandskull",
-    "entity.ttb.ogre": "Ogre"
+    "entity.ttb.ogre": "Ogre",
+    "entity.ttb.assassin": "Assassin"
 }

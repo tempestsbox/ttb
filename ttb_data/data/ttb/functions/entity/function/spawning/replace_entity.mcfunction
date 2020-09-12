@@ -3,6 +3,7 @@
 # global
 execute if entity @s[type=enderman] run function ttb:entity/function/spawning/global/enderman
 execute if entity @s[tag=!ttb_spawning_success,type=zombie] run function ttb:entity/function/spawning/global/zombie
+execute if entity @s[tag=!ttb_spawning_success,type=skeleton] run function ttb:entity/function/spawning/global/skeleton
 
 # biome-based
 execute unless entity @s[tag=ttb_spawning_success] if predicate ttb:world/biome/cave run function ttb:entity/function/spawning/biome/cave
