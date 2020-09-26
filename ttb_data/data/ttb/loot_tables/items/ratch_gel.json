@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "ttb:items/template/base",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ttb:{item:'ratch_gel'},display:{Name:'{\"translate\":\"item.ttb.ratch_gel\",\"italic\":false}'},CustomModelData:6830005}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

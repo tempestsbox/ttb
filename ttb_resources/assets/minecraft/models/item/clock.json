@@ -74,7 +74,7 @@
         { "predicate": { "custom_model_data": 6830002 }, "model": "ttb:item/vulcaanium" },
         { "predicate": { "custom_model_data": 6830003 }, "model": "ttb:item/tempite_sludge" },
         { "predicate": { "custom_model_data": 6830004 }, "model": "ttb:item/tempite_gel" },
-        { "predicate": { "custom_model_data": 6830005 }, "model": "minecraft:item/clock" },
+        { "predicate": { "custom_model_data": 6830005 }, "model": "ttb:item/ratch_gel" },
         { "predicate": { "custom_model_data": 6830006 }, "model": "minecraft:item/clock" },
         { "predicate": { "custom_model_data": 6830007 }, "model": "ttb:item/mysterious_dust" },
         { "predicate": { "custom_model_data": 6830008 }, "model": "minecraft:item/clock" },
