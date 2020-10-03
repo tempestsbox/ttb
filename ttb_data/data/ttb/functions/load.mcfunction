@@ -28,7 +28,7 @@ scoreboard objectives add ttb_raycast_iter dummy
 scoreboard objectives add ttb_blight_frze dummy
 
 scoreboard objectives add ttb_ratch_putty dummy
-scoreboard players set $max ttb_ratch_putty 1200
+scoreboard players set $max ttb_ratch_putty 6000
 # gamerules/constants
 scoreboard objectives add ttb_gamerules dummy
 scoreboard players set #2 ttb_gamerules 2
