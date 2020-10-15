@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/ender_pearl"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 6830001
+            },
+            "model": "ttb:item/enchanted_ender_pearl"
+        }
+    ]
+}

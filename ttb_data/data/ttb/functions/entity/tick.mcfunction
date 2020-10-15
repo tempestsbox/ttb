@@ -8,6 +8,7 @@ execute if entity @s[type=item] run function ttb:entity/item/tick
 execute if entity @s[type=armor_stand] run function ttb:entity/armor_stand/tick
 execute if entity @s[type=area_effect_cloud] run function ttb:entity/area_effect_cloud/tick
 execute if entity @s[type=item_frame] run function ttb:entity/item_frame/tick
+execute if entity @s[type=ender_pearl] run function ttb:entity/ender_pearl/tick
 
 execute if entity @s[type=potion,tag=ttb_acronite_cage_potion] run function ttb:block/acronite_cage/potion_tick
 execute if entity @s[type=tnt,tag=ttb_shatter_staff_tnt,nbt={Fuse:2s}] run function ttb:util/explosion_simulation
