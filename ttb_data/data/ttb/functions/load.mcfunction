@@ -4,7 +4,7 @@
 # function ttb:build/check
 
 # initialise scoreboard data
-# data
+## data
 scoreboard objectives add ttb_data dummy
 scoreboard players set eckspei_rod_xp_per ttb_data 75
 scoreboard players set acronite_cage_potion_motion ttb_data 2
@@ -15,37 +15,39 @@ scoreboard objectives add ttb_attack dummy
 scoreboard objectives add ttb_age dummy
 scoreboard objectives add ttb_model_cmd dummy
 scoreboard objectives add ttb_model_cmd_in dummy
-# health
+## health
 scoreboard objectives add ttb_health dummy
 scoreboard objectives add ttb_health_max dummy
-# custom crafting
+## custom crafting
 scoreboard objectives add ttb_slot_count dummy
 scoreboard objectives add ttb_slot_size dummy
-# tickers
+## tickers
 scoreboard objectives add ttb_tempite_tick dummy
 scoreboard objectives add ttb_tempite_insu dummy
 scoreboard objectives add ttb_raycast_iter dummy
 scoreboard objectives add ttb_blight_frze dummy
+scoreboard objectives add ttb_exp_pil_time dummy
 
 scoreboard objectives add ttb_ratch_putty dummy
 scoreboard players set $max ttb_ratch_putty 6000
-# gamerules/constants
+## gamerules/constants
 scoreboard objectives add ttb_gamerules dummy
 scoreboard players set #2 ttb_gamerules 2
+scoreboard players set #4 ttb_gamerules 4
 scoreboard players set #64 ttb_gamerules 64
 scoreboard players set #100 ttb_gamerules 100
 execute unless score entityRemovalDebugMessage ttb_gamerules matches 0..1 run scoreboard players set entityRemovalDebugMessage ttb_gamerules 0
 execute unless score worldGenerationWarnMessage ttb_gamerules matches 0..1 run scoreboard players set worldGenerationWarnMessage ttb_gamerules 1
 execute unless score ogresDestroyBlocks ttb_gamerules matches 0..1 run scoreboard players set ogresDestroyBlocks ttb_gamerules 1
 gamerule commandBlockOutput false
-# staffs
+## staffs
 scoreboard objectives add ttb_ether_specmo dummy
-# player tracking
+## player tracking
 scoreboard objectives add ttb_place_iframe minecraft.used:minecraft.item_frame
 scoreboard objectives add ttb_use_crtstck minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add ttb_relic_damage minecraft.custom:minecraft.damage_dealt
 scoreboard players set $threshold ttb_relic_damage 500
-# machines
+## machines
 scoreboard objectives add ttb_tempite_amnt dummy
 scoreboard players set $amethyst ttb_tempite_amnt 1000
 scoreboard players operation $max ttb_tempite_amnt = $amethyst ttb_tempite_amnt

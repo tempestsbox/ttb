@@ -10,5 +10,5 @@ data modify entity @s ArmorItems[3].tag.CustomModelData set value 6830019
 data modify entity @e[type=area_effect_cloud,tag=ttb_pillar_explosion,distance=..2,sort=nearest,limit=1] Age set value 0
 
 # explode
-scoreboard players add @s ttb_age 1
-execute if score @s ttb_age matches 125.. run function ttb:entity/mage/pillar/variant/explosion/explode
+scoreboard players remove @s ttb_exp_pil_time 1
+execute if score @s ttb_exp_pil_time matches ..1 run function ttb:entity/mage/pillar/variant/explosion/explode
