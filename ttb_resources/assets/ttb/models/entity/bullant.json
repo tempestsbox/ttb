@@ -1,5 +1,4 @@
 {
-    "credit": "Made with Blockbench",
     "parent": "ttb:entity/template",
     "textures": {
         "texture": "ttb:entity/bullant"
