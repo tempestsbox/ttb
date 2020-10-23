@@ -15,8 +15,8 @@
                                     "attribute": "generic.movement_speed",
                                     "operation": "multiply_total",
                                     "amount": {
-                                        "min": 0.1,
-                                        "max": 0.25
+                                        "min": 0.4,
+                                        "max": 0.5
                                     },
                                     "slot": "mainhand"
                                 }

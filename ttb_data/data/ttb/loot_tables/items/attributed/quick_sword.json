@@ -25,19 +25,16 @@
                                     "attribute": "generic.attack_damage",
                                     "operation": "addition",
                                     "amount": {
-                                        "min": 4,
-                                        "max": 6
+                                        "min": 3,
+                                        "max": 5
                                     },
                                     "slot": "mainhand"
                                 },
                                 {
                                     "name": "ttb:attack_speed",
                                     "attribute": "generic.attack_speed",
-                                    "operation": "addition",
-                                    "amount": {
-                                        "min": -1,
-                                        "max": 0.5
-                                    },
+                                    "operation": "multiply_total",
+                                    "amount": 1.0,
                                     "slot": "mainhand"
                                 }
                             ]

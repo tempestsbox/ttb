@@ -10,6 +10,18 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{ttb:{item:'optimism'},display:{Name:'{\"translate\":\"item.ttb.optimism\",\"italic\":false,\"color\":\"yellow\"}'},CustomModelData:6830001}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.attack_speed",
+                                    "name": "ttb:attack_speed",
+                                    "amount": -0.9,
+                                    "operation": "addition",
+                                    "slot": "mainhand"
+                                }
+                            ]
                         }
                     ]
                 }

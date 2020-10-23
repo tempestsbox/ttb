@@ -1,7 +1,7 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "ttb:item/quick_boots",
+        "layer0": "minecraft:item/leather_boots",
         "layer1": "ttb:item/quick_boots_overlay"
     }
 }
