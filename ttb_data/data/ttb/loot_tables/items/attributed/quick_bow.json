@@ -19,6 +19,16 @@
                                         "max": 0.5
                                     },
                                     "slot": "mainhand"
+                                },
+                                {
+                                    "name": "ttb:movement_speed",
+                                    "attribute": "generic.movement_speed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": 0.4,
+                                        "max": 0.5
+                                    },
+                                    "slot": "offhand"
                                 }
                             ]
                         }
