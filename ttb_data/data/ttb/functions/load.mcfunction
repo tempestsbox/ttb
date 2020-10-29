@@ -28,6 +28,8 @@ scoreboard objectives add ttb_raycast_iter dummy
 scoreboard objectives add ttb_blight_frze dummy
 scoreboard objectives add ttb_exp_pil_time dummy
 
+scoreboard objectives add ttb_ench_end_pea dummy
+scoreboard players set $max ttb_ench_end_pea 100
 scoreboard objectives add ttb_ratch_putty dummy
 scoreboard players set $max ttb_ratch_putty 6000
 ## gamerules/constants
