@@ -29,6 +29,7 @@
                             "attribute": "generic.attack_damage",
                             "operation": "addition",
                             "amount": {
+                                "type": "minecraft:uniform",
                                 "min": 1,
                                 "max": 6
                             },

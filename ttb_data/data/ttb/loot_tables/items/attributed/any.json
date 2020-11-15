@@ -27,6 +27,7 @@
                 {
                     "function": "minecraft:set_damage",
                     "damage": {
+                        "type": "minecraft:uniform",
                         "min": 0.20,
                         "max": 0.35
                     }

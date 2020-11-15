@@ -15,6 +15,7 @@
                                     "attribute": "generic.movement_speed",
                                     "operation": "multiply_total",
                                     "amount": {
+                                        "type": "minecraft:uniform",
                                         "min": 0.1,
                                         "max": 0.3
                                     },

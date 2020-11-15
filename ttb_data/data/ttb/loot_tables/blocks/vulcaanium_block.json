@@ -8,11 +8,6 @@
                     "type": "minecraft:loot_table",
                     "name": "ttb:items/vulcaanium_block"
                 }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
             ]
         }
     ]

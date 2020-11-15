@@ -3,6 +3,7 @@
     "pools": [
         {
             "rolls": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 5
             },
@@ -24,6 +25,7 @@
         },
         {
             "rolls": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
             },
@@ -43,6 +45,7 @@
         {
             "function": "minecraft:set_count",
             "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 5
             }

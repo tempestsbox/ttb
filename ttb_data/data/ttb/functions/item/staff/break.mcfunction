@@ -3,5 +3,5 @@
 execute anchored eyes positioned ^ ^ ^.5 positioned ~ ~.03 ~ run particle item stick ~ ~ ~ .1 .1 .1 0 12 normal @a
 playsound entity.item.break player @a[distance=..16] ~ ~ ~ .75 1 1
 
-execute unless data storage ttb:temp item_durability_update{Slot:-106b} run replaceitem entity @s weapon.mainhand air
-execute if data storage ttb:temp item_durability_update{Slot:-106b} run replaceitem entity @s weapon.offhand air
+execute unless data storage ttb:temp item_durability_update{Slot:-106b} run item entity @s weapon.mainhand replace air
+execute if data storage ttb:temp item_durability_update{Slot:-106b} run item entity @s weapon.offhand replace air

@@ -19,6 +19,7 @@
                                     "attribute": "generic.attack_damage",
                                     "operation": "addition",
                                     "amount": {
+                                        "type": "minecraft:uniform",
                                         "min": 6,
                                         "max": 9
                                     },
@@ -29,6 +30,7 @@
                                     "attribute": "generic.max_health",
                                     "operation": "addition",
                                     "amount": {
+                                        "type": "minecraft:uniform",
                                         "min": 3,
                                         "max": 7
                                     },
@@ -39,6 +41,7 @@
                                     "attribute": "generic.attack_speed",
                                     "operation": "multiply_total",
                                     "amount": {
+                                        "type": "minecraft:uniform",
                                         "min": -0.7,
                                         "max": -0.4
                                     },
@@ -49,6 +52,7 @@
                                     "attribute": "generic.movement_speed",
                                     "operation": "multiply_total",
                                     "amount": {
+                                        "type": "minecraft:uniform",
                                         "min": -0.27,
                                         "max": -0.07
                                     },

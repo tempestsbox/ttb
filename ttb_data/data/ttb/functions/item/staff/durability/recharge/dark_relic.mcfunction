@@ -17,5 +17,5 @@ scoreboard players reset #durability_to_add ttb_data
 execute in overworld positioned 29999984 255 29999984 run function ttb:item/carrot_on_a_stick/durability/update
 
 # remove dark relic
-replaceitem entity @s weapon.offhand air
+item entity @s weapon.offhand replace air
 loot give @s[gamemode=!survival,gamemode=!adventure] loot ttb:items/dark_relic

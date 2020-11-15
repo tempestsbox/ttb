@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ttb:{item:'deadlock_sniper_bow'},display:{Name:'{\"translate\":\"item.ttb.deadlock_sniper_bow\",\"italic\":false,\"color\":\"green\"}'},Enchantments:[{id:'power',lvl:4},{id:'punch',lvl:2}],CustomModelData:6830003}"
+                            "tag": "{ttb:{item:'deadlock_sniper_bow'},display:{Name:'{\"translate\":\"item.ttb.deadlock_sniper_bow\",\"italic\":false,\"color\":\"green\"}'},Enchantments:[{id:\"power\",lvl:4},{id:\"punch\",lvl:2}],CustomModelData:6830003}"
                         },
                         {
                             "function": "minecraft:set_attributes",
@@ -19,6 +19,7 @@
                                     "attribute": "generic.movement_speed",
                                     "operation": "multiply_total",
                                     "amount": {
+                                        "type": "minecraft:uniform",
                                         "min": -0.7,
                                         "max": -0.5
                                     },
