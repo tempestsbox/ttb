@@ -1,8 +1,5 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "minecraft:item/barrier"
-    },
+    "parent": "minecraft:block/white_stained_glass",
     "overrides": [
         { "predicate": { "custom_model_data": 6830001 }, "model": "ttb:empty" },
 

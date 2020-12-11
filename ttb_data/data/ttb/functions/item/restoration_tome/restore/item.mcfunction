@@ -8,7 +8,7 @@ data remove storage ttb:temp item.restoration_tome.repair_item.tag.RepairCost
 execute store result score restoration_tome_item_tag_count ttb_data run data get storage ttb:temp item.restoration_tome.repair_item.tag
 execute if score restoration_tome_item_tag_count ttb_data matches 0 run data remove storage ttb:temp item.restoration_tome.repair_item.tag
 
-replaceitem block ~ ~ ~ container.16 barrier{CustomModelData:6830001}
+replaceitem block ~ ~ ~ container.16 white_stained_glass{CustomModelData:6830001}
 data modify block ~ ~ ~ Items[{Slot:16b}] set from storage ttb:temp item.restoration_tome.repair_item
 
 data remove block ~ ~ ~ Items[{Slot:9b}]

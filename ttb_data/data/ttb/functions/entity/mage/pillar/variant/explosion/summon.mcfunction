@@ -1,1 +1,1 @@
-summon armor_stand ~ ~ ~ {Tags:["ttb_entity","ttb_pillar","ttb_pillar_explosion"],CustomName:'"ttb_pillar_explosion"',Invisible:1b,Invulnerable:1b,ArmorItems:[{},{},{},{id:"barrier",Count:1b,tag:{CustomModelData:6830018}}]}
+summon armor_stand ~ ~ ~ {Tags:["ttb_entity","ttb_pillar","ttb_pillar_explosion"],CustomName:'"ttb_pillar_explosion"',Invisible:1b,Invulnerable:1b,ArmorItems:[{},{},{},{id:"white_stained_glass",Count:1b,tag:{CustomModelData:6830018}}]}

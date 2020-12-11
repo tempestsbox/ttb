@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:barrier",
+                    "name": "minecraft:white_stained_glass",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
