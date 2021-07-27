@@ -1,7 +1,7 @@
 # called by item/carrot_on_a_stick/durability/update positioned ~ ~-1 ~
 
 # set shulker box
-setblock ~ ~ ~ yellow_shulker_box{Items:[{Slot:0b,id:"barrier",Count:1b,tag:{CustomModelData:6830001}}]}
+setblock ~ ~ ~ yellow_shulker_box{Items:[{Slot:0b,id:"white_stained_glass",Count:1b,tag:{CustomModelData:6830001}}]}
 
 # get if offhand
 execute store result score #is_usage_offhand ttb_data run data remove storage ttb:temp item_durability_update.Slot

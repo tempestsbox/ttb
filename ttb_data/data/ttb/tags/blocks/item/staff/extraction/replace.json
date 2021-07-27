@@ -3,7 +3,9 @@
     "values": [
         "#minecraft:leaves",
         "#minecraft:nylium",
-        "minecraft:stone",
+        "#minecraft:base_stone_overworld",
+        "#minecraft:base_stone_nether",
+        "#minecraft:dirt_like",
         "minecraft:cobblestone",
         "minecraft:dirt",
         "minecraft:gravel",
@@ -13,8 +15,6 @@
         "minecraft:netherrack",
         "minecraft:end_stone",
         "minecraft:snow",
-        "minecraft:magma_block",
-        "minecraft:basalt",
-        "minecraft:blackstone"
+        "minecraft:magma_block"
     ]
 }

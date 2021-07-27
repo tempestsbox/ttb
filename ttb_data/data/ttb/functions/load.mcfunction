@@ -95,11 +95,11 @@ team modify ttb_mob nametagVisibility never
 data modify storage ttb:block tempite_stone.Command set value "execute as @e[type=armor_stand,tag=ttb_tempite_stone,scores={ttb_tempite_amnt=4..},distance=...1,limit=1] run function ttb:block/tempite_stone/triggered"
 
 data modify storage ttb:block tempest_crafter.Items set value [{Slot:0b},{Slot:1b},{Slot:5b},{Slot:6b},{Slot:7b},{Slot:8b},{Slot:10b},{Slot:14b},{Slot:15b},{Slot:17b},{Slot:18b},{Slot:19b},{Slot:23b},{Slot:24b},{Slot:25b},{Slot:26b}]
-data modify storage ttb:block tempest_crafter.Items[] merge value {tag:{ttb:{gui_item:1b},display:{Name:'""'},CustomModelData:6830001},id:barrier,Count:1b}
+data modify storage ttb:block tempest_crafter.Items[] merge value {tag:{ttb:{gui_item:1b},display:{Name:'""'},CustomModelData:6830001},id:white_stained_glass,Count:1b}
 data modify storage ttb:block tempest_crafter.Items[{Slot:1b}].tag.CustomModelData set value 6830014
 
 data modify storage ttb:block machine.Items set value [{Slot:0b},{Slot:1b},{Slot:2b},{Slot:3b},{Slot:4b},{Slot:5b},{Slot:6b},{Slot:7b},{Slot:8b},{Slot:9b},{Slot:11b},{Slot:17b},{Slot:18b},{Slot:19b},{Slot:20b},{Slot:21b},{Slot:22b},{Slot:23b},{Slot:24b},{Slot:25b},{Slot:26b}]
-data modify storage ttb:block machine.Items[] merge value {tag:{ttb:{gui_item:1b},display:{Name:'""'},CustomModelData:6830001},id:barrier,Count:1b}
+data modify storage ttb:block machine.Items[] merge value {tag:{ttb:{gui_item:1b},display:{Name:'""'},CustomModelData:6830001},id:white_stained_glass,Count:1b}
 data modify storage ttb:block machine.Items[{Slot:1b}].tag.CustomModelData set value 6830017
 
 # trigger clocks
