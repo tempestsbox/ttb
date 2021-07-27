@@ -12,4 +12,4 @@ loot replace entity @s armor.legs loot ttb:entities/function/blue_soldier_armor
 loot replace entity @s armor.feet loot ttb:entities/function/blue_soldier_armor
 loot replace entity @s weapon.mainhand loot ttb:entities/function/blue_soldier_hand
 
-item entity @s[nbt=!{ArmorItems:[{id:'minecraft:leather_helmet'}]}] armor.head replace air
+item replace entity @s[nbt=!{ArmorItems:[{id:'minecraft:leather_helmet'}]}] armor.head with air
